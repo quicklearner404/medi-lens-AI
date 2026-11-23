@@ -1,26 +1,9 @@
 """RxNorm lookups, replayed from recorded real responses (no network)."""
 
-import json
-from pathlib import Path
-
 import httpx
 import pytest
 
 from medilens.rxnorm import RXNAV, RxNormClient
-
-FIXTURES = json.loads((Path(__file__).parent / "fixtures" / "rxnorm.json").read_text())
-
-
-def _replay(request: httpx.Request) -> httpx.Response:
-    key = request.url.path + "?" + request.url.query.decode()
-    if key not in FIXTURES:
-        raise AssertionError(f"no recorded response for {key}; run scripts/record_rxnorm_fixtures.py")
-    return httpx.Response(200, json=FIXTURES[key])
-
-
-@pytest.fixture
-def rxnorm():
-    return RxNormClient(client=httpx.Client(base_url=RXNAV, transport=httpx.MockTransport(_replay)))
 
 
 @pytest.mark.parametrize(
