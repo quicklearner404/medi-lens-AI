@@ -132,3 +132,46 @@ Rather than memorizing concepts, I tried to reason through them first and then v
 - Initialize Flutter project.
 - Initialize FastAPI backend.
 - Build first API endpoint.
+---
+
+# Day 2
+
+**Date:** November 23, 2026
+
+## Rethinking the scope
+
+Before writing more code I went back to the original problem. I stopped an SSRI because nobody explained what it was or that stopping suddenly causes withdrawal. That problem is about **medicines on a prescription**, not about accounts, roles or databases.
+
+So for Version 1 I cut:
+
+- Firebase Authentication, PostgreSQL and user roles
+- Lab reports
+- An LLM generating medical explanations
+
+Version 1 only reads printed prescriptions, identifies each medicine, and explains it using official sources. Without accounts or a server-side database, no patient data has to be stored or protected on a server. Everything I cut is still a valid idea for later.
+
+---
+
+## Directions parser
+
+The first real piece of the backend turns prescription shorthand into plain English:
+
+`Tab Esita 10mg 1+0+1 x 5/7 PC` → "1 tablet, twice a day (morning and night), after meals, for 5 days."
+
+### What it handles
+
+- Latin frequency codes: OD, BD, TDS, QID, q8h, HS, SOS/PRN, stat
+- The dose-slot notation used by doctors in Pakistan: `1+0+1`, `½-0-0`
+- Fraction durations: `x 5/7` (days), `x 2/52` (weeks), `x 3/12` (months)
+- Meal timing: AC / PC / empty stomach
+- Telling the strength (`20mg`) apart from the dose (`1 cap`)
+
+### Decisions
+
+- **Conservative over clever.** If a field can't be read, it stays empty and the app says "not specified". A wrong frequency on a medicine is worse than no frequency.
+- **Unequal slots don't get a single dose.** For `2+0+1` the parser records the times but not a dose, because "2 tablets" would be wrong at night.
+- **Pure Python, no network.** The parser is the part I can test exhaustively, so it has no dependencies.
+
+### Tests
+
+27 test cases, including the exact sentence shown to the user for common prescriptions. Writing the expected sentences first made me decide how the app should actually speak to patients.
