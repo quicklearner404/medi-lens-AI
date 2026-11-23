@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT))
 from medilens.rxnorm import RXNAV, RxNormClient  # noqa: E402
 
 TERMS = [
-    "Risek 20mg", "Concor", "Esita", "Panadol", "paracetamol", "Augmentn",
+    "Risek 20mg", "Concor", "Esita", "Panadol", "paracetamol", "Augmentn", "Calpol",
     "omeprazol", "Glucophage 500mg", "co-amoxiclav", "Xanax", "Disprin", "salbutamol",
 ]
 OUT = ROOT / "tests" / "fixtures" / "rxnorm.json"

@@ -278,3 +278,17 @@ My first rule for "this word starts the directions" only recognised plain streng
 ### Tests
 
 A realistic test prescription with a letterhead, patient details (including numbers like age, date and blood pressure, which must not be mistaken for medicines), four medicines in different numbering styles, and a follow-up note.
+
+---
+
+## A crash I only found by running the real server
+
+All the tests passed, but the first time I ran the actual API on a sample prescription it crashed. The cause was **Calpol**, the paracetamol syrup almost every child here has had. RxNorm still offers "Calpol" as a search result, but that entry was **retired in 2013**, and retired entries come back with empty details. My code assumed the details were always there.
+
+### Fixes
+
+- Retired entries are now skipped, and the lookup moves on to the next good candidate (or reports the medicine as unrecognised).
+- Calpol is on the local brand list (→ paracetamol).
+- A test reproduces RxNorm's exact behaviour for a retired entry.
+
+The lesson for me: tests built only from recorded "good" responses can't catch the bad responses I haven't seen yet. Running the real thing with realistic input is part of testing, not an optional extra.

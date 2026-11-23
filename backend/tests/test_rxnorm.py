@@ -66,3 +66,21 @@ def test_unknown_brand_is_not_guessed(rxnorm):
 
 def test_empty_input(rxnorm):
     assert rxnorm.identify("  20mg ") is None
+
+
+def test_retired_concepts_are_skipped():
+    # Mirrors RxNorm's real behaviour for the old "Calpol" entry (RxCUI 151477,
+    # obsolete since 2013): it is still a search candidate, but its properties are empty.
+    def respond(request):
+        if request.url.path.endswith("/approximateTerm.json"):
+            return httpx.Response(200, json={"approximateGroup": {"candidate": [
+                {"rxcui": "151477", "name": "Calpol", "score": "9.8", "source": "RXNORM"}]}})
+        return httpx.Response(200, json={})
+
+    client = RxNormClient(client=httpx.Client(base_url=RXNAV, transport=httpx.MockTransport(respond)))
+
+    assert client.identify("Calpolx") is None
+
+
+def test_calpol_is_on_the_local_brand_list(rxnorm):
+    assert rxnorm.identify("Calpol").generic_name == "acetaminophen"
