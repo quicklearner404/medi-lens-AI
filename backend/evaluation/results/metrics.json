@@ -25,10 +25,10 @@
     "times_per_day": 0.911,
     "slots": 0.86,
     "dose": 0.868,
-    "dose_unit": 0.758,
-    "timing": 0.96,
+    "dose_unit": 0.868,
+    "timing": 1.0,
     "duration_days": 0.994,
     "as_needed": 1.0
   },
-  "fully_correct": 0.6839080459770115
+  "fully_correct": 0.7183908045977011
 }

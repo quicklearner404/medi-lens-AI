@@ -46,6 +46,7 @@ CATALOGUE = {
 SYRUP_OK = {"Calpol", "Brufen", "paracetamol", "cetirizine", "salbutamol", "Augmentin", "Zithromax"}
 
 # (written directions, expected fields). Fields not listed are not scored.
+# {u} / {unit} become the form actually prescribed ("tab"/"tablet", "cap"/"capsule").
 DIRECTIONS = [
     ("1+0+1", {"times_per_day": 2, "slots": ["morning", "night"], "dose": 1}),
     ("1+1+1", {"times_per_day": 3, "slots": ["morning", "afternoon", "night"], "dose": 1}),
@@ -56,18 +57,18 @@ DIRECTIONS = [
     ("BD", {"times_per_day": 2}),
     ("TDS", {"times_per_day": 3}),
     ("QID", {"times_per_day": 4}),
-    ("1 tab BD", {"times_per_day": 2, "dose": 1}),
-    ("2 tabs TDS", {"times_per_day": 3, "dose": 2}),
+    ("1 {u} BD", {"times_per_day": 2, "dose": 1}),
+    ("2 {u}s TDS", {"times_per_day": 3, "dose": 2}),
     ("q8h", {"times_per_day": 3}),
     ("HS", {"times_per_day": 1, "timing": "at bedtime"}),
     ("SOS", {"as_needed": True}),
-    ("1 tab SOS", {"as_needed": True, "dose": 1}),
+    ("1 {u} SOS", {"as_needed": True, "dose": 1}),
     # plain-English phrasings that doctors also write
     ("twice daily", {"times_per_day": 2}),
     ("once a day", {"times_per_day": 1}),
     ("three times a day", {"times_per_day": 3}),
-    ("1 tab morning and night", {"times_per_day": 2, "slots": ["morning", "night"], "dose": 1}),
-    ("one tablet at night", {"times_per_day": 1, "dose": 1}),
+    ("1 {u} morning and night", {"times_per_day": 2, "slots": ["morning", "night"], "dose": 1}),
+    ("one {unit} at night", {"times_per_day": 1, "dose": 1, "timing": "at bedtime"}),
 ]
 SYRUP_DIRECTIONS = [
     ("5 ml TDS", {"times_per_day": 3, "dose": 5, "dose_unit": "ml"}),
@@ -114,6 +115,7 @@ def _medicine(rng: random.Random, n: int) -> tuple[list[str], dict]:
     else:
         form_text, form = rng.choice(FORMS)
         directions, expected = rng.choice(DIRECTIONS)
+        directions = directions.format(u=form[:3], unit=form)
         if expected.get("dose") is not None and "dose_unit" not in expected:
             expected = {**expected, "dose_unit": form}
         strength = rng.choice(STRENGTHS)

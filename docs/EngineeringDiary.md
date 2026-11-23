@@ -388,3 +388,14 @@ RxNorm responses are recorded (`--record`), so the evaluation replays offline an
 Esita and Arinac being "not recognised" is the **correct** behaviour. I have no data on them, and saying so is better than guessing.
 
 Next: fix the answer key first, so the score measures MediLens and not my generator, then fix the system problems one at a time, measuring each.
+
+---
+
+## Fixing my answer key first
+
+Before changing MediLens, I fixed the two bugs in the evaluation itself, so that every remaining failure is a real problem with the system:
+
+- Directions now use the word for the form that was actually prescribed ("1 cap BD" under a capsule, "1 tab BD" under a tablet).
+- "one tablet at night" is now expected to be read as bedtime.
+
+The random sequence is unchanged, so these are the same 50 prescriptions with corrected answers. Fully correct medicines went from 68.4% to 71.8%, and timing from 96% to 100%, without touching MediLens. That is a good reminder that an evaluation can be wrong too, and that a score is only as trustworthy as its answer key.
