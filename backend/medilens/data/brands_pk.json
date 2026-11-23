@@ -1,0 +1,10 @@
+{
+  "_note": "Brands sold in Pakistan that RxNorm does not cover, mapped to their generic name. Check every entry against the pack or the DRAP drug registry before relying on it. Unknown brands are reported as unrecognised, never guessed.",
+  "brands": {
+    "Calpol": {"generic": "paracetamol"},
+    "Risek": {"generic": "omeprazole"},
+    "Concor": {"generic": "bisoprolol"},
+    "Disprin": {"generic": "aspirin"},
+    "Gravinate": {"generic": "dimenhydrinate"}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_note": "International non-proprietary names (used in Pakistan, UK, WHO) mapped to the US names RxNorm uses.",
+  "synonyms": {
+    "paracetamol": "acetaminophen",
+    "salbutamol": "albuterol",
+    "adrenaline": "epinephrine",
+    "noradrenaline": "norepinephrine",
+    "glibenclamide": "glyburide",
+    "frusemide": "furosemide",
+    "lignocaine": "lidocaine",
+    "amoxycillin": "amoxicillin",
+    "cefalexin": "cephalexin",
+    "rifampicin": "rifampin",
+    "mesalazine": "mesalamine",
+    "ciclosporin": "cyclosporine",
+    "colecalciferol": "cholecalciferol",
+    "pethidine": "meperidine",
+    "phenobarbitone": "phenobarbital",
+    "beclometasone": "beclomethasone",
+    "acetylsalicylic acid": "aspirin",
+    "hyoscine": "scopolamine",
+    "chlorphenamine": "chlorpheniramine",
+    "dicycloverine": "dicyclomine",
+    "co-amoxiclav": "amoxicillin / clavulanate"
+  }
+}
