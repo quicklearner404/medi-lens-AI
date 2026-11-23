@@ -292,3 +292,30 @@ All the tests passed, but the first time I ran the actual API on a sample prescr
 - A test reproduces RxNorm's exact behaviour for a retired entry.
 
 The lesson for me: tests built only from recorded "good" responses can't catch the bad responses I haven't seen yet. Running the real thing with realistic input is part of testing, not an optional extra.
+
+---
+
+## The API
+
+Everything now comes together behind one endpoint:
+
+`POST /analyze` with the text of a prescription returns one card per medicine:
+
+- what was written, and which medicine it was matched to
+- the directions as a plain-English sentence
+- the MedlinePlus summary, approved uses and warnings, with sources
+- the "don't stop suddenly" warning when the label has one
+- a `needs_review` list for anything the user should double-check
+
+Every response also carries a disclaimer that this is not medical advice.
+
+### Decisions
+
+- **Text only, never the photo.** The app reads the prescription on the phone and sends only the text. Nothing is stored on the server.
+- **Unrecognised doesn't mean useless.** If a brand isn't recognised (like Esita), the card still explains the directions, because those don't depend on knowing the medicine, and asks the user to check the generic name with a pharmacist.
+- **Ask, don't assume.** A match below 90% name similarity is shown with "Read as X. Please confirm."
+- **Failures belong on the card, not as an error page.** If RxNorm or openFDA is down, the card says so and the request still succeeds, so one slow service doesn't hide the rest of the prescription.
+
+### Tests
+
+API tests run a five-medicine prescription through the full pipeline using recorded responses, plus empty, oversized and "database offline" cases. All 65 backend tests pass.

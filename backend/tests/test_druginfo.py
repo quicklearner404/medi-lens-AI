@@ -1,27 +1,5 @@
 """Drug information from MedlinePlus and FDA labels, replayed from recorded responses."""
 
-import json
-from pathlib import Path
-
-import httpx
-import pytest
-
-from medilens.druginfo import DrugInfoClient
-
-FIXTURES = json.loads((Path(__file__).parent / "fixtures" / "druginfo.json").read_text())
-
-
-def _replay(request: httpx.Request) -> httpx.Response:
-    key = f"{request.url.host}{request.url.path}?{request.url.query.decode()}"
-    if key not in FIXTURES:
-        raise AssertionError(f"no recorded response for {key}; run scripts/record_druginfo_fixtures.py")
-    return httpx.Response(FIXTURES[key]["status"], json=FIXTURES[key]["body"])
-
-
-@pytest.fixture
-def druginfo():
-    return DrugInfoClient(client=httpx.Client(transport=httpx.MockTransport(_replay)))
-
 
 def test_ssri_gets_patient_summary_and_stop_gradually_warning(druginfo):
     info = druginfo.lookup(["escitalopram"], "321988")
