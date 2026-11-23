@@ -183,3 +183,35 @@ The first real piece of the backend turns prescription shorthand into plain Engl
 I added a GitHub Actions workflow that installs the backend and runs the tests on every push and pull request that touches `backend/`.
 
 The parser will keep growing as I meet new prescription styles, and each new rule can quietly break an old one. With CI, every change is checked against all the earlier cases automatically, so I find out from a red check rather than from a wrong instruction on someone's screen.
+
+---
+
+## Identifying medicines with RxNorm
+
+To explain a medicine I first need to know exactly which one it is. I'm using **RxNorm** from the US National Library of Medicine: every drug has a stable ID (RxCUI), and brands are linked to their ingredients, so "Augmentin" becomes amoxicillin + clavulanate.
+
+### The surprise
+
+RxNorm's approximate search always returns *something*, even for names it doesn't know. Testing it with medicines prescribed in Pakistan:
+
+| Written | RxNorm's top match |
+|---|---|
+| Concor (bisoprolol, a heart medicine) | **Concord grape juice** |
+| Esita (an escitalopram brand) | **a cosmetic SPF kit** |
+| Risek (omeprazole) | an unrelated product |
+
+If I had simply taken the top result, the app would have confidently explained the wrong thing. For a medical app that is the worst possible failure.
+
+### What I did
+
+- **Similarity check.** A candidate is accepted only if its name is at least 80% similar to what was written. Typos still work ("omeprazol" → omeprazole at 0.95, "Augmentn" → Augmentin at 0.94), while the bad matches above score far lower and are rejected.
+- **International names.** RxNorm uses US names, so "paracetamol" returns nothing; it is "acetaminophen" there. I added a small mapping of international to US names (paracetamol, salbutamol, co-amoxiclav and others).
+- **Local brand list.** Many Pakistani brands simply aren't in RxNorm, so there is a small brand → generic list. It is deliberately short, and every entry has to be checked against the pack or the DRAP drug registry. When a brand isn't known, the app says so and asks the user. It never guesses.
+
+### Testing without the internet
+
+The tests replay **real recorded RxNorm responses** (`scripts/record_rxnorm_fixtures.py`), so they run offline in CI and don't depend on an external service being up. If a test ever makes a request that wasn't recorded, it fails loudly instead of quietly going to the network.
+
+### Open question
+
+Escitalopram, the medicine that started this project, is sold here under brand names RxNorm doesn't know. Growing the local brand list reliably, from a trustworthy source, is the part I still need to solve.
