@@ -1,13 +1,13 @@
 {
   "medicines": 174,
-  "detection_recall": 0.9942528735632183,
-  "detection_extra": 1,
+  "detection_recall": 1.0,
+  "detection_extra": 0,
   "identification": {
     "invented name": {
       "correct": 11
     },
     "known name": {
-      "correct": 142
+      "correct": 143
     },
     "typo": {
       "correct": 9,
@@ -17,16 +17,16 @@
       "abstained": 5
     }
   },
-  "known_name_accuracy": 0.9617834394904459,
+  "known_name_accuracy": 0.9620253164556962,
   "wrong_matches": 0,
   "directions": {
-    "times_per_day": 0.911,
-    "slots": 0.86,
-    "dose": 0.923,
-    "dose_unit": 0.923,
+    "times_per_day": 1.0,
+    "slots": 1.0,
+    "dose": 1.0,
+    "dose_unit": 1.0,
     "timing": 1.0,
-    "duration_days": 0.994,
+    "duration_days": 1.0,
     "as_needed": 1.0
   },
-  "fully_correct": 0.8218390804597702
+  "fully_correct": 0.9367816091954023
 }

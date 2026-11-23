@@ -126,3 +126,31 @@ def test_syrup_dose_without_printed_strength():
 
     assert d.strength is None
     assert d.dose == 5 and d.dose_unit == "ml"
+
+
+@pytest.mark.parametrize(
+    ("line", "times_per_day"),
+    [
+        ("Tab Risek three times a day", 3),
+        ("Tab Augmentin 2 times a day", 2),
+        ("Tab X four times per day", 4),
+        ("Tab X thrice daily", 3),
+    ],
+)
+def test_frequency_in_words(line, times_per_day):
+    assert parse_directions(line).times_per_day == times_per_day
+
+
+def test_number_words_as_dose():
+    d = parse_directions("Cap amlodipine 5mg one capsule at night")
+
+    assert d.dose == 1 and d.dose_unit == "capsule"
+    assert d.times_per_day == 1 and d.timing == "at bedtime"
+
+
+def test_times_of_day_in_words():
+    d = parse_directions("Tab Synthroid 1 tab morning and night")
+
+    assert d.slots == ["morning", "night"]
+    assert d.times_per_day == 2
+    assert d.describe() == "1 tablet, twice a day (morning and night)."

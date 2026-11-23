@@ -32,6 +32,12 @@ FREQUENCY_CODES = {
     "tds": 3, "tid": 3,
     "qid": 4, "qds": 4,
 }
+NUMBER_WORDS = {"half": 0.5, "one": 1, "two": 2, "three": 3, "four": 4}
+_COUNT = r"(\d|one|two|three|four)"
+TIMES_A_DAY = re.compile(_COUNT + r"\s+times?\s+(?:a|per|in\s+a)\s+day\b|\b(thrice)\b")
+# Times of day written as words: "1 tab morning and night".
+SLOT_WORDS = {"morning": "morning", "afternoon": "afternoon", "noon": "afternoon",
+              "evening": "night", "night": "night"}
 HOURLY = re.compile(r"\b(?:q|every\s*)(\d{1,2})\s*(?:h|hr|hrs|hours?)\b")
 
 AS_NEEDED = re.compile(r"\b(?:sos|prn|as\s+needed|when\s+required|if\s+needed)\b")
@@ -47,7 +53,10 @@ SLOT_NAMES = ("morning", "afternoon", "night")
 # A strength is an amount of drug, optionally per volume ("120mg/5ml").
 # A volume on its own ("5 ml") is a dose, not a strength.
 STRENGTH = re.compile(r"(\d+(?:\.\d+)?)\s*(mg|mcg|µg|g|iu|%)\b(?:\s*/\s*\d+(?:\.\d+)?\s*ml\b)?")
-DOSE_BEFORE_FORM = re.compile(r"\b([\d½¼]+(?:\.\d+)?)\s*(" + "|".join(sorted(FORMS, key=len, reverse=True)) + r")\b")
+DOSE_BEFORE_FORM = re.compile(
+    r"\b([\d½¼]+(?:\.\d+)?|half|one|two|three|four)\s*(?:a\s+)?("
+    + "|".join(sorted(FORMS, key=len, reverse=True)) + r")\b"
+)
 DOSE_ML = re.compile(r"\b(\d+(?:\.\d+)?)\s*(?:ml|mL)\b(?!\s*/)")
 
 # "x 5/7" (days), "x 2/52" (weeks), "x 1/12" (months); "for 10 days", "x 2 weeks", "5d"
@@ -141,9 +150,16 @@ def parse_directions(line: str) -> Directions:
                 d.dose, d.dose_unit = float(ml[-1].group(1)), "ml"
 
         hourly = HOURLY.search(low)
+        times = TIMES_A_DAY.search(low)
+        named_slots = _named_slots(low)
         if hourly:
             d.every_hours = int(hourly.group(1))
             d.times_per_day = 24 / d.every_hours
+        elif times:
+            d.times_per_day = 3 if times.group(2) else _num(times.group(1))
+        elif len(named_slots) > 1 or (named_slots and "morning" in named_slots):
+            d.slots = named_slots
+            d.times_per_day = len(named_slots)
         else:
             for word in re.findall(r"[a-z]+", low):
                 if word in FREQUENCY_CODES:
@@ -181,8 +197,13 @@ def _duration(low: str) -> int | None:
     return None
 
 
+def _named_slots(low: str) -> list[str]:
+    found = {SLOT_WORDS[w] for w in re.findall(r"[a-z]+", low) if w in SLOT_WORDS}
+    return [name for name in SLOT_NAMES if name in found]
+
+
 def _num(token: str) -> float:
-    return {"½": 0.5, "¼": 0.25}.get(token) or float(token)
+    return {"½": 0.5, "¼": 0.25, **NUMBER_WORDS}.get(token) or float(token)
 
 
 def _fmt(value: float) -> str:

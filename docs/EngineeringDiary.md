@@ -464,3 +464,27 @@ A strength is now an amount of drug, optionally per volume ("120mg/5ml"); a volu
 |---|---|---|
 | Dose field | 86.8% | 92.3% |
 | Fully correct | 79.3% | 82.2% |
+
+---
+
+## Fix 5: directions written in plain English
+
+Plenty of doctors don't use Latin shorthand. The evaluation's plain-English cases showed the parser didn't understand:
+
+- "three times a day", "2 times a day", "thrice daily"
+- "one capsule", "two tablets" (number words as the dose)
+- "1 tab morning and night" (times of day as words)
+- directions on the next line starting with a word ("three times a day x 3 weeks") weren't attached to their medicine, and "Cap metformin three times a day" was read as a medicine called "metformin three times a"
+
+All four are handled now.
+
+| | Before | After |
+|---|---|---|
+| Times per day | 91.1% | 100% |
+| Slots | 86.0% | 100% |
+| Medicine lines detected | 99.4% | 100% |
+| Fully correct | 82.2% | 93.7% |
+
+### What 100% does and doesn't mean
+
+Every direction field now scores 100% on this set, but I have to be honest with myself about it: I fixed the parser *while looking at these same 50 prescriptions*. The score shows that MediLens handles the phrasings I thought of; it doesn't show how it does on phrasings I didn't think of. Real prescriptions, and later a held-out set written by someone else, are the real test.
