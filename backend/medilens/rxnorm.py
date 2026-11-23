@@ -73,12 +73,15 @@ class RxNormClient:
             term = self._synonyms[term]
             source = "synonym" if source == "rxnorm" else source
 
-        candidate = self._best_candidate(term)
-        if candidate is None:
+        for rxcui, name, similarity in self._candidates(term):
+            # Retired concepts (e.g. the old "Calpol" entry) return no properties.
+            properties = self._get(f"/rxcui/{rxcui}/properties.json").get("properties")
+            if properties:
+                break
+        else:
             return None
-        rxcui, name, similarity = candidate
 
-        concept_type = self._get(f"/rxcui/{rxcui}/properties.json")["properties"]["tty"]
+        concept_type = properties["tty"]
         match = DrugMatch(
             written=written, name=name, rxcui=rxcui, concept_type=concept_type,
             source=source, similarity=round(similarity, 2),
@@ -86,17 +89,18 @@ class RxNormClient:
         match.ingredients = self._ingredients(rxcui, name, concept_type)
         return match
 
-    def _best_candidate(self, term: str) -> tuple[str, str, float] | None:
+    def _candidates(self, term: str) -> list[tuple[str, str, float]]:
+        """RxNorm candidates close enough to the written name, best first."""
         data = self._get("/approximateTerm.json", term=term, maxEntries=5)
-        candidates = data.get("approximateGroup", {}).get("candidate", [])
-        best = None
-        for c in candidates:
-            if c.get("source") != "RXNORM" or not c.get("name"):
+        seen, ranked = set(), []
+        for c in data.get("approximateGroup", {}).get("candidate", []):
+            if c.get("source") != "RXNORM" or not c.get("name") or c["rxcui"] in seen:
                 continue
+            seen.add(c["rxcui"])
             similarity = SequenceMatcher(None, term, c["name"].lower()).ratio()
-            if similarity >= MIN_SIMILARITY and (best is None or similarity > best[2]):
-                best = (c["rxcui"], c["name"], similarity)
-        return best
+            if similarity >= MIN_SIMILARITY:
+                ranked.append((c["rxcui"], c["name"], similarity))
+        return sorted(ranked, key=lambda c: -c[2])
 
     def _ingredients(self, rxcui: str, name: str, concept_type: str) -> list[Ingredient]:
         if concept_type in INGREDIENT_TYPES:

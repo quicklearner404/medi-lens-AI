@@ -1,26 +1,9 @@
 """RxNorm lookups, replayed from recorded real responses (no network)."""
 
-import json
-from pathlib import Path
-
 import httpx
 import pytest
 
 from medilens.rxnorm import RXNAV, RxNormClient
-
-FIXTURES = json.loads((Path(__file__).parent / "fixtures" / "rxnorm.json").read_text())
-
-
-def _replay(request: httpx.Request) -> httpx.Response:
-    key = request.url.path + "?" + request.url.query.decode()
-    if key not in FIXTURES:
-        raise AssertionError(f"no recorded response for {key}; run scripts/record_rxnorm_fixtures.py")
-    return httpx.Response(200, json=FIXTURES[key])
-
-
-@pytest.fixture
-def rxnorm():
-    return RxNormClient(client=httpx.Client(base_url=RXNAV, transport=httpx.MockTransport(_replay)))
 
 
 @pytest.mark.parametrize(
@@ -83,3 +66,21 @@ def test_unknown_brand_is_not_guessed(rxnorm):
 
 def test_empty_input(rxnorm):
     assert rxnorm.identify("  20mg ") is None
+
+
+def test_retired_concepts_are_skipped():
+    # Mirrors RxNorm's real behaviour for the old "Calpol" entry (RxCUI 151477,
+    # obsolete since 2013): it is still a search candidate, but its properties are empty.
+    def respond(request):
+        if request.url.path.endswith("/approximateTerm.json"):
+            return httpx.Response(200, json={"approximateGroup": {"candidate": [
+                {"rxcui": "151477", "name": "Calpol", "score": "9.8", "source": "RXNORM"}]}})
+        return httpx.Response(200, json={})
+
+    client = RxNormClient(client=httpx.Client(base_url=RXNAV, transport=httpx.MockTransport(respond)))
+
+    assert client.identify("Calpolx") is None
+
+
+def test_calpol_is_on_the_local_brand_list(rxnorm):
+    assert rxnorm.identify("Calpol").generic_name == "acetaminophen"
