@@ -2696,6 +2696,36 @@
    "umlscui": ""
   }
  },
+ "/REST/rxcui/19711/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "clavulanate",
+       "rxcui": "48203",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      },
+      {
+       "language": "ENG",
+       "name": "amoxicillin",
+       "rxcui": "723",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
  "/REST/rxcui/202363/properties.json?": {
   "properties": {
    "language": "ENG",

@@ -25,7 +25,7 @@ import httpx
 RXNAV = "https://rxnav.nlm.nih.gov/REST"
 DATA_DIR = Path(__file__).resolve().parent / "data"
 MIN_SIMILARITY = 0.8
-INGREDIENT_TYPES = {"IN", "MIN", "PIN"}
+INGREDIENT_TYPES = {"IN", "PIN"}  # a multiple-ingredient concept (MIN) is split into its parts
 
 
 @dataclass

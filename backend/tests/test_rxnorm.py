@@ -38,14 +38,22 @@ def test_misspelt_generic_is_corrected(rxnorm):
 
 @pytest.mark.parametrize(
     ("written", "generic"),
-    [("paracetamol", "acetaminophen"), ("salbutamol", "albuterol"),
-     ("co-amoxiclav", "amoxicillin / clavulanate")],
+    [("paracetamol", "acetaminophen"), ("salbutamol", "albuterol")],
 )
 def test_international_names_map_to_rxnorm_names(rxnorm, written, generic):
     match = rxnorm.identify(written)
 
     assert match.source == "synonym"
     assert match.generic_name == generic
+
+
+def test_combination_written_as_one_name_is_split_into_ingredients(rxnorm):
+    # Found by the evaluation: co-amoxiclav came back as one ingredient called
+    # "amoxicillin / clavulanate", which also broke the FDA label search.
+    match = rxnorm.identify("co-amoxiclav")
+
+    assert match.concept_type == "MIN"
+    assert {i.name for i in match.ingredients} == {"amoxicillin", "clavulanate"}
 
 
 @pytest.mark.parametrize(

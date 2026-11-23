@@ -399,3 +399,17 @@ Before changing MediLens, I fixed the two bugs in the evaluation itself, so that
 - "one tablet at night" is now expected to be read as bedtime.
 
 The random sequence is unchanged, so these are the same 50 prescriptions with corrected answers. Fully correct medicines went from 68.4% to 71.8%, and timing from 96% to 100%, without touching MediLens. That is a good reminder that an evaluation can be wrong too, and that a score is only as trustworthy as its answer key.
+
+---
+
+## Fix 1: combination medicines
+
+Co-amoxiclav is one name for two medicines, amoxicillin and clavulanate. RxNorm stores names like this as a "multiple-ingredient" concept, and my code treated that concept as a single ingredient called "amoxicillin / clavulanate". The identity was right, but the ingredient list was wrong, and searching FDA labels for "amoxicillin / clavulanate" finds nothing.
+
+Combination concepts are now split into their real ingredients, the same way brands like Augmentin already were.
+
+| | Before | After |
+|---|---|---|
+| Wrong matches | 2 | **0** |
+| Known names identified | 86.0% | 87.3% |
+| Fully correct | 71.8% | 72.4% |

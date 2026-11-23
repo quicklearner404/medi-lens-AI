@@ -6,16 +6,16 @@ Synthetic set: 174 medicines on 50 printed prescriptions (`evaluation/cases.json
 |---|---|
 | Medicine lines detected | 99.4% |
 | Extra (non-medicine) lines taken as medicines | 1 |
-| Known names identified correctly (incl. typos) | 86.0% |
-| **Wrong matches (dangerous)** | **2** |
-| Medicines fully correct (identity + every direction field) | 71.8% |
+| Known names identified correctly (incl. typos) | 87.3% |
+| **Wrong matches (dangerous)** | **0** |
+| Medicines fully correct (identity + every direction field) | 72.4% |
 
 ## Identification by group
 
 | Group | Correct | Abstained ("not recognised") | Wrong |
 |---|---|---|---|
 | invented name | 11 | 0 | 0 |
-| known name | 126 | 14 | 2 |
+| known name | 128 | 14 | 0 |
 | typo | 9 | 6 | 0 |
 | unknown real brand | 0 | 5 | 0 |
 
@@ -33,7 +33,7 @@ For invented names, "correct" means they were reported as not recognised.
 | duration_days | 99.4% |
 | as_needed | 100.0% |
 
-## Failures (74)
+## Failures (72)
 
 | Case | Medicine | Problem | Detail |
 |---|---|---|---|
@@ -42,7 +42,6 @@ For invented names, "correct" means they were reported as not recognised.
 | rx01 | Zithromax | directions.dose_unit | expected 'ml', got None / 'Syp. Zithromax 5 ml TDS AC x 3 weeks' |
 | rx01 | metformin | not detected |  |
 | rx01 | metformin three times a | extra item | 5. Cap metformin three times a day for 1 month |
-| rx04 | co-amoxiclav | identification: wrong | expected ['amoxicillin', 'clavulanate'] |
 | rx05 | amlodipine | directions.dose | expected 1, got None / 'Cap amlodipine 500mg one capsule at night x 1/12' |
 | rx05 | amlodipine | directions.dose_unit | expected 'capsule', got None / 'Cap amlodipine 500mg one capsule at night x 1/12' |
 | rx05 | Risek | directions.times_per_day | expected 3, got None / 'Tab Risek 10mg three times a day PC x 1/12' |
@@ -50,7 +49,6 @@ For invented names, "correct" means they were reported as not recognised.
 | rx05 | Amoxil | identification: abstained | expected ['amoxicillin'] |
 | rx07 | Esita | identification: abstained | expected ['escitalopram'] |
 | rx10 | Amoxil | identification: abstained | expected ['amoxicillin'] |
-| rx10 | co-amoxiclav | identification: wrong | expected ['amoxicillin', 'clavulanate'] |
 | rx10 | co-amoxiclav | directions.times_per_day | expected 2, got None / '4. TAB co-amoxiclav 10mg 1 tab morning and night PC for 1 month' |
 | rx10 | co-amoxiclav | directions.slots | expected ['morning', 'night'], got [] / '4. TAB co-amoxiclav 10mg 1 tab morning and night PC for 1 month' |
 | rx11 | Brufen | identification: abstained | expected ['ibuprofen'] |
