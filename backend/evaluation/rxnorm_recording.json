@@ -1,0 +1,3132 @@
+{
+ "/REST/approximateTerm.json?term=acetaminophen&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Acetaminophen",
+     "rank": "1",
+     "rxaui": "10280795",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10326508",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "GS"
+    },
+    {
+     "name": "acetaminophen",
+     "rank": "1",
+     "rxaui": "12250420",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "1832380",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "1832393",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "MMSL"
+    },
+    {
+     "name": "ACETAMINOPHEN",
+     "rank": "1",
+     "rxaui": "2067548",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2658084",
+     "rxcui": "707705",
+     "score": "9.649259567260742",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "4253327",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "NDDF"
+    },
+    {
+     "name": "Acetaminophen",
+     "rank": "1",
+     "rxaui": "8387161",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=albuterol&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Albuterol",
+     "rank": "1",
+     "rxaui": "10280439",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10328049",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "GS"
+    },
+    {
+     "name": "albuterol",
+     "rank": "1",
+     "rxaui": "12253235",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Albuterol",
+     "rank": "1",
+     "rxaui": "12885383",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "DRUGBANK"
+    },
+    {
+     "rank": "1",
+     "rxaui": "13970",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "13975",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "MMSL"
+    },
+    {
+     "name": "ALBUTEROL",
+     "rank": "1",
+     "rxaui": "2067633",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3640233",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "NDDF"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=amlodipine&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10327488",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "GS"
+    },
+    {
+     "name": "amlodipine",
+     "rank": "1",
+     "rxaui": "12253390",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "RXNORM"
+    },
+    {
+     "name": "AMLODIPINE",
+     "rank": "1",
+     "rxaui": "2067760",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3308895",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3619747",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "NDDF"
+    },
+    {
+     "name": "amlodipine",
+     "rank": "1",
+     "rxaui": "5478648",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "8241335",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "MMSL"
+    },
+    {
+     "name": "Amlodipine",
+     "rank": "1",
+     "rxaui": "8343037",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=amoxicillin+%2F+clavulanate&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "amoxicillin / clavulanate",
+     "rank": "1",
+     "rxaui": "12353525",
+     "rxcui": "19711",
+     "score": "15.731163024902344",
+     "source": "RXNORM"
+    },
+    {
+     "name": "AMOXICILLIN/CLAVULANATE",
+     "rank": "1",
+     "rxaui": "2626717",
+     "rxcui": "19711",
+     "score": "15.731163024902344",
+     "source": "VANDF"
+    },
+    {
+     "rank": "3",
+     "rxaui": "392488",
+     "rxcui": "19711",
+     "score": "15.723297443389894",
+     "source": "MMSL"
+    },
+    {
+     "name": "amoxicillin / clavulanate Pill",
+     "rank": "4",
+     "rxaui": "12287098",
+     "rxcui": "1152875",
+     "score": "15.087057189941406",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=amoxil&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1910437",
+     "rxcui": "203169",
+     "score": "8.484906196594238",
+     "source": "MMSL"
+    },
+    {
+     "name": "Amoxil",
+     "rank": "1",
+     "rxaui": "1910439",
+     "rxcui": "203169",
+     "score": "8.484906196594238",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxi Drop",
+     "rank": "3",
+     "rxaui": "3052537",
+     "rxcui": "897049",
+     "score": "8.332004017829895",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxi-tabs",
+     "rank": "4",
+     "rxaui": "5032936",
+     "rxcui": "1358969",
+     "score": "8.327838015820982",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxi-tabs Pill",
+     "rank": "5",
+     "rxaui": "5032940",
+     "rxcui": "1358973",
+     "score": "8.226404223577148",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=amxil&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1910437",
+     "rxcui": "203169",
+     "score": "3.067474365234375",
+     "source": "MMSL"
+    },
+    {
+     "name": "Amoxil",
+     "rank": "1",
+     "rxaui": "1910439",
+     "rxcui": "203169",
+     "score": "3.067474365234375",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Pill",
+     "rank": "3",
+     "rxaui": "3829543",
+     "rxcui": "1173534",
+     "score": "2.9820368497371676",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=arinac&maxEntries=5": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=aspirin&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Aspirin",
+     "rank": "1",
+     "rxaui": "10284033",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10324038",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "GS"
+    },
+    {
+     "name": "aspirin",
+     "rank": "1",
+     "rxaui": "12250966",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ASPIRIN",
+     "rank": "1",
+     "rxaui": "2067937",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3719790",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "NDDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "38591",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "38604",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "MMSL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=atorvastatin&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10324581",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "GS"
+    },
+    {
+     "name": "ATORVASTATIN",
+     "rank": "1",
+     "rxaui": "2626975",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3811343",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "NDDF"
+    },
+    {
+     "name": "atorvastatin",
+     "rank": "1",
+     "rxaui": "5478744",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "675800",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "MMSL"
+    },
+    {
+     "name": "atorvastatin",
+     "rank": "1",
+     "rxaui": "675801",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Atorvastatin",
+     "rank": "1",
+     "rxaui": "8267258",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=augmentin&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1000001",
+     "rxcui": "151392",
+     "score": "13.474443435668945",
+     "source": "MMSL"
+    },
+    {
+     "name": "Augmentin",
+     "rank": "1",
+     "rxaui": "1000002",
+     "rxcui": "151392",
+     "score": "13.474443435668945",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Augmentin Pill",
+     "rank": "3",
+     "rxaui": "3830271",
+     "rxcui": "1174308",
+     "score": "12.958813143730165",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "1552801",
+     "rxcui": "353427",
+     "score": "12.524121731281282",
+     "source": "MMSL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=bisoprolol&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10324151",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "GS"
+    },
+    {
+     "name": "bisoprolol",
+     "rank": "1",
+     "rxaui": "12253391",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "RXNORM"
+    },
+    {
+     "name": "BISOPROLOL",
+     "rank": "1",
+     "rxaui": "2627241",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3630122",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "NDDF"
+    },
+    {
+     "name": "bisoprolol",
+     "rank": "1",
+     "rxaui": "5478929",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "ATC"
+    },
+    {
+     "name": "Bisoprolol",
+     "rank": "1",
+     "rxaui": "8592506",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=brufen&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Brufen",
+     "rank": "1",
+     "rxaui": "1135932",
+     "rxcui": "202487",
+     "score": "9.547101974487305",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Brufen Pill",
+     "rank": "2",
+     "rxaui": "3831317",
+     "rxcui": "1168049",
+     "score": "8.949123129844667",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Brufen Oral Product",
+     "rank": "3",
+     "rxaui": "3831316",
+     "rxcui": "1168048",
+     "score": "8.438193580852033",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Brufen Retard",
+     "rank": "4",
+     "rxaui": "1000145",
+     "rxcui": "151461",
+     "score": "8.0542108168602",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Brufen Oral Liquid Product",
+     "rank": "5",
+     "rxaui": "3831315",
+     "rxcui": "1168047",
+     "score": "7.996568581724454",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=calpl&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Calpol",
+     "rank": "1",
+     "rxaui": "1000173",
+     "rxcui": "151477",
+     "score": "4.057478904724121",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Oral Product",
+     "rank": "2",
+     "rxaui": "3831601",
+     "rxcui": "1172268",
+     "score": "3.7537157437790043",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Oral Liquid Product",
+     "rank": "3",
+     "rxaui": "3831600",
+     "rxcui": "1172267",
+     "score": "3.632593827820448",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=cetirizine&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10325465",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "GS"
+    },
+    {
+     "name": "cetirizine",
+     "rank": "1",
+     "rxaui": "12254548",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine",
+     "rank": "1",
+     "rxaui": "12733668",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "ATC"
+    },
+    {
+     "name": "CETIRIZINE",
+     "rank": "1",
+     "rxaui": "2627509",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3619767",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "NDDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "397229",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "MMSL"
+    },
+    {
+     "name": "cetirizine",
+     "rank": "1",
+     "rxaui": "5479202",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "ATC"
+    },
+    {
+     "name": "Cetirizine",
+     "rank": "1",
+     "rxaui": "8601610",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=ciprofloxacin&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Ciprofloxacin",
+     "rank": "1",
+     "rxaui": "10280938",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10326704",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "GS"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "12253859",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "RXNORM"
+    },
+    {
+     "name": "CIPROFLOXACIN",
+     "rank": "1",
+     "rxaui": "2069666",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2402784",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3863238",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "NDDF"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "5479339",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "ATC"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "5479340",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "ATC"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "5479341",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "ATC"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "5479342",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "77199",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "MMSL"
+    },
+    {
+     "name": "Ciprofloxacin",
+     "rank": "1",
+     "rxaui": "8502697",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=cocor&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10328193",
+     "rxcui": "1425503",
+     "score": "8.851421150779725",
+     "source": "GS"
+    },
+    {
+     "name": "coco glucoside",
+     "rank": "1",
+     "rxaui": "12251397",
+     "rxcui": "1425503",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco monoethanolamide",
+     "rank": "1",
+     "rxaui": "12253117",
+     "rxcui": "1426393",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco monoisopropanolamide",
+     "rank": "1",
+     "rxaui": "12253140",
+     "rxcui": "1435283",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco diethanolamide",
+     "rank": "1",
+     "rxaui": "12254103",
+     "rxcui": "1305724",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco diisopropanolamide",
+     "rank": "1",
+     "rxaui": "12254835",
+     "rxcui": "1421434",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Coco diethanolamide",
+     "rank": "1",
+     "rxaui": "12896296",
+     "rxcui": "1305724",
+     "score": "8.851421150779725",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "Coco Diethanolamide",
+     "rank": "1",
+     "rxaui": "13025532",
+     "rxcui": "1305724",
+     "score": "8.851421150779725",
+     "source": "USP"
+    },
+    {
+     "name": "COCO CAPRYLATE",
+     "rank": "1",
+     "rxaui": "1473373",
+     "rxcui": "1364293",
+     "score": "8.851421150779725",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "6803520",
+     "rxcui": "1425503",
+     "score": "8.851421150779725",
+     "source": "NDDF"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=dispriin&maxEntries=5": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=disprn&maxEntries=5": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=escitalopram&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10328844",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "GS"
+    },
+    {
+     "name": "escitalopram",
+     "rank": "1",
+     "rxaui": "12252335",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ESCITALOPRAM",
+     "rank": "1",
+     "rxaui": "2628072",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3746689",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "NDDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "4258975",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "MMSL"
+    },
+    {
+     "name": "escitalopram",
+     "rank": "1",
+     "rxaui": "5479984",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "ATC"
+    },
+    {
+     "name": "Escitalopram",
+     "rank": "1",
+     "rxaui": "8286797",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=esita&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "ESIKA HYDRACOLOR 2 IN 1 SPF 25 KIT",
+     "rank": "1",
+     "rxaui": "7708855",
+     "rxcui": "1722607",
+     "score": "0.5869369098366916",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "OCTINOXATE 0.0664 g in 1 g / OXYBENZONE 0.0151 g in 1 g TOPICAL LIPSTICK [ESIKA HYDRACOLOR 2 IN 1 SPF 25 (ROJO ESIKA) - ORANGE]",
+     "rank": "2",
+     "rxaui": "7708926",
+     "rxcui": "1722708",
+     "score": "0.20958426899533483",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "OCTINOXATE 0.0664 g in 1 g / OXYBENZONE 0.0151 g in 1 g TOPICAL LIPSTICK [ESIKA HYDRACOLOR 2 IN 1 SPF 25 (ROJO ESIKA) - ORANGE]",
+     "rank": "2",
+     "rxaui": "7708927",
+     "rxcui": "1722708",
+     "score": "0.20958426899533483",
+     "source": "MTHSPL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=flagyl&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1136835",
+     "rxcui": "202866",
+     "score": "13.720586776733398",
+     "source": "MMSL"
+    },
+    {
+     "name": "Flagyl",
+     "rank": "1",
+     "rxaui": "1136836",
+     "rxcui": "202866",
+     "score": "13.720586776733398",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "3",
+     "rxaui": "1178238",
+     "rxcui": "217132",
+     "score": "13.185485410690308",
+     "source": "MMSL"
+    },
+    {
+     "name": "Flagyl Pill",
+     "rank": "3",
+     "rxaui": "3836406",
+     "rxcui": "1169008",
+     "score": "13.185485410690308",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "5",
+     "rxaui": "1178240",
+     "rxcui": "217133",
+     "score": "12.73426936674118",
+     "source": "MMSL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=glucophaage&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1000877",
+     "rxcui": "151827",
+     "score": "8.37169075012207",
+     "source": "MMSL"
+    },
+    {
+     "name": "Glucophage",
+     "rank": "1",
+     "rxaui": "1000878",
+     "rxcui": "151827",
+     "score": "8.37169075012207",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Glucophage Pill",
+     "rank": "3",
+     "rxaui": "3837220",
+     "rxcui": "1171245",
+     "score": "8.259688737869263",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "1359654",
+     "rxcui": "285065",
+     "score": "8.167594610214234",
+     "source": "MMSL"
+    },
+    {
+     "name": "Glucophage Oral Product",
+     "rank": "5",
+     "rxaui": "3837219",
+     "rxcui": "1171244",
+     "score": "8.163510812909127",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=glucophage&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1000877",
+     "rxcui": "151827",
+     "score": "13.944183349609375",
+     "source": "MMSL"
+    },
+    {
+     "name": "Glucophage",
+     "rank": "1",
+     "rxaui": "1000878",
+     "rxcui": "151827",
+     "score": "13.944183349609375",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Glucophage Pill",
+     "rank": "3",
+     "rxaui": "3837220",
+     "rxcui": "1171245",
+     "score": "13.391395130157472",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "1359654",
+     "rxcui": "285065",
+     "score": "12.925166225910187",
+     "source": "MMSL"
+    },
+    {
+     "name": "Glucophage Oral Product",
+     "rank": "5",
+     "rxaui": "3837219",
+     "rxcui": "1171244",
+     "score": "12.918703642797233",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=klortiva&maxEntries=5": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=levothyroxine&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10326622",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "GS"
+    },
+    {
+     "name": "LEVOTHYROXINE",
+     "rank": "1",
+     "rxaui": "2628591",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "VANDF"
+    },
+    {
+     "name": "Levothyroxine",
+     "rank": "1",
+     "rxaui": "8357568",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "levothyroxine",
+     "rank": "1",
+     "rxaui": "8689130",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "9166838",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "NDDF"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=lexapro&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1551886",
+     "rxcui": "352741",
+     "score": "14.102447509765625",
+     "source": "MMSL"
+    },
+    {
+     "name": "Lexapro",
+     "rank": "1",
+     "rxaui": "1551887",
+     "rxcui": "352741",
+     "score": "14.102447509765625",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lexapro Pill",
+     "rank": "3",
+     "rxaui": "3839340",
+     "rxcui": "1186154",
+     "score": "13.537140931129457",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lexapro Oral Product",
+     "rank": "4",
+     "rxaui": "3839339",
+     "rxcui": "1186153",
+     "score": "13.053756591213705",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram Oral Tablet [Lexapro]",
+     "rank": "5",
+     "rxaui": "12318896",
+     "rxcui": "368571",
+     "score": "12.641914408987525",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=lipitor&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1004568",
+     "rxcui": "153165",
+     "score": "14.155076026916504",
+     "source": "MMSL"
+    },
+    {
+     "name": "Lipitor",
+     "rank": "1",
+     "rxaui": "1004570",
+     "rxcui": "153165",
+     "score": "14.155076026916504",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lipitor Pill",
+     "rank": "3",
+     "rxaui": "3839431",
+     "rxcui": "1177401",
+     "score": "13.585606256961823",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lipitor Oral Product",
+     "rank": "4",
+     "rxaui": "3839430",
+     "rxcui": "1177400",
+     "score": "13.09866594807911",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin Oral Tablet [Lipitor]",
+     "rank": "5",
+     "rxaui": "2053520",
+     "rxcui": "367665",
+     "score": "12.683772200872662",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=metformin&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10328664",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "GS"
+    },
+    {
+     "name": "metformin",
+     "rank": "1",
+     "rxaui": "12251601",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "RXNORM"
+    },
+    {
+     "name": "METFORMIN",
+     "rank": "1",
+     "rxaui": "2628685",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3605328",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "NDDF"
+    },
+    {
+     "name": "metformin",
+     "rank": "1",
+     "rxaui": "5481094",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "ATC"
+    },
+    {
+     "name": "Metformin",
+     "rank": "1",
+     "rxaui": "8381393",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=montelukast&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10326129",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "GS"
+    },
+    {
+     "name": "MONTELUKAST",
+     "rank": "1",
+     "rxaui": "2628735",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3754450",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "NDDF"
+    },
+    {
+     "name": "montelukast",
+     "rank": "1",
+     "rxaui": "5481264",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "ATC"
+    },
+    {
+     "name": "montelukast",
+     "rank": "1",
+     "rxaui": "687115",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Montelukast",
+     "rank": "1",
+     "rxaui": "8492924",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=nexium&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Nexium",
+     "rank": "1",
+     "rxaui": "1359046",
+     "rxcui": "284799",
+     "score": "13.377579689025879",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3808267",
+     "rxcui": "284799",
+     "score": "13.377579689025879",
+     "source": "MMSL"
+    },
+    {
+     "name": "Nexium Pill",
+     "rank": "3",
+     "rxaui": "3841705",
+     "rxcui": "1182870",
+     "score": "12.869611017227173",
+     "source": "RXNORM"
+    },
+    {
+     "name": "esomeprazole Injection [Nexium]",
+     "rank": "4",
+     "rxaui": "12322067",
+     "rxcui": "1728039",
+     "score": "12.4414232711792",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=norrvasc&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "550972",
+     "rxcui": "58927",
+     "score": "8.418852806091309",
+     "source": "MMSL"
+    },
+    {
+     "name": "Norvasc",
+     "rank": "1",
+     "rxaui": "550973",
+     "rxcui": "58927",
+     "score": "8.418852806091309",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc Pill",
+     "rank": "3",
+     "rxaui": "3841963",
+     "rxcui": "1185733",
+     "score": "8.3031211810112",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc Oral Product",
+     "rank": "4",
+     "rxaui": "3841962",
+     "rxcui": "1185732",
+     "score": "8.203756601064445",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine Oral Tablet [Norvasc]",
+     "rank": "5",
+     "rxaui": "12318101",
+     "rxcui": "368359",
+     "score": "8.121482483986378",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=norvasc&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "550972",
+     "rxcui": "58927",
+     "score": "14.182943344116211",
+     "source": "MMSL"
+    },
+    {
+     "name": "Norvasc",
+     "rank": "1",
+     "rxaui": "550973",
+     "rxcui": "58927",
+     "score": "14.182943344116211",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc Pill",
+     "rank": "3",
+     "rxaui": "3841963",
+     "rxcui": "1185733",
+     "score": "13.611270145893098",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc Oral Product",
+     "rank": "4",
+     "rxaui": "3841962",
+     "rxcui": "1185732",
+     "score": "13.122445861256601",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine Oral Tablet [Norvasc]",
+     "rank": "5",
+     "rxaui": "12318101",
+     "rxcui": "368359",
+     "score": "12.70593725215769",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=nuvamax&maxEntries=5": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=omeprazole&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Omeprazole",
+     "rank": "1",
+     "rxaui": "10283696",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10327276",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "GS"
+    },
+    {
+     "name": "omeprazole",
+     "rank": "1",
+     "rxaui": "12254494",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "RXNORM"
+    },
+    {
+     "name": "OMEPRAZOLE",
+     "rank": "1",
+     "rxaui": "2072622",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "246506",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "246516",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3619853",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "NDDF"
+    },
+    {
+     "name": "omeprazole",
+     "rank": "1",
+     "rxaui": "5481490",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "ATC"
+    },
+    {
+     "name": "Omeprazole",
+     "rank": "1",
+     "rxaui": "8633705",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=panadol&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1135796",
+     "rxcui": "202432",
+     "score": "13.434083938598633",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol",
+     "rank": "1",
+     "rxaui": "1135797",
+     "rxcui": "202432",
+     "score": "13.434083938598633",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2658536",
+     "rxcui": "202432",
+     "score": "13.434083938598633",
+     "source": "MMSL"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658569",
+     "rxcui": "707887",
+     "score": "12.921646067619324",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol Pill",
+     "rank": "4",
+     "rxaui": "3842879",
+     "rxcui": "1179926",
+     "score": "12.921646067619324",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=panadool&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1135796",
+     "rxcui": "202432",
+     "score": "8.270930290222168",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol",
+     "rank": "1",
+     "rxaui": "1135797",
+     "rxcui": "202432",
+     "score": "8.270930290222168",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2658536",
+     "rxcui": "202432",
+     "score": "8.270930290222168",
+     "source": "MMSL"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658569",
+     "rxcui": "707887",
+     "score": "8.166898776054383",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol Pill",
+     "rank": "4",
+     "rxaui": "3842879",
+     "rxcui": "1179926",
+     "score": "8.166898776054383",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=ponstaan&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Ponstan",
+     "rank": "1",
+     "rxaui": "1135951",
+     "rxcui": "202493",
+     "score": "3.522387742996216",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Pill",
+     "rank": "2",
+     "rxaui": "3843886",
+     "rxcui": "1184066",
+     "score": "3.400966188669205",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Oral Product",
+     "rank": "3",
+     "rxaui": "3843885",
+     "rxcui": "1184065",
+     "score": "3.297104492837072",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Oral Liquid Product",
+     "rank": "4",
+     "rxaui": "3843884",
+     "rxcui": "1184064",
+     "score": "3.207223105911307",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Dispersible",
+     "rank": "5",
+     "rxaui": "1566175",
+     "rxcui": "360769",
+     "score": "3.0608695698022843",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=ponstan&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Ponstan",
+     "rank": "1",
+     "rxaui": "1135951",
+     "rxcui": "202493",
+     "score": "9.707088470458984",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Pill",
+     "rank": "2",
+     "rxaui": "3843886",
+     "rxcui": "1184066",
+     "score": "9.09645409822464",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Oral Product",
+     "rank": "3",
+     "rxaui": "3843885",
+     "rxcui": "1184065",
+     "score": "8.574714672145367",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Dispersible",
+     "rank": "4",
+     "rxaui": "1566175",
+     "rxcui": "360769",
+     "score": "8.186808688402177",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Oral Liquid Product",
+     "rank": "5",
+     "rxaui": "3843884",
+     "rxcui": "1184064",
+     "score": "8.123748455335718",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=prednisolone&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Prednisolone",
+     "rank": "1",
+     "rxaui": "10284350",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10323949",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "GS"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "12799249",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "PREDNISOLONE",
+     "rank": "1",
+     "rxaui": "2073993",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "VANDF"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "2180548",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2372496",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "276861",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3811443",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "NDDF"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481911",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481912",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481913",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481914",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481915",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481916",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481917",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481918",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481919",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481920",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "Prednisolone",
+     "rank": "1",
+     "rxaui": "8673533",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=sertraline&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10327492",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "GS"
+    },
+    {
+     "name": "sertraline",
+     "rank": "1",
+     "rxaui": "12253995",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "RXNORM"
+    },
+    {
+     "name": "SERTRALINE",
+     "rank": "1",
+     "rxaui": "2074256",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3605368",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "NDDF"
+    },
+    {
+     "name": "sertraline",
+     "rank": "1",
+     "rxaui": "5482223",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "ATC"
+    },
+    {
+     "name": "Sertraline",
+     "rank": "1",
+     "rxaui": "8636055",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "DRUGBANK"
+    },
+    {
+     "rank": "1",
+     "rxaui": "9186225",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "MMSL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=singuair&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1007281",
+     "rxcui": "153889",
+     "score": "8.990557670593262",
+     "source": "MMSL"
+    },
+    {
+     "name": "Singulair",
+     "rank": "1",
+     "rxaui": "1007283",
+     "rxcui": "153889",
+     "score": "8.990557670593262",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Pill",
+     "rank": "3",
+     "rxaui": "3846369",
+     "rxcui": "1183694",
+     "score": "8.829603604316713",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=singulair&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1007281",
+     "rxcui": "153889",
+     "score": "14.077539443969727",
+     "source": "MMSL"
+    },
+    {
+     "name": "Singulair",
+     "rank": "1",
+     "rxaui": "1007283",
+     "rxcui": "153889",
+     "score": "14.077539443969727",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Pill",
+     "rank": "3",
+     "rxaui": "3846369",
+     "rxcui": "1183694",
+     "score": "13.514203186988832",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=sinulair&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1007281",
+     "rxcui": "153889",
+     "score": "9.57685375213623",
+     "source": "MMSL"
+    },
+    {
+     "name": "Singulair",
+     "rank": "1",
+     "rxaui": "1007283",
+     "rxcui": "153889",
+     "score": "9.57685375213623",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Pill",
+     "rank": "3",
+     "rxaui": "3846369",
+     "rxcui": "1183694",
+     "score": "9.369523252487182",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=synthrid&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1190045",
+     "rxcui": "224920",
+     "score": "8.067995071411133",
+     "source": "MMSL"
+    },
+    {
+     "name": "Synthroid",
+     "rank": "1",
+     "rxaui": "1190046",
+     "rxcui": "224920",
+     "score": "8.067995071411133",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Pill",
+     "rank": "3",
+     "rxaui": "3847179",
+     "rxcui": "1186074",
+     "score": "7.980016784667969",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Oral Product",
+     "rank": "4",
+     "rxaui": "3847178",
+     "rxcui": "1186073",
+     "score": "7.9043578716789495",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Synthroid]",
+     "rank": "5",
+     "rxaui": "8689249",
+     "rxcui": "368142",
+     "score": "7.842429109004141",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=synthroid&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1190045",
+     "rxcui": "224920",
+     "score": "13.082569122314453",
+     "source": "MMSL"
+    },
+    {
+     "name": "Synthroid",
+     "rank": "1",
+     "rxaui": "1190046",
+     "rxcui": "224920",
+     "score": "13.082569122314453",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Pill",
+     "rank": "3",
+     "rxaui": "3847179",
+     "rxcui": "1186074",
+     "score": "12.597935437679292",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Oral Product",
+     "rank": "4",
+     "rxaui": "3847178",
+     "rxcui": "1186073",
+     "score": "12.183460357682469",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Synthroid]",
+     "rank": "5",
+     "rxaui": "8689249",
+     "rxcui": "368142",
+     "score": "11.830756418672086",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=synthrroid&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1190045",
+     "rxcui": "224920",
+     "score": "8.924562454223633",
+     "source": "MMSL"
+    },
+    {
+     "name": "Synthroid",
+     "rank": "1",
+     "rxaui": "1190046",
+     "rxcui": "224920",
+     "score": "8.924562454223633",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Pill",
+     "rank": "3",
+     "rxaui": "3847179",
+     "rxcui": "1186074",
+     "score": "8.768829639434815",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Oral Product",
+     "rank": "4",
+     "rxaui": "3847178",
+     "rxcui": "1186073",
+     "score": "8.635295334774257",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Synthroid]",
+     "rank": "5",
+     "rxaui": "8689249",
+     "rxcui": "368142",
+     "score": "8.523697421715022",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=syntroid&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1190045",
+     "rxcui": "224920",
+     "score": "8.710721969604492",
+     "source": "MMSL"
+    },
+    {
+     "name": "Synthroid",
+     "rank": "1",
+     "rxaui": "1190046",
+     "rxcui": "224920",
+     "score": "8.710721969604492",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Pill",
+     "rank": "3",
+     "rxaui": "3847179",
+     "rxcui": "1186074",
+     "score": "8.571903806209564",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Oral Product",
+     "rank": "4",
+     "rxaui": "3847178",
+     "rxcui": "1186073",
+     "score": "8.452817846367838",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Synthroid]",
+     "rank": "5",
+     "rxaui": "8689249",
+     "rxcui": "368142",
+     "score": "8.3536205482893",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=valium&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1135891",
+     "rxcui": "202472",
+     "score": "13.86752700805664",
+     "source": "MMSL"
+    },
+    {
+     "name": "Valium",
+     "rank": "1",
+     "rxaui": "1135892",
+     "rxcui": "202472",
+     "score": "13.86752700805664",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Valium Pill",
+     "rank": "3",
+     "rxaui": "3849297",
+     "rxcui": "1187151",
+     "score": "13.320803231239319",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=ventolin&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "284644",
+     "rxcui": "8887",
+     "score": "13.439004898071289",
+     "source": "MMSL"
+    },
+    {
+     "name": "Ventolin",
+     "rank": "1",
+     "rxaui": "284645",
+     "rxcui": "8887",
+     "score": "13.439004898071289",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ventolin Pill",
+     "rank": "3",
+     "rxaui": "3849478",
+     "rxcui": "1187873",
+     "score": "12.926176615238191",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=xanax&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1135627",
+     "rxcui": "202363",
+     "score": "13.630793571472168",
+     "source": "MMSL"
+    },
+    {
+     "name": "Xanax",
+     "rank": "1",
+     "rxaui": "1135628",
+     "rxcui": "202363",
+     "score": "13.630793571472168",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Xanax Pill",
+     "rank": "3",
+     "rxaui": "3850066",
+     "rxcui": "1186301",
+     "score": "13.10279552936554",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "1668082",
+     "rxcui": "405401",
+     "score": "12.657606553077699",
+     "source": "MMSL"
+    },
+    {
+     "name": "Xanax Oral Product",
+     "rank": "5",
+     "rxaui": "3850065",
+     "rxcui": "1186300",
+     "score": "12.65127774980116",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=zithromax&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1090384",
+     "rxcui": "196474",
+     "score": "13.624338150024414",
+     "source": "MMSL"
+    },
+    {
+     "name": "Zithromax",
+     "rank": "1",
+     "rxaui": "1090385",
+     "rxcui": "196474",
+     "score": "13.624338150024414",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "3",
+     "rxaui": "1185229",
+     "rxcui": "221031",
+     "score": "13.09685043668747",
+     "source": "MMSL"
+    },
+    {
+     "name": "Zithromax Pill",
+     "rank": "3",
+     "rxaui": "3850406",
+     "rxcui": "1187675",
+     "score": "13.09685043668747",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin Injection [Zithromax]",
+     "rank": "5",
+     "rxaui": "12311883",
+     "rxcui": "1668239",
+     "score": "12.652096118450165",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=zolloft&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "673933",
+     "rxcui": "82728",
+     "score": "8.418852806091309",
+     "source": "MMSL"
+    },
+    {
+     "name": "Zoloft",
+     "rank": "1",
+     "rxaui": "673934",
+     "rxcui": "82728",
+     "score": "8.418852806091309",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Pill",
+     "rank": "3",
+     "rxaui": "3850474",
+     "rxcui": "1188169",
+     "score": "8.3031211810112",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Oral Product",
+     "rank": "4",
+     "rxaui": "3850473",
+     "rxcui": "1188168",
+     "score": "8.203756601064445",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=zoloft&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "673933",
+     "rxcui": "82728",
+     "score": "14.182943344116211",
+     "source": "MMSL"
+    },
+    {
+     "name": "Zoloft",
+     "rank": "1",
+     "rxaui": "673934",
+     "rxcui": "82728",
+     "score": "14.182943344116211",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Pill",
+     "rank": "3",
+     "rxaui": "3850474",
+     "rxcui": "1188169",
+     "score": "13.611270145893098",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Oral Product",
+     "rank": "4",
+     "rxaui": "3850473",
+     "rxcui": "1188168",
+     "score": "13.122445861256601",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=zorbex&maxEntries=5": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/rxcui/10582/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "levothyroxine",
+   "rxcui": "10582",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/1191/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "aspirin",
+   "rxcui": "1191",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/151392/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Augmentin",
+   "rxcui": "151392",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/151392/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "clavulanate",
+       "rxcui": "48203",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      },
+      {
+       "language": "ENG",
+       "name": "amoxicillin",
+       "rxcui": "723",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/151477/properties.json?": {},
+ "/REST/rxcui/151827/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Glucophage",
+   "rxcui": "151827",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/151827/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "metformin",
+       "rxcui": "6809",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/153165/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Lipitor",
+   "rxcui": "153165",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/153165/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "atorvastatin",
+       "rxcui": "83367",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/153889/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Singulair",
+   "rxcui": "153889",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/153889/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "montelukast",
+       "rxcui": "88249",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/161/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "acetaminophen",
+   "rxcui": "161",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/17767/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "amlodipine",
+   "rxcui": "17767",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/19484/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "bisoprolol",
+   "rxcui": "19484",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/196474/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Zithromax",
+   "rxcui": "196474",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/196474/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "azithromycin",
+       "rxcui": "18631",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/19711/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "amoxicillin / clavulanate",
+   "rxcui": "19711",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "MIN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202363/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Xanax",
+   "rxcui": "202363",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202363/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "alprazolam",
+       "rxcui": "596",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/202432/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Panadol",
+   "rxcui": "202432",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202432/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "acetaminophen",
+       "rxcui": "161",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/202472/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Valium",
+   "rxcui": "202472",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202472/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "diazepam",
+       "rxcui": "3322",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/202487/properties.json?": {},
+ "/REST/rxcui/202493/properties.json?": {},
+ "/REST/rxcui/202866/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Flagyl",
+   "rxcui": "202866",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202866/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "metronidazole",
+       "rxcui": "6922",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/203169/properties.json?": {},
+ "/REST/rxcui/20610/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "cetirizine",
+   "rxcui": "20610",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/224920/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Synthroid",
+   "rxcui": "224920",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/224920/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "levothyroxine",
+       "rxcui": "10582",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/2551/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "ciprofloxacin",
+   "rxcui": "2551",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/284799/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Nexium",
+   "rxcui": "284799",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/284799/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "esomeprazole",
+       "rxcui": "283742",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/321988/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "escitalopram",
+   "rxcui": "321988",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/352741/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Lexapro",
+   "rxcui": "352741",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/352741/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "escitalopram",
+       "rxcui": "321988",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/36437/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "sertraline",
+   "rxcui": "36437",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/435/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "albuterol",
+   "rxcui": "435",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/58927/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Norvasc",
+   "rxcui": "58927",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/58927/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "amlodipine",
+       "rxcui": "17767",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/6809/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "metformin",
+   "rxcui": "6809",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/7646/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "omeprazole",
+   "rxcui": "7646",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/82728/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Zoloft",
+   "rxcui": "82728",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/82728/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "sertraline",
+       "rxcui": "36437",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/83367/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "atorvastatin",
+   "rxcui": "83367",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/8638/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "prednisolone",
+   "rxcui": "8638",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/88249/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "montelukast",
+   "rxcui": "88249",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/8887/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Ventolin",
+   "rxcui": "8887",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/8887/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "albuterol",
+       "rxcui": "435",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ }
+}

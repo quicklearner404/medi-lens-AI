@@ -353,3 +353,38 @@ The generator is seeded, so the same 50 cases come out every time.
 ### Limits
 
 These cases test *reading*, not medicine. The combinations aren't clinically realistic (azithromycin as a capsule twice daily), and every case is clean printed text. Text recognition errors from photos come later. I also wrote both the generator and the parser, so some of my own blind spots will be in both. Real prescriptions will eventually be the real test.
+
+---
+
+## The first score
+
+`evaluation/run.py` runs every prescription through MediLens and compares the result with the answers. Medicine identification has three outcomes, because they are not equally bad:
+
+- **correct**: matched to the true ingredients
+- **abstained**: "not recognised". Safe, but the user gets no help.
+- **wrong**: matched to a different medicine. This is the dangerous one.
+
+For invented names, the only correct outcome is "not recognised". Directions are scored field by field (times per day, dose, slots, timing, duration, as needed).
+
+RxNorm responses are recorded (`--record`), so the evaluation replays offline and gives the same numbers every time.
+
+### Baseline
+
+| Metric | Value |
+|---|---|
+| Medicine lines detected | 99.4% |
+| Known names identified correctly | 86.0% |
+| **Wrong matches** | **2** |
+| Invented names matched to a real medicine | 0 of 11 |
+| Medicines fully correct | 68.4% |
+
+### What failed, by cause
+
+1. **The 2 "wrong matches" are co-amoxiclav.** The medicine was right, but the combination came back as a single ingredient called "amoxicillin / clavulanate" instead of two. That also means the FDA label search would fail for it.
+2. **Very common brands are unrecognised:** Brufen (7 times), Amoxil (5), Ponstan (2). RxNorm still lists them, but as retired entries, the same problem as Calpol. Typos of brands on my local list (Disprn, Cocor, Calpl) also fail, because that list only matches exact names.
+3. **Parser gaps:** "three times a day", "1 tab morning and night" and "one tablet" aren't understood. A syrup dose like "5 ml" printed without a strength is mistaken *for* the strength. Directions on the next line that start with a word ("three times a day…") aren't attached to their medicine.
+4. **Some failures are bugs in my answer key.** The generator writes lines like "Cap Concor 1 tab BD" and then expects the unit "capsule". It also says "one tablet at night" has no timing, while the parser reads "at night" as bedtime, which is reasonable.
+
+Esita and Arinac being "not recognised" is the **correct** behaviour. I have no data on them, and saying so is better than guessing.
+
+Next: fix the answer key first, so the score measures MediLens and not my generator, then fix the system problems one at a time, measuring each.
