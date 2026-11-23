@@ -21,7 +21,8 @@ FORM_PREFIX = re.compile(r"^(" + "|".join(sorted(FORMS, key=len, reverse=True)) 
 DIRECTION_START = re.compile(
     r"^([\d½¼].*|"
     + "|".join(sorted(FREQUENCY_CODES, key=len, reverse=True))
-    + r"|sos|prn|hs|stat|ac|pc|x|q\d+h?|every|for|after|before|at|with)$",
+    + r"|sos|prn|hs|stat|ac|pc|x|q\d+h?|every|for|after|before|at|with"
+    + r"|half|one|two|three|four|thrice|morning|afternoon|evening|night)$",
     re.I,
 )
 UNIT_TOKEN = re.compile(r"^(mg|mcg|µg|g|ml|iu|%)$", re.I)

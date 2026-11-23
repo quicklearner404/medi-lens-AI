@@ -17,10 +17,6 @@ DISCLAIMER = (
     "doctor or pharmacist."
 )
 
-# Below this name similarity, ask the user to confirm the match.
-CONFIRM_BELOW = 0.9
-
-
 @dataclass
 class MedicineCard:
     line: str
@@ -70,7 +66,7 @@ class PrescriptionAnalyzer:
         card.matched_name = match.name
         card.generic_name = match.generic_name
         card.match_source = match.source
-        if match.similarity < CONFIRM_BELOW:
+        if not match.exact:
             card.needs_review.append(f'Read as "{match.name}". Please confirm this is correct.')
 
         try:

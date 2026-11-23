@@ -9,7 +9,12 @@ when its name is genuinely close to what was written.
 Lookup order:
 1. local brand list (brands sold in Pakistan that RxNorm doesn't cover)
 2. international -> US name mapping (paracetamol -> acetaminophen)
-3. RxNorm approximate search, accepted only above a similarity threshold
+3. RxNorm exact name lookup
+4. RxNorm approximate search, accepted only above a similarity threshold
+5. a close spelling of a local brand ("Disprn" -> Disprin), only if RxNorm finds nothing
+
+Anything other than an exact name is marked as not exact so the user is asked to
+confirm: names one letter apart can be different medicines (mefenamic / meclofenamic acid).
 """
 
 from __future__ import annotations
@@ -25,7 +30,7 @@ import httpx
 RXNAV = "https://rxnav.nlm.nih.gov/REST"
 DATA_DIR = Path(__file__).resolve().parent / "data"
 MIN_SIMILARITY = 0.8
-INGREDIENT_TYPES = {"IN", "MIN", "PIN"}
+INGREDIENT_TYPES = {"IN", "PIN"}  # a multiple-ingredient concept (MIN) is split into its parts
 
 
 @dataclass
@@ -43,6 +48,7 @@ class DrugMatch:
     ingredients: list[Ingredient] = field(default_factory=list)
     source: str = "rxnorm"  # rxnorm | local-brand | synonym
     similarity: float = 1.0
+    exact: bool = True      # False for spelling-corrected (approximate) matches
 
     @property
     def generic_name(self) -> str:
@@ -73,25 +79,49 @@ class RxNormClient:
             term = self._synonyms[term]
             source = "synonym" if source == "rxnorm" else source
 
-        for rxcui, name, similarity in self._candidates(term):
+        for rxcui, name, similarity in self._exact(term) + self._candidates(term):
             # Retired concepts (e.g. the old "Calpol" entry) return no properties.
             properties = self._get(f"/rxcui/{rxcui}/properties.json").get("properties")
             if properties:
+                name = properties["name"]
+                # RxNorm's name lookup normalises spelling ("omeprazol" finds omeprazole),
+                # so judge closeness against the concept's real name.
+                similarity = SequenceMatcher(None, term, name.lower()).ratio()
                 break
         else:
-            return None
+            return self._close_local_brand(written, term) if source == "rxnorm" else None
 
         concept_type = properties["tty"]
         match = DrugMatch(
             written=written, name=name, rxcui=rxcui, concept_type=concept_type,
-            source=source, similarity=round(similarity, 2),
+            source=source, similarity=round(similarity, 2), exact=similarity == 1.0,
         )
         match.ingredients = self._ingredients(rxcui, name, concept_type)
         return match
 
+    def _close_local_brand(self, written: str, term: str) -> DrugMatch | None:
+        """A misspelt local brand, e.g. "Calpl" for Calpol. Always needs confirming."""
+        scored = [(SequenceMatcher(None, term, brand).ratio(), brand) for brand in self._brands]
+        similarity, brand = max(scored, default=(0.0, ""))
+        if similarity < MIN_SIMILARITY:
+            return None
+        match = self.identify(brand)
+        if match is not None:
+            match.written, match.similarity, match.exact = written, round(similarity, 2), False
+        return match
+
+    def _exact(self, term: str) -> list[tuple[str, str, float]]:
+        """Concepts RxNorm finds by name (it normalises case, spacing and some spelling)."""
+        ids = self._get("/rxcui.json", name=term, search=2).get("idGroup", {}).get("rxnormId", [])
+        return [(rxcui, term, 1.0) for rxcui in ids]
+
     def _candidates(self, term: str) -> list[tuple[str, str, float]]:
-        """RxNorm candidates close enough to the written name, best first."""
-        data = self._get("/approximateTerm.json", term=term, maxEntries=5)
+        """Approximate matches close enough to the written name, best first.
+
+        RxNorm returns one entry per source database, so many entries can be the
+        same concept; ask for plenty so a near-duplicate can't crowd out the right one.
+        """
+        data = self._get("/approximateTerm.json", term=term, maxEntries=25)
         seen, ranked = set(), []
         for c in data.get("approximateGroup", {}).get("candidate", []):
             if c.get("source") != "RXNORM" or not c.get("name") or c["rxcui"] in seen:

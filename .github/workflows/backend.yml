@@ -22,3 +22,5 @@ jobs:
           cache-dependency-path: backend/pyproject.toml
       - run: pip install -e ".[dev]"
       - run: pytest -v
+      - name: Evaluation (fails on any regression)
+        run: python evaluation/run.py --check

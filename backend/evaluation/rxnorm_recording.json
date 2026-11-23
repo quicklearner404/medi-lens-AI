@@ -1,0 +1,8488 @@
+{
+ "/REST/approximateTerm.json?term=acetaminophen&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Acetaminophen",
+     "rank": "1",
+     "rxaui": "10280795",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10326508",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "GS"
+    },
+    {
+     "name": "acetaminophen",
+     "rank": "1",
+     "rxaui": "12250420",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "1832380",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "1832393",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "MMSL"
+    },
+    {
+     "name": "ACETAMINOPHEN",
+     "rank": "1",
+     "rxaui": "2067548",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2658084",
+     "rxcui": "707705",
+     "score": "9.649259567260742",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "4253327",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "NDDF"
+    },
+    {
+     "name": "Acetaminophen",
+     "rank": "1",
+     "rxaui": "8387161",
+     "rxcui": "161",
+     "score": "9.649259567260742",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "acetaminophen Injection",
+     "rank": "10",
+     "rxaui": "12263226",
+     "rxcui": "1803956",
+     "score": "9.436201322555542",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen Pill",
+     "rank": "10",
+     "rxaui": "12293915",
+     "rxcui": "1152843",
+     "score": "9.436201322555542",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=albuterol&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Albuterol",
+     "rank": "1",
+     "rxaui": "10280439",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10328049",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "GS"
+    },
+    {
+     "name": "albuterol",
+     "rank": "1",
+     "rxaui": "12253235",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Albuterol",
+     "rank": "1",
+     "rxaui": "12885383",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "DRUGBANK"
+    },
+    {
+     "rank": "1",
+     "rxaui": "13970",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "13975",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "MMSL"
+    },
+    {
+     "name": "ALBUTEROL",
+     "rank": "1",
+     "rxaui": "2067633",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3640233",
+     "rxcui": "435",
+     "score": "12.07771110534668",
+     "source": "NDDF"
+    },
+    {
+     "name": "albuterol Pill",
+     "rank": "9",
+     "rxaui": "12288137",
+     "rxcui": "1154606",
+     "score": "11.672562746047975",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Oral Tablet",
+     "rank": "10",
+     "rxaui": "12257153",
+     "rxcui": "370542",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Injectable Solution",
+     "rank": "10",
+     "rxaui": "12257477",
+     "rxcui": "370790",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Rectal Suppository",
+     "rank": "10",
+     "rxaui": "12261424",
+     "rxcui": "437351",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Oral Solution",
+     "rank": "10",
+     "rxaui": "12261945",
+     "rxcui": "544499",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Inhalation Solution",
+     "rank": "10",
+     "rxaui": "12262609",
+     "rxcui": "2108226",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Inhalation Powder",
+     "rank": "10",
+     "rxaui": "12262637",
+     "rxcui": "2108233",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Inhalant Product",
+     "rank": "10",
+     "rxaui": "12288133",
+     "rxcui": "1154602",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Injectable Product",
+     "rank": "10",
+     "rxaui": "12288134",
+     "rxcui": "1154603",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Oral Product",
+     "rank": "10",
+     "rxaui": "12288136",
+     "rxcui": "1154605",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Rectal Product",
+     "rank": "10",
+     "rxaui": "12293186",
+     "rxcui": "1154607",
+     "score": "11.325982030877592",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2625937",
+     "rxcui": "692692",
+     "score": "11.325982030877592",
+     "source": "MMSL"
+    },
+    {
+     "name": "albuterol Metered Dose Inhaler",
+     "rank": "21",
+     "rxaui": "12262168",
+     "rxcui": "745678",
+     "score": "11.026029775424126",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Dry Powder Inhaler",
+     "rank": "21",
+     "rxaui": "12267047",
+     "rxcui": "1649559",
+     "score": "11.026029775424126",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Oral Liquid Product",
+     "rank": "21",
+     "rxaui": "12288135",
+     "rxcui": "1154604",
+     "score": "11.026029775424126",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=amlodipine&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10327488",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "GS"
+    },
+    {
+     "name": "amlodipine",
+     "rank": "1",
+     "rxaui": "12253390",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "RXNORM"
+    },
+    {
+     "name": "AMLODIPINE",
+     "rank": "1",
+     "rxaui": "2067760",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3308895",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3619747",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "NDDF"
+    },
+    {
+     "name": "amlodipine",
+     "rank": "1",
+     "rxaui": "5478648",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "8241335",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "MMSL"
+    },
+    {
+     "name": "Amlodipine",
+     "rank": "1",
+     "rxaui": "8343037",
+     "rxcui": "17767",
+     "score": "11.313125610351562",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "amlodipine Pill",
+     "rank": "9",
+     "rxaui": "12286738",
+     "rxcui": "1152292",
+     "score": "10.968454832077027",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine Oral Suspension",
+     "rank": "10",
+     "rxaui": "12263379",
+     "rxcui": "2184119",
+     "score": "10.673534953883411",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine Oral Product",
+     "rank": "10",
+     "rxaui": "12294120",
+     "rxcui": "1152291",
+     "score": "10.673534953883411",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine Chewable Product",
+     "rank": "10",
+     "rxaui": "13069667",
+     "rxcui": "2748467",
+     "score": "10.673534953883411",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=amoxicillin&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Amoxicillin",
+     "rank": "1",
+     "rxaui": "10282462",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10328150",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "GS"
+    },
+    {
+     "name": "amoxicillin",
+     "rank": "1",
+     "rxaui": "12252059",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "RXNORM"
+    },
+    {
+     "name": "AMOXICILLIN",
+     "rank": "1",
+     "rxaui": "2067793",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "21853",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "21863",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "MMSL"
+    },
+    {
+     "name": "amoxicillin",
+     "rank": "1",
+     "rxaui": "5478655",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "6802293",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "NDDF"
+    },
+    {
+     "name": "Amoxicillin",
+     "rank": "1",
+     "rxaui": "8582363",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "amoxicillin Pill",
+     "rank": "10",
+     "rxaui": "12293979",
+     "rxcui": "1152901",
+     "score": "11.10919634628296",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Oral Suspension",
+     "rank": "11",
+     "rxaui": "12257538",
+     "rxcui": "370576",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Chewable Tablet",
+     "rank": "11",
+     "rxaui": "12257539",
+     "rxcui": "370577",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Oral Capsule",
+     "rank": "11",
+     "rxaui": "12257540",
+     "rxcui": "370578",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Oral Tablet",
+     "rank": "11",
+     "rxaui": "12257541",
+     "rxcui": "370579",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Injectable Solution",
+     "rank": "11",
+     "rxaui": "12260012",
+     "rxcui": "370882",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Oral Solution",
+     "rank": "11",
+     "rxaui": "12265276",
+     "rxcui": "756429",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Injectable Product",
+     "rank": "11",
+     "rxaui": "12293922",
+     "rxcui": "1152898",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Oral Product",
+     "rank": "11",
+     "rxaui": "12294166",
+     "rxcui": "1152900",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Chewable Product",
+     "rank": "11",
+     "rxaui": "12295994",
+     "rxcui": "1295175",
+     "score": "10.803950057053568",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Disintegrating Oral Product",
+     "rank": "20",
+     "rxaui": "12295873",
+     "rxcui": "1295673",
+     "score": "10.539714690047232",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=amoxicillin+%2F+clavulanate&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "amoxicillin / clavulanate",
+     "rank": "1",
+     "rxaui": "12353525",
+     "rxcui": "19711",
+     "score": "15.731163024902344",
+     "source": "RXNORM"
+    },
+    {
+     "name": "AMOXICILLIN/CLAVULANATE",
+     "rank": "1",
+     "rxaui": "2626717",
+     "rxcui": "19711",
+     "score": "15.731163024902344",
+     "source": "VANDF"
+    },
+    {
+     "rank": "3",
+     "rxaui": "392488",
+     "rxcui": "19711",
+     "score": "15.723297443389894",
+     "source": "MMSL"
+    },
+    {
+     "name": "amoxicillin / clavulanate Pill",
+     "rank": "4",
+     "rxaui": "12287098",
+     "rxcui": "1152875",
+     "score": "15.087057189941406",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Oral Tablet",
+     "rank": "5",
+     "rxaui": "12256845",
+     "rxcui": "562250",
+     "score": "14.530016649979117",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Chewable Tablet",
+     "rank": "5",
+     "rxaui": "12256846",
+     "rxcui": "562252",
+     "score": "14.530016649979117",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Oral Solution",
+     "rank": "5",
+     "rxaui": "12263446",
+     "rxcui": "617292",
+     "score": "14.530016649979117",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Injectable Solution",
+     "rank": "5",
+     "rxaui": "12263448",
+     "rxcui": "617294",
+     "score": "14.530016649979117",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Oral Suspension",
+     "rank": "5",
+     "rxaui": "12263456",
+     "rxcui": "617301",
+     "score": "14.530016649979117",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Injectable Product",
+     "rank": "5",
+     "rxaui": "12285820",
+     "rxcui": "1152872",
+     "score": "14.530016649979117",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Oral Product",
+     "rank": "5",
+     "rxaui": "12287097",
+     "rxcui": "1152874",
+     "score": "14.530016649979117",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Chewable Product",
+     "rank": "5",
+     "rxaui": "12295546",
+     "rxcui": "1295092",
+     "score": "14.530016649979117",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "5",
+     "rxaui": "3266732",
+     "rxcui": "994199",
+     "score": "14.530016649979117",
+     "source": "MMSL"
+    },
+    {
+     "name": "amoxicillin / clavulanate Oral Tablet [Amoxicillinan]",
+     "rank": "14",
+     "rxaui": "12314098",
+     "rxcui": "540144",
+     "score": "14.304990460315897",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Oral Liquid Product",
+     "rank": "15",
+     "rxaui": "12287096",
+     "rxcui": "1152873",
+     "score": "14.043423174320973",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "16",
+     "rxaui": "392484",
+     "rxcui": "19711",
+     "score": "13.724297443389894",
+     "source": "MMSL"
+    },
+    {
+     "name": "amoxicillin / clavulanate Extended Release Oral Tablet",
+     "rank": "17",
+     "rxaui": "12266684",
+     "rxcui": "617988",
+     "score": "13.614631959623923",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=amxil&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1910437",
+     "rxcui": "203169",
+     "score": "3.067474365234375",
+     "source": "MMSL"
+    },
+    {
+     "name": "Amoxil",
+     "rank": "1",
+     "rxaui": "1910439",
+     "rxcui": "203169",
+     "score": "3.067474365234375",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Pill",
+     "rank": "3",
+     "rxaui": "3829543",
+     "rxcui": "1173534",
+     "score": "2.9820368497371676",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Injectable Product",
+     "rank": "4",
+     "rxaui": "3829540",
+     "rxcui": "1173531",
+     "score": "2.908911701027751",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Oral Product",
+     "rank": "4",
+     "rxaui": "3829542",
+     "rxcui": "1173533",
+     "score": "2.908911701027751",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Chewable Product",
+     "rank": "4",
+     "rxaui": "4615286",
+     "rxcui": "1296054",
+     "score": "2.908911701027751",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Oral Liquid Product",
+     "rank": "7",
+     "rxaui": "3829541",
+     "rxcui": "1173532",
+     "score": "2.8455899187084084",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Fiztab",
+     "rank": "8",
+     "rxaui": "1193391",
+     "rxcui": "226123",
+     "score": "2.683833164763451",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Fiztab Pill",
+     "rank": "9",
+     "rxaui": "3829539",
+     "rxcui": "1173530",
+     "score": "2.6180205309249764",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "9",
+     "rxaui": "710151",
+     "rxcui": "91781",
+     "score": "2.6180205309249764",
+     "source": "MMSL"
+    },
+    {
+     "name": "amoxicillin Oral Solution [Amoxil]",
+     "rank": "11",
+     "rxaui": "12311979",
+     "rxcui": "756431",
+     "score": "2.5610309268375677",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Chewable Tablet [Amoxil]",
+     "rank": "11",
+     "rxaui": "12312499",
+     "rxcui": "369719",
+     "score": "2.5610309268375677",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Oral Suspension [Amoxil]",
+     "rank": "11",
+     "rxaui": "12312800",
+     "rxcui": "365850",
+     "score": "2.5610309268375677",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Injectable Solution [Amoxil]",
+     "rank": "11",
+     "rxaui": "12317469",
+     "rxcui": "363070",
+     "score": "2.5610309268375677",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Oral Tablet [Amoxil]",
+     "rank": "11",
+     "rxaui": "12318707",
+     "rxcui": "368610",
+     "score": "2.5610309268375677",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Oral Capsule [Amoxil]",
+     "rank": "11",
+     "rxaui": "12318878",
+     "rxcui": "366495",
+     "score": "2.5610309268375677",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Fiztab Oral Product",
+     "rank": "11",
+     "rxaui": "3829538",
+     "rxcui": "1173529",
+     "score": "2.5610309268375677",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Amoxil Fiztab Chewable Product",
+     "rank": "11",
+     "rxaui": "4615423",
+     "rxcui": "1296987",
+     "score": "2.5610309268375677",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin Chewable Tablet [Amoxil Fiztab]",
+     "rank": "19",
+     "rxaui": "12314554",
+     "rxcui": "844358",
+     "score": "2.260061768432695",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "20",
+     "rxaui": "2639179",
+     "rxcui": "203948",
+     "score": "0.8490128658760638",
+     "source": "GS"
+    },
+    {
+     "rank": "20",
+     "rxaui": "2639184",
+     "rxcui": "200998",
+     "score": "0.8490128658760638",
+     "source": "GS"
+    },
+    {
+     "rank": "20",
+     "rxaui": "2639185",
+     "rxcui": "213340",
+     "score": "0.8490128658760638",
+     "source": "GS"
+    },
+    {
+     "rank": "20",
+     "rxaui": "2639187",
+     "rxcui": "213339",
+     "score": "0.8490128658760638",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=arinac&maxEntries=25": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=aspirin&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Aspirin",
+     "rank": "1",
+     "rxaui": "10284033",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10324038",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "GS"
+    },
+    {
+     "name": "aspirin",
+     "rank": "1",
+     "rxaui": "12250966",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ASPIRIN",
+     "rank": "1",
+     "rxaui": "2067937",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3719790",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "NDDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "38591",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "38604",
+     "rxcui": "1191",
+     "score": "10.37357234954834",
+     "source": "MMSL"
+    },
+    {
+     "rank": "8",
+     "rxaui": "1176356",
+     "rxcui": "216110",
+     "score": "10.103222229003906",
+     "source": "MMSL"
+    },
+    {
+     "rank": "8",
+     "rxaui": "1180283",
+     "rxcui": "218266",
+     "score": "10.103222229003906",
+     "source": "MMSL"
+    },
+    {
+     "name": "Med Aspirin",
+     "rank": "8",
+     "rxaui": "1180284",
+     "rxcui": "218266",
+     "score": "10.103222229003906",
+     "source": "RXNORM"
+    },
+    {
+     "name": "aspirin Pill",
+     "rank": "8",
+     "rxaui": "12287814",
+     "rxcui": "1154070",
+     "score": "10.103222229003906",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=atorvastatin&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10324581",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "GS"
+    },
+    {
+     "name": "ATORVASTATIN",
+     "rank": "1",
+     "rxaui": "2626975",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3811343",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "NDDF"
+    },
+    {
+     "name": "atorvastatin",
+     "rank": "1",
+     "rxaui": "5478744",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "675800",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "MMSL"
+    },
+    {
+     "name": "atorvastatin",
+     "rank": "1",
+     "rxaui": "675801",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Atorvastatin",
+     "rank": "1",
+     "rxaui": "8267258",
+     "rxcui": "83367",
+     "score": "11.894739151000977",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "atorvastatin Pill",
+     "rank": "8",
+     "rxaui": "3824569",
+     "rxcui": "1158285",
+     "score": "11.504063168048859",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin Oral Suspension",
+     "rank": "9",
+     "rxaui": "12796813",
+     "rxcui": "2630759",
+     "score": "11.16984536937547",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin Oral Tablet",
+     "rank": "9",
+     "rxaui": "1575587",
+     "rxcui": "370621",
+     "score": "11.16984536937547",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin Oral Capsule",
+     "rank": "9",
+     "rxaui": "1767128",
+     "rxcui": "437783",
+     "score": "11.16984536937547",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin Oral Product",
+     "rank": "9",
+     "rxaui": "3824568",
+     "rxcui": "1158284",
+     "score": "11.16984536937547",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin Oral Liquid Product",
+     "rank": "13",
+     "rxaui": "12796812",
+     "rxcui": "2630758",
+     "score": "10.880576329472753",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Atorvastatin Calcium",
+     "rank": "14",
+     "rxaui": "10284101",
+     "rxcui": "83366",
+     "score": "10.353656851243974",
+     "source": "USP"
+    },
+    {
+     "rank": "14",
+     "rxaui": "10327131",
+     "rxcui": "83366",
+     "score": "10.353656851243974",
+     "source": "GS"
+    },
+    {
+     "name": "atorvastatin calcium",
+     "rank": "14",
+     "rxaui": "12255450",
+     "rxcui": "83366",
+     "score": "10.353656851243974",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine / atorvastatin",
+     "rank": "14",
+     "rxaui": "12351960",
+     "rxcui": "404773",
+     "score": "10.353656851243974",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "14",
+     "rxaui": "12801510",
+     "rxcui": "83366",
+     "score": "10.353656851243974",
+     "source": "MMSL"
+    },
+    {
+     "name": "AMLODIPINE/ATORVASTATIN",
+     "rank": "14",
+     "rxaui": "2626690",
+     "rxcui": "404773",
+     "score": "10.353656851243974",
+     "source": "VANDF"
+    },
+    {
+     "rank": "14",
+     "rxaui": "3624993",
+     "rxcui": "83366",
+     "score": "10.353656851243974",
+     "source": "NDDF"
+    },
+    {
+     "rank": "14",
+     "rxaui": "4227377",
+     "rxcui": "83366",
+     "score": "10.353656851243974",
+     "source": "MMSL"
+    },
+    {
+     "name": "atorvastatin / ezetimibe",
+     "rank": "14",
+     "rxaui": "5464143",
+     "rxcui": "1422085",
+     "score": "10.353656851243974",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ATORVASTATIN/EZETIMIBE",
+     "rank": "14",
+     "rxaui": "5474018",
+     "rxcui": "1422085",
+     "score": "10.353656851243974",
+     "source": "VANDF"
+    },
+    {
+     "name": "ATORVASTATIN CALCIUM",
+     "rank": "14",
+     "rxaui": "675789",
+     "rxcui": "83366",
+     "score": "10.353656851243974",
+     "source": "VANDF"
+    },
+    {
+     "rank": "14",
+     "rxaui": "7237988",
+     "rxcui": "1649518",
+     "score": "10.353656851243974",
+     "source": "NDDF"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=augmentin&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1000001",
+     "rxcui": "151392",
+     "score": "13.474443435668945",
+     "source": "MMSL"
+    },
+    {
+     "name": "Augmentin",
+     "rank": "1",
+     "rxaui": "1000002",
+     "rxcui": "151392",
+     "score": "13.474443435668945",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Augmentin Pill",
+     "rank": "3",
+     "rxaui": "3830271",
+     "rxcui": "1174308",
+     "score": "12.958813143730165",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "1552801",
+     "rxcui": "353427",
+     "score": "12.524121731281282",
+     "source": "MMSL"
+    },
+    {
+     "name": "Augmentin Injectable Product",
+     "rank": "5",
+     "rxaui": "3830266",
+     "rxcui": "1174303",
+     "score": "12.51785967041564",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Augmentin Oral Product",
+     "rank": "5",
+     "rxaui": "3830270",
+     "rxcui": "1174307",
+     "score": "12.51785967041564",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Augmentin Chewable Product",
+     "rank": "5",
+     "rxaui": "5078852",
+     "rxcui": "1296040",
+     "score": "12.51785967041564",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Augmentin Oral Liquid Product",
+     "rank": "8",
+     "rxaui": "3830269",
+     "rxcui": "1174306",
+     "score": "12.136362121735932",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Oral Suspension [Augmentin]",
+     "rank": "9",
+     "rxaui": "12316196",
+     "rxcui": "617332",
+     "score": "11.814783100389482",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amoxicillin / clavulanate Oral Tablet [Augmentin]",
+     "rank": "9",
+     "rxaui": "12322095",
+     "rxcui": "824185",
+     "score": "11.814783100389482",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "11",
+     "rxaui": "1552804",
+     "rxcui": "353429",
+     "score": "11.26044066652239",
+     "source": "MMSL"
+    },
+    {
+     "name": "amoxicillin / clavulanate Extended Release Oral Tablet [Augmentin]",
+     "rank": "12",
+     "rxaui": "12322260",
+     "rxcui": "618038",
+     "score": "11.259180300433986",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "13",
+     "rxaui": "2639709",
+     "rxcui": "824186",
+     "score": "10.144432838405134",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "2639714",
+     "rxcui": "824190",
+     "score": "10.144432838405134",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "2639716",
+     "rxcui": "824194",
+     "score": "10.144432838405134",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "8738898",
+     "rxcui": "824190",
+     "score": "10.144432838405134",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "8738899",
+     "rxcui": "824194",
+     "score": "10.144432838405134",
+     "source": "GS"
+    },
+    {
+     "rank": "18",
+     "rxaui": "2639704",
+     "rxcui": "824166",
+     "score": "9.811874209089288",
+     "source": "GS"
+    },
+    {
+     "rank": "18",
+     "rxaui": "2639706",
+     "rxcui": "824170",
+     "score": "9.811874209089288",
+     "source": "GS"
+    },
+    {
+     "rank": "18",
+     "rxaui": "2639708",
+     "rxcui": "824174",
+     "score": "9.811874209089288",
+     "source": "GS"
+    },
+    {
+     "rank": "18",
+     "rxaui": "2639711",
+     "rxcui": "824178",
+     "score": "9.811874209089288",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=bisoprolol&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10324151",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "GS"
+    },
+    {
+     "name": "bisoprolol",
+     "rank": "1",
+     "rxaui": "12253391",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "RXNORM"
+    },
+    {
+     "name": "BISOPROLOL",
+     "rank": "1",
+     "rxaui": "2627241",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3630122",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "NDDF"
+    },
+    {
+     "name": "bisoprolol",
+     "rank": "1",
+     "rxaui": "5478929",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "ATC"
+    },
+    {
+     "name": "Bisoprolol",
+     "rank": "1",
+     "rxaui": "8592506",
+     "rxcui": "19484",
+     "score": "12.8037691116333",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "bisoprolol Pill",
+     "rank": "7",
+     "rxaui": "12288195",
+     "rxcui": "1154707",
+     "score": "12.341188837051392",
+     "source": "RXNORM"
+    },
+    {
+     "name": "bisoprolol Oral Tablet",
+     "rank": "8",
+     "rxaui": "12259430",
+     "rxcui": "371104",
+     "score": "11.945550710285428",
+     "source": "RXNORM"
+    },
+    {
+     "name": "bisoprolol Oral Product",
+     "rank": "8",
+     "rxaui": "12293194",
+     "rxcui": "1154706",
+     "score": "11.945550710285428",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Bisoprolol Fumarate",
+     "rank": "10",
+     "rxaui": "10286006",
+     "rxcui": "142146",
+     "score": "11.107069953346253",
+     "source": "USP"
+    },
+    {
+     "rank": "10",
+     "rxaui": "10325856",
+     "rxcui": "142146",
+     "score": "11.107069953346253",
+     "source": "GS"
+    },
+    {
+     "name": "bisoprolol fumarate",
+     "rank": "10",
+     "rxaui": "12255234",
+     "rxcui": "142146",
+     "score": "11.107069953346253",
+     "source": "RXNORM"
+    },
+    {
+     "name": "bisoprolol / hydrochlorothiazide",
+     "rank": "10",
+     "rxaui": "12353118",
+     "rxcui": "214317",
+     "score": "11.107069953346253",
+     "source": "RXNORM"
+    },
+    {
+     "name": "BISOPROLOL/HYDROCHLOROTHIAZIDE",
+     "rank": "10",
+     "rxaui": "2627242",
+     "rxcui": "214317",
+     "score": "11.107069953346253",
+     "source": "VANDF"
+    },
+    {
+     "rank": "10",
+     "rxaui": "3630123",
+     "rxcui": "142146",
+     "score": "11.107069953346253",
+     "source": "NDDF"
+    },
+    {
+     "rank": "10",
+     "rxaui": "946110",
+     "rxcui": "142146",
+     "score": "11.107069953346253",
+     "source": "MMSL"
+    },
+    {
+     "rank": "10",
+     "rxaui": "946116",
+     "rxcui": "142146",
+     "score": "11.107069953346253",
+     "source": "MMSL"
+    },
+    {
+     "name": "BISOPROLOL FUMARATE",
+     "rank": "10",
+     "rxaui": "946119",
+     "rxcui": "142146",
+     "score": "11.107069953346253",
+     "source": "VANDF"
+    },
+    {
+     "rank": "19",
+     "rxaui": "1912531",
+     "rxcui": "214317",
+     "score": "11.101516418369581",
+     "source": "MMSL"
+    },
+    {
+     "rank": "20",
+     "rxaui": "391582",
+     "rxcui": "19484",
+     "score": "10.8037691116333",
+     "source": "SNOMEDCT_US"
+    },
+    {
+     "rank": "20",
+     "rxaui": "391585",
+     "rxcui": "19484",
+     "score": "10.8037691116333",
+     "source": "MMSL"
+    },
+    {
+     "name": "BISOPROLOL",
+     "rank": "20",
+     "rxaui": "6395044",
+     "rxcui": "19484",
+     "score": "10.8037691116333",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "Bisoprolol",
+     "rank": "20",
+     "rxaui": "6395086",
+     "rxcui": "19484",
+     "score": "10.8037691116333",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "bisoprolol",
+     "rank": "20",
+     "rxaui": "6396110",
+     "rxcui": "19484",
+     "score": "10.8037691116333",
+     "source": "MTHSPL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=calpl&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Calpol",
+     "rank": "1",
+     "rxaui": "1000173",
+     "rxcui": "151477",
+     "score": "4.057478904724121",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Oral Product",
+     "rank": "2",
+     "rxaui": "3831601",
+     "rxcui": "1172268",
+     "score": "3.7537157437790043",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Oral Liquid Product",
+     "rank": "3",
+     "rxaui": "3831600",
+     "rxcui": "1172267",
+     "score": "3.632593827820448",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658180",
+     "rxcui": "707613",
+     "score": "3.5043584707260136",
+     "source": "MMSL"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658181",
+     "rxcui": "707615",
+     "score": "3.5043584707260136",
+     "source": "MMSL"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658182",
+     "rxcui": "707616",
+     "score": "3.5043584707260136",
+     "source": "MMSL"
+    },
+    {
+     "name": "acetaminophen Oral Suspension [Calpol]",
+     "rank": "7",
+     "rxaui": "12319832",
+     "rxcui": "365915",
+     "score": "3.2693344450384036",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Six Plus",
+     "rank": "8",
+     "rxaui": "1193021",
+     "rxcui": "225855",
+     "score": "3.0405097524609936",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2658183",
+     "rxcui": "225855",
+     "score": "3.0405097524609936",
+     "source": "MMSL"
+    },
+    {
+     "name": "Calpol Six Plus Oral Product",
+     "rank": "10",
+     "rxaui": "3831603",
+     "rxcui": "1172270",
+     "score": "2.856674983261372",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Six Plus Oral Liquid Product",
+     "rank": "11",
+     "rxaui": "3831602",
+     "rxcui": "1172269",
+     "score": "2.7811094355039128",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen Oral Suspension [Calpol Six Plus]",
+     "rank": "12",
+     "rxaui": "12317184",
+     "rxcui": "365917",
+     "score": "2.5029984919535213",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol 24 MG/ML Oral Suspension",
+     "rank": "13",
+     "rxaui": "778702",
+     "rxcui": "102604",
+     "score": "1.4384634413930935",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen 24 MG/ML [Calpol]",
+     "rank": "14",
+     "rxaui": "12296802",
+     "rxcui": "563063",
+     "score": "1.3776806156347445",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen 24 MG/ML Oral Suspension [Calpol]",
+     "rank": "15",
+     "rxaui": "12364635",
+     "rxcui": "102604",
+     "score": "1.220931186536017",
+     "source": "RXNORM"
+    },
+    {
+     "name": "APAP 24 MG/ML Oral Suspension [Calpol]",
+     "rank": "15",
+     "rxaui": "3858551",
+     "rxcui": "102604",
+     "score": "1.220931186536017",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Six Plus 50 MG/ML Oral Suspension",
+     "rank": "17",
+     "rxaui": "778708",
+     "rxcui": "102605",
+     "score": "1.0396074253587668",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen 50 MG/ML [Calpol Six Plus]",
+     "rank": "18",
+     "rxaui": "12296803",
+     "rxcui": "563064",
+     "score": "0.988954261094174",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen 50 MG/ML Oral Suspension [Calpol Six Plus]",
+     "rank": "19",
+     "rxaui": "12363440",
+     "rxcui": "102605",
+     "score": "0.8877469868166659",
+     "source": "RXNORM"
+    },
+    {
+     "name": "APAP 50 MG/ML Oral Suspension [Calpol Six Plus]",
+     "rank": "19",
+     "rxaui": "3857598",
+     "rxcui": "102605",
+     "score": "0.8877469868166659",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "21",
+     "rxaui": "5029550",
+     "rxcui": "1358281",
+     "score": "0.33167954768580576",
+     "source": "GS"
+    },
+    {
+     "rank": "22",
+     "rxaui": "5029725",
+     "rxcui": "1358294",
+     "score": "0.28918161058523245",
+     "source": "GS"
+    },
+    {
+     "rank": "23",
+     "rxaui": "5029549",
+     "rxcui": "1358282",
+     "score": "0.2780879333534487",
+     "source": "GS"
+    },
+    {
+     "rank": "24",
+     "rxaui": "5029668",
+     "rxcui": "1358288",
+     "score": "0.24457156859834148",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=cetirizine&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10325465",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "GS"
+    },
+    {
+     "name": "cetirizine",
+     "rank": "1",
+     "rxaui": "12254548",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine",
+     "rank": "1",
+     "rxaui": "12733668",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "ATC"
+    },
+    {
+     "name": "CETIRIZINE",
+     "rank": "1",
+     "rxaui": "2627509",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3619767",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "NDDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "397229",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "MMSL"
+    },
+    {
+     "name": "cetirizine",
+     "rank": "1",
+     "rxaui": "5479202",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "ATC"
+    },
+    {
+     "name": "Cetirizine",
+     "rank": "1",
+     "rxaui": "8601610",
+     "rxcui": "20610",
+     "score": "11.407469749450684",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "cetirizine Injection",
+     "rank": "9",
+     "rxaui": "12267368",
+     "rxcui": "2261745",
+     "score": "11.055336875915527",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Pill",
+     "rank": "9",
+     "rxaui": "12286848",
+     "rxcui": "1152447",
+     "score": "11.055336875915527",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Oral Solution",
+     "rank": "11",
+     "rxaui": "12260495",
+     "rxcui": "371362",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Oral Tablet",
+     "rank": "11",
+     "rxaui": "12260496",
+     "rxcui": "371364",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Ophthalmic Solution",
+     "rank": "11",
+     "rxaui": "12262615",
+     "rxcui": "2119475",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Oral Suspension",
+     "rank": "11",
+     "rxaui": "12264240",
+     "rxcui": "438470",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Chewable Tablet",
+     "rank": "11",
+     "rxaui": "12264788",
+     "rxcui": "476332",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Oral Capsule",
+     "rank": "11",
+     "rxaui": "12265479",
+     "rxcui": "900372",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Oral Product",
+     "rank": "11",
+     "rxaui": "12286847",
+     "rxcui": "1152446",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Ophthalmic Product",
+     "rank": "11",
+     "rxaui": "12294903",
+     "rxcui": "2119474",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Chewable Product",
+     "rank": "11",
+     "rxaui": "12295458",
+     "rxcui": "1294938",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Injectable Product",
+     "rank": "11",
+     "rxaui": "12296531",
+     "rxcui": "2261744",
+     "score": "10.754042726449015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Disintegrating Oral Tablet",
+     "rank": "21",
+     "rxaui": "12262899",
+     "rxcui": "1011481",
+     "score": "10.493222303599424",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Oral Liquid Product",
+     "rank": "21",
+     "rxaui": "12286846",
+     "rxcui": "1152445",
+     "score": "10.493222303599424",
+     "source": "RXNORM"
+    },
+    {
+     "name": "cetirizine Disintegrating Oral Product",
+     "rank": "21",
+     "rxaui": "12295498",
+     "rxcui": "1295004",
+     "score": "10.493222303599424",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=ciprofloxacin&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Ciprofloxacin",
+     "rank": "1",
+     "rxaui": "10280938",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10326704",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "GS"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "12253859",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "RXNORM"
+    },
+    {
+     "name": "CIPROFLOXACIN",
+     "rank": "1",
+     "rxaui": "2069666",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2402784",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3863238",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "NDDF"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "5479339",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "ATC"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "5479340",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "ATC"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "5479341",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "ATC"
+    },
+    {
+     "name": "ciprofloxacin",
+     "rank": "1",
+     "rxaui": "5479342",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "77199",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "MMSL"
+    },
+    {
+     "name": "Ciprofloxacin",
+     "rank": "1",
+     "rxaui": "8502697",
+     "rxcui": "2551",
+     "score": "12.089941024780273",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "ciprofloxacin Injection",
+     "rank": "13",
+     "rxaui": "12267107",
+     "rxcui": "1665209",
+     "score": "11.68382572746277",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ciprofloxacin Pill",
+     "rank": "13",
+     "rxaui": "12286624",
+     "rxcui": "1152120",
+     "score": "11.68382572746277",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "13",
+     "rxaui": "2363803",
+     "rxcui": "1152116",
+     "score": "11.68382572746277",
+     "source": "MMSL"
+    },
+    {
+     "rank": "13",
+     "rxaui": "5074062",
+     "rxcui": "1152119",
+     "score": "11.68382572746277",
+     "source": "MMSL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=cocor&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10328193",
+     "rxcui": "1425503",
+     "score": "8.851421150779725",
+     "source": "GS"
+    },
+    {
+     "name": "coco glucoside",
+     "rank": "1",
+     "rxaui": "12251397",
+     "rxcui": "1425503",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco monoethanolamide",
+     "rank": "1",
+     "rxaui": "12253117",
+     "rxcui": "1426393",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco monoisopropanolamide",
+     "rank": "1",
+     "rxaui": "12253140",
+     "rxcui": "1435283",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco diethanolamide",
+     "rank": "1",
+     "rxaui": "12254103",
+     "rxcui": "1305724",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco diisopropanolamide",
+     "rank": "1",
+     "rxaui": "12254835",
+     "rxcui": "1421434",
+     "score": "8.851421150779725",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Coco diethanolamide",
+     "rank": "1",
+     "rxaui": "12896296",
+     "rxcui": "1305724",
+     "score": "8.851421150779725",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "Coco Diethanolamide",
+     "rank": "1",
+     "rxaui": "13025532",
+     "rxcui": "1305724",
+     "score": "8.851421150779725",
+     "source": "USP"
+    },
+    {
+     "name": "COCO CAPRYLATE",
+     "rank": "1",
+     "rxaui": "1473373",
+     "rxcui": "1364293",
+     "score": "8.851421150779725",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "6803520",
+     "rxcui": "1425503",
+     "score": "8.851421150779725",
+     "source": "NDDF"
+    },
+    {
+     "name": "coco-caprylate",
+     "rank": "11",
+     "rxaui": "12253666",
+     "rxcui": "1364293",
+     "score": "8.846995440204337",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco-glycerides",
+     "rank": "11",
+     "rxaui": "12254276",
+     "rxcui": "1426455",
+     "score": "8.846995440204337",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "11",
+     "rxaui": "12744964",
+     "rxcui": "1367422",
+     "score": "8.846995440204337",
+     "source": "GS"
+    },
+    {
+     "name": "coco-betaine",
+     "rank": "11",
+     "rxaui": "5049755",
+     "rxcui": "1367422",
+     "score": "8.846995440204337",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco-sulfate",
+     "rank": "11",
+     "rxaui": "5073036",
+     "rxcui": "1370657",
+     "score": "8.846995440204337",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "16",
+     "rxaui": "10326104",
+     "rxcui": "1366926",
+     "score": "7.794759748329529",
+     "source": "GS"
+    },
+    {
+     "rank": "16",
+     "rxaui": "6808216",
+     "rxcui": "1366926",
+     "score": "7.794759748329529",
+     "source": "NDDF"
+    },
+    {
+     "rank": "18",
+     "rxaui": "10325516",
+     "rxcui": "1369702",
+     "score": "7.790862368455364",
+     "source": "GS"
+    },
+    {
+     "rank": "18",
+     "rxaui": "11799841",
+     "rxcui": "1364377",
+     "score": "7.790862368455364",
+     "source": "GS"
+    },
+    {
+     "name": "coco-oleamidopropyl betaine",
+     "rank": "18",
+     "rxaui": "11803266",
+     "rxcui": "2263872",
+     "score": "7.790862368455364",
+     "source": "RXNORM"
+    },
+    {
+     "name": "hydrogenated coco-glycerides",
+     "rank": "18",
+     "rxaui": "12251895",
+     "rxcui": "1364377",
+     "score": "7.790862368455364",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sodium coco-sulfate",
+     "rank": "18",
+     "rxaui": "12255799",
+     "rxcui": "1366926",
+     "score": "7.790862368455364",
+     "source": "RXNORM"
+    },
+    {
+     "name": "coco-caprylate-caprate",
+     "rank": "18",
+     "rxaui": "5071383",
+     "rxcui": "1369702",
+     "score": "7.790862368455364",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "18",
+     "rxaui": "6803521",
+     "rxcui": "1364377",
+     "score": "7.790862368455364",
+     "source": "NDDF"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=dispriin&maxEntries=25": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=disprn&maxEntries=25": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=escitalopram&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10328844",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "GS"
+    },
+    {
+     "name": "escitalopram",
+     "rank": "1",
+     "rxaui": "12252335",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ESCITALOPRAM",
+     "rank": "1",
+     "rxaui": "2628072",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3746689",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "NDDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "4258975",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "MMSL"
+    },
+    {
+     "name": "escitalopram",
+     "rank": "1",
+     "rxaui": "5479984",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "ATC"
+    },
+    {
+     "name": "Escitalopram",
+     "rank": "1",
+     "rxaui": "8286797",
+     "rxcui": "321988",
+     "score": "12.72793960571289",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "escitalopram Pill",
+     "rank": "8",
+     "rxaui": "12292594",
+     "rxcui": "1164522",
+     "score": "12.27135758972168",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram Oral Solution",
+     "rank": "9",
+     "rxaui": "12259118",
+     "rxcui": "378734",
+     "score": "11.880843813523056",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram Oral Tablet",
+     "rank": "9",
+     "rxaui": "12264435",
+     "rxcui": "378695",
+     "score": "11.880843813523056",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram Oral Product",
+     "rank": "9",
+     "rxaui": "12293554",
+     "rxcui": "1164521",
+     "score": "11.880843813523056",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram Oral Capsule",
+     "rank": "9",
+     "rxaui": "13002825",
+     "rxcui": "2725158",
+     "score": "11.880843813523056",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram Oral Liquid Product",
+     "rank": "13",
+     "rxaui": "12292593",
+     "rxcui": "1164520",
+     "score": "11.54292905029657",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Escitalopram Oxalate",
+     "rank": "14",
+     "rxaui": "10280691",
+     "rxcui": "353108",
+     "score": "11.044221830749512",
+     "source": "USP"
+    },
+    {
+     "name": "escitalopram oxalate",
+     "rank": "14",
+     "rxaui": "12255749",
+     "rxcui": "353108",
+     "score": "11.044221830749512",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "14",
+     "rxaui": "13003004",
+     "rxcui": "353108",
+     "score": "11.044221830749512",
+     "source": "GS"
+    },
+    {
+     "rank": "14",
+     "rxaui": "1552460",
+     "rxcui": "353108",
+     "score": "11.044221830749512",
+     "source": "MMSL"
+    },
+    {
+     "name": "ESCITALOPRAM OXALATE",
+     "rank": "14",
+     "rxaui": "1552463",
+     "rxcui": "353108",
+     "score": "11.044221830749512",
+     "source": "VANDF"
+    },
+    {
+     "rank": "14",
+     "rxaui": "3746690",
+     "rxcui": "353108",
+     "score": "11.044221830749512",
+     "source": "NDDF"
+    },
+    {
+     "rank": "14",
+     "rxaui": "4258976",
+     "rxcui": "353108",
+     "score": "11.044221830749512",
+     "source": "MMSL"
+    },
+    {
+     "rank": "21",
+     "rxaui": "1493231",
+     "rxcui": "321988",
+     "score": "10.72793960571289",
+     "source": "SNOMEDCT_US"
+    },
+    {
+     "rank": "21",
+     "rxaui": "1493233",
+     "rxcui": "321988",
+     "score": "10.72793960571289",
+     "source": "MMSL"
+    },
+    {
+     "name": "ESCITALOPRAM",
+     "rank": "21",
+     "rxaui": "6395345",
+     "rxcui": "321988",
+     "score": "10.72793960571289",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "Escitalopram",
+     "rank": "21",
+     "rxaui": "6395367",
+     "rxcui": "321988",
+     "score": "10.72793960571289",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "escitalopram Oral Tablet [Lexapro]",
+     "rank": "25",
+     "rxaui": "12318896",
+     "rxcui": "368571",
+     "score": "10.393833061797812",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=esita&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "ESIKA HYDRACOLOR 2 IN 1 SPF 25 KIT",
+     "rank": "1",
+     "rxaui": "7708855",
+     "rxcui": "1722607",
+     "score": "0.5869369098366916",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "OCTINOXATE 0.0664 g in 1 g / OXYBENZONE 0.0151 g in 1 g TOPICAL LIPSTICK [ESIKA HYDRACOLOR 2 IN 1 SPF 25 (ROJO ESIKA) - ORANGE]",
+     "rank": "2",
+     "rxaui": "7708926",
+     "rxcui": "1722708",
+     "score": "0.20958426899533483",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "OCTINOXATE 0.0664 g in 1 g / OXYBENZONE 0.0151 g in 1 g TOPICAL LIPSTICK [ESIKA HYDRACOLOR 2 IN 1 SPF 25 (ROJO ESIKA) - ORANGE]",
+     "rank": "2",
+     "rxaui": "7708927",
+     "rxcui": "1722708",
+     "score": "0.20958426899533483",
+     "source": "MTHSPL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=flagyl&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1136835",
+     "rxcui": "202866",
+     "score": "13.720586776733398",
+     "source": "MMSL"
+    },
+    {
+     "name": "Flagyl",
+     "rank": "1",
+     "rxaui": "1136836",
+     "rxcui": "202866",
+     "score": "13.720586776733398",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "3",
+     "rxaui": "1178238",
+     "rxcui": "217132",
+     "score": "13.185485410690308",
+     "source": "MMSL"
+    },
+    {
+     "name": "Flagyl Pill",
+     "rank": "3",
+     "rxaui": "3836406",
+     "rxcui": "1169008",
+     "score": "13.185485410690308",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "5",
+     "rxaui": "1178240",
+     "rxcui": "217133",
+     "score": "12.73426936674118",
+     "source": "MMSL"
+    },
+    {
+     "name": "Flagyl Oral Product",
+     "rank": "6",
+     "rxaui": "3836405",
+     "rxcui": "1169007",
+     "score": "12.727902232057811",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Flagyl Rectal Product",
+     "rank": "6",
+     "rxaui": "3836407",
+     "rxcui": "1169010",
+     "score": "12.727902232057811",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metronidazole Oral Capsule [Flagyl]",
+     "rank": "8",
+     "rxaui": "12313923",
+     "rxcui": "687210",
+     "score": "12.338202235815526",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Flagyl S",
+     "rank": "9",
+     "rxaui": "1192887",
+     "rxcui": "225797",
+     "score": "11.866936869621277",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metronidazole Oral Tablet [Flagyl]",
+     "rank": "10",
+     "rxaui": "12312634",
+     "rxcui": "92719",
+     "score": "11.098829821227858",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metronidazole Rectal Suppository [Flagyl]",
+     "rank": "10",
+     "rxaui": "12312692",
+     "rxcui": "381082",
+     "score": "11.098829821227858",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Flagyl S Oral Product",
+     "rank": "10",
+     "rxaui": "3836409",
+     "rxcui": "1169012",
+     "score": "11.098829821227858",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Flagyl S Oral Liquid Product",
+     "rank": "13",
+     "rxaui": "3836408",
+     "rxcui": "1169011",
+     "score": "10.787490925566418",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metronidazole Extended Release Oral Tablet [Flagyl]",
+     "rank": "14",
+     "rxaui": "12322592",
+     "rxcui": "687203",
+     "score": "10.513027327023812",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metronidazole 375 MG [Flagyl]",
+     "rank": "15",
+     "rxaui": "12300434",
+     "rxcui": "687209",
+     "score": "10.340201735815526",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "15",
+     "rxaui": "2643903",
+     "rxcui": "207287",
+     "score": "10.340201735815526",
+     "source": "GS"
+    },
+    {
+     "rank": "15",
+     "rxaui": "2643904",
+     "rxcui": "687211",
+     "score": "10.340201735815526",
+     "source": "GS"
+    },
+    {
+     "rank": "15",
+     "rxaui": "2643905",
+     "rxcui": "207290",
+     "score": "10.340201735815526",
+     "source": "GS"
+    },
+    {
+     "name": "metroNIDAZOLE 375 MG [Flagyl]",
+     "rank": "15",
+     "rxaui": "3725001",
+     "rxcui": "687209",
+     "score": "10.340201735815526",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metroNIDAZOLE Oral Capsule [Flagyl]",
+     "rank": "15",
+     "rxaui": "3731917",
+     "rxcui": "687210",
+     "score": "10.340201735815526",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "21",
+     "rxaui": "711418",
+     "rxcui": "92718",
+     "score": "10.309600807966829",
+     "source": "MMSL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=glucophaage&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1000877",
+     "rxcui": "151827",
+     "score": "8.37169075012207",
+     "source": "MMSL"
+    },
+    {
+     "name": "Glucophage",
+     "rank": "1",
+     "rxaui": "1000878",
+     "rxcui": "151827",
+     "score": "8.37169075012207",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Glucophage Pill",
+     "rank": "3",
+     "rxaui": "3837220",
+     "rxcui": "1171245",
+     "score": "8.259688737869263",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "1359654",
+     "rxcui": "285065",
+     "score": "8.167594610214234",
+     "source": "MMSL"
+    },
+    {
+     "name": "Glucophage Oral Product",
+     "rank": "5",
+     "rxaui": "3837219",
+     "rxcui": "1171244",
+     "score": "8.163510812909127",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin Oral Tablet [Glucophage]",
+     "rank": "6",
+     "rxaui": "12319241",
+     "rxcui": "368254",
+     "score": "8.083971957479001",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride Oral Tablet [Glucophage]",
+     "rank": "7",
+     "rxaui": "12839054",
+     "rxcui": "2656131",
+     "score": "8.014554808683396",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin Extended Release Oral Tablet [Glucophage]",
+     "rank": "8",
+     "rxaui": "12322675",
+     "rxcui": "802051",
+     "score": "7.9454925012886095",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride Extended Release Oral Tablet [Glucophage]",
+     "rank": "9",
+     "rxaui": "12837280",
+     "rxcui": "2654357",
+     "score": "7.891334024148133",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "11830175",
+     "rxcui": "2281774",
+     "score": "6.485299228585867",
+     "source": "MMSL"
+    },
+    {
+     "rank": "11",
+     "rxaui": "2644324",
+     "rxcui": "861006",
+     "score": "6.085971457479001",
+     "source": "GS"
+    },
+    {
+     "rank": "11",
+     "rxaui": "2644325",
+     "rxcui": "861008",
+     "score": "6.085971457479001",
+     "source": "GS"
+    },
+    {
+     "rank": "11",
+     "rxaui": "2644326",
+     "rxcui": "861012",
+     "score": "6.085971457479001",
+     "source": "GS"
+    },
+    {
+     "name": "metFORMIN Oral Tablet [Glucophage]",
+     "rank": "11",
+     "rxaui": "3729714",
+     "rxcui": "368254",
+     "score": "6.085971457479001",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride 750 MG [Glucophage]",
+     "rank": "15",
+     "rxaui": "12301038",
+     "rxcui": "860982",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride 500 MG [Glucophage]",
+     "rank": "15",
+     "rxaui": "12307531",
+     "rxcui": "860976",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride 1000 MG [Glucophage]",
+     "rank": "15",
+     "rxaui": "12307544",
+     "rxcui": "861005",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride 850 MG [Glucophage]",
+     "rank": "15",
+     "rxaui": "12307546",
+     "rxcui": "861011",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride Oral Tablet [Glucophage]",
+     "rank": "15",
+     "rxaui": "12847343",
+     "rxcui": "2656131",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride 750 MG [Glucophage]",
+     "rank": "15",
+     "rxaui": "3727697",
+     "rxcui": "860982",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride 500 MG [Glucophage]",
+     "rank": "15",
+     "rxaui": "3735305",
+     "rxcui": "860976",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride 850 MG [Glucophage]",
+     "rank": "15",
+     "rxaui": "3735312",
+     "rxcui": "861011",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride 1000 MG [Glucophage]",
+     "rank": "15",
+     "rxaui": "3741490",
+     "rxcui": "861005",
+     "score": "6.016554785043836",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=glucophage&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1000877",
+     "rxcui": "151827",
+     "score": "13.944183349609375",
+     "source": "MMSL"
+    },
+    {
+     "name": "Glucophage",
+     "rank": "1",
+     "rxaui": "1000878",
+     "rxcui": "151827",
+     "score": "13.944183349609375",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Glucophage Pill",
+     "rank": "3",
+     "rxaui": "3837220",
+     "rxcui": "1171245",
+     "score": "13.391395130157472",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "1359654",
+     "rxcui": "285065",
+     "score": "12.925166225910187",
+     "source": "MMSL"
+    },
+    {
+     "name": "Glucophage Oral Product",
+     "rank": "5",
+     "rxaui": "3837219",
+     "rxcui": "1171244",
+     "score": "12.918703642797233",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin Oral Tablet [Glucophage]",
+     "rank": "6",
+     "rxaui": "12319241",
+     "rxcui": "368254",
+     "score": "12.51603902081299",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride Oral Tablet [Glucophage]",
+     "rank": "7",
+     "rxaui": "12839054",
+     "rxcui": "2656131",
+     "score": "12.164616491386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin Extended Release Oral Tablet [Glucophage]",
+     "rank": "8",
+     "rxaui": "12322675",
+     "rxcui": "802051",
+     "score": "11.843387164229393",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride Extended Release Oral Tablet [Glucophage]",
+     "rank": "9",
+     "rxaui": "12837280",
+     "rxcui": "2654357",
+     "score": "11.569211241872804",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2644324",
+     "rxcui": "861006",
+     "score": "10.51803852081299",
+     "source": "GS"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2644325",
+     "rxcui": "861008",
+     "score": "10.51803852081299",
+     "source": "GS"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2644326",
+     "rxcui": "861012",
+     "score": "10.51803852081299",
+     "source": "GS"
+    },
+    {
+     "name": "metFORMIN Oral Tablet [Glucophage]",
+     "rank": "10",
+     "rxaui": "3729714",
+     "rxcui": "368254",
+     "score": "10.51803852081299",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride 750 MG [Glucophage]",
+     "rank": "14",
+     "rxaui": "12301038",
+     "rxcui": "860982",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride 500 MG [Glucophage]",
+     "rank": "14",
+     "rxaui": "12307531",
+     "rxcui": "860976",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride 1000 MG [Glucophage]",
+     "rank": "14",
+     "rxaui": "12307544",
+     "rxcui": "861005",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin hydrochloride 850 MG [Glucophage]",
+     "rank": "14",
+     "rxaui": "12307546",
+     "rxcui": "861011",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride Oral Tablet [Glucophage]",
+     "rank": "14",
+     "rxaui": "12847343",
+     "rxcui": "2656131",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride 750 MG [Glucophage]",
+     "rank": "14",
+     "rxaui": "3727697",
+     "rxcui": "860982",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride 500 MG [Glucophage]",
+     "rank": "14",
+     "rxaui": "3735305",
+     "rxcui": "860976",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride 850 MG [Glucophage]",
+     "rank": "14",
+     "rxaui": "3735312",
+     "rxcui": "861011",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metFORMIN hydrochloride 1000 MG [Glucophage]",
+     "rank": "14",
+     "rxaui": "3741490",
+     "rxcui": "861005",
+     "score": "10.166615991386893",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=ibuprofen&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Ibuprofen",
+     "rank": "1",
+     "rxaui": "10282384",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10326351",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "GS"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "12254458",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "179265",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "179276",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "MMSL"
+    },
+    {
+     "name": "IBUPROFEN",
+     "rank": "1",
+     "rxaui": "2071507",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3605298",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "NDDF"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480549",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480550",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480551",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480552",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "7717203",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "Ibuprofen",
+     "rank": "1",
+     "rxaui": "8574087",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "ibuprofen Injection",
+     "rank": "14",
+     "rxaui": "12267168",
+     "rxcui": "1747293",
+     "score": "10.229026185512543",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ibuprofen Pill",
+     "rank": "14",
+     "rxaui": "12289173",
+     "rxcui": "1156278",
+     "score": "10.229026185512543",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ibuprofen Oral Product",
+     "rank": "16",
+     "rxaui": "12289172",
+     "rxcui": "1156277",
+     "score": "9.988357151039363",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ibuprofen Rectal Product",
+     "rank": "16",
+     "rxaui": "12289174",
+     "rxcui": "1156279",
+     "score": "9.988357151039363",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ibuprofen Topical Product",
+     "rank": "16",
+     "rxaui": "12289175",
+     "rxcui": "1156280",
+     "score": "9.988357151039363",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ibuprofen Chewable Product",
+     "rank": "16",
+     "rxaui": "12295780",
+     "rxcui": "1295502",
+     "score": "9.988357151039363",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=klortiva&maxEntries=25": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=levothyroxine&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10326622",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "GS"
+    },
+    {
+     "name": "LEVOTHYROXINE",
+     "rank": "1",
+     "rxaui": "2628591",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "VANDF"
+    },
+    {
+     "name": "Levothyroxine",
+     "rank": "1",
+     "rxaui": "8357568",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "levothyroxine",
+     "rank": "1",
+     "rxaui": "8689130",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "9166838",
+     "rxcui": "10582",
+     "score": "10.781100273132324",
+     "source": "NDDF"
+    },
+    {
+     "name": "LEVOTHYROXINE/LIOTHYRONINE",
+     "rank": "6",
+     "rxaui": "2628592",
+     "rxcui": "465675",
+     "score": "10.50929102754593",
+     "source": "VANDF"
+    },
+    {
+     "name": "levothyroxine / liothyronine",
+     "rank": "6",
+     "rxaui": "8689286",
+     "rxcui": "465675",
+     "score": "10.50929102754593",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Pill",
+     "rank": "8",
+     "rxaui": "8689212",
+     "rxcui": "1602745",
+     "score": "10.478514187335968",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Injection",
+     "rank": "8",
+     "rxaui": "8719151",
+     "rxcui": "1868004",
+     "score": "10.478514187335968",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine / liothyronine Pill",
+     "rank": "10",
+     "rxaui": "8689209",
+     "rxcui": "1602752",
+     "score": "10.248059335857155",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Powder",
+     "rank": "11",
+     "rxaui": "8689166",
+     "rxcui": "1423482",
+     "score": "10.219540589020015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Solution",
+     "rank": "11",
+     "rxaui": "8689167",
+     "rxcui": "1001569",
+     "score": "10.219540589020015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Chewable Tablet",
+     "rank": "11",
+     "rxaui": "8689169",
+     "rxcui": "1299151",
+     "score": "10.219540589020015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet",
+     "rank": "11",
+     "rxaui": "8689171",
+     "rxcui": "372595",
+     "score": "10.219540589020015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Capsule",
+     "rank": "11",
+     "rxaui": "8689172",
+     "rxcui": "687432",
+     "score": "10.219540589020015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Chewable Product",
+     "rank": "11",
+     "rxaui": "8689206",
+     "rxcui": "1602749",
+     "score": "10.219540589020015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Injectable Product",
+     "rank": "11",
+     "rxaui": "8689207",
+     "rxcui": "1602750",
+     "score": "10.219540589020015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Product",
+     "rank": "11",
+     "rxaui": "8689210",
+     "rxcui": "1602753",
+     "score": "10.219540589020015",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Levothyroid]",
+     "rank": "19",
+     "rxaui": "8689247",
+     "rxcui": "631567",
+     "score": "10.207140434679863",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine / liothyronine Oral Tablet",
+     "rank": "20",
+     "rxaui": "8689170",
+     "rxcui": "372596",
+     "score": "10.021857457187599",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine / liothyronine Oral Product",
+     "rank": "20",
+     "rxaui": "8689208",
+     "rxcui": "1602751",
+     "score": "10.021857457187599",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Powder Product",
+     "rank": "22",
+     "rxaui": "8689203",
+     "rxcui": "1602746",
+     "score": "9.995289835077697",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Liquid Product",
+     "rank": "22",
+     "rxaui": "8689205",
+     "rxcui": "1602748",
+     "score": "9.995289835077697",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=lexapro&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1551886",
+     "rxcui": "352741",
+     "score": "14.102447509765625",
+     "source": "MMSL"
+    },
+    {
+     "name": "Lexapro",
+     "rank": "1",
+     "rxaui": "1551887",
+     "rxcui": "352741",
+     "score": "14.102447509765625",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lexapro Pill",
+     "rank": "3",
+     "rxaui": "3839340",
+     "rxcui": "1186154",
+     "score": "13.537140931129457",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lexapro Oral Product",
+     "rank": "4",
+     "rxaui": "3839339",
+     "rxcui": "1186153",
+     "score": "13.053756591213705",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram Oral Tablet [Lexapro]",
+     "rank": "5",
+     "rxaui": "12318896",
+     "rxcui": "368571",
+     "score": "12.641914408987525",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lexapro Oral Liquid Product",
+     "rank": "6",
+     "rxaui": "3839338",
+     "rxcui": "1186152",
+     "score": "12.63559345178303",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram Oral Solution [Lexapro]",
+     "rank": "7",
+     "rxaui": "12318858",
+     "rxcui": "406125",
+     "score": "11.372034106604728",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram 10 MG [Lexapro]",
+     "rank": "8",
+     "rxaui": "12306307",
+     "rxcui": "575972",
+     "score": "10.643913908987523",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram 20 MG [Lexapro]",
+     "rank": "8",
+     "rxaui": "12306308",
+     "rxcui": "575973",
+     "score": "10.643913908987523",
+     "source": "RXNORM"
+    },
+    {
+     "name": "escitalopram 5 MG [Lexapro]",
+     "rank": "8",
+     "rxaui": "12306311",
+     "rxcui": "576370",
+     "score": "10.643913908987523",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12887768",
+     "rxcui": "352272",
+     "score": "10.643913908987523",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12887769",
+     "rxcui": "352273",
+     "score": "10.643913908987523",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12887770",
+     "rxcui": "352273",
+     "score": "10.643913908987523",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12887771",
+     "rxcui": "352273",
+     "score": "10.643913908987523",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2645625",
+     "rxcui": "352272",
+     "score": "10.643913908987523",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2645626",
+     "rxcui": "352273",
+     "score": "10.643913908987523",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2645627",
+     "rxcui": "404408",
+     "score": "10.643913908987523",
+     "source": "GS"
+    },
+    {
+     "rank": "18",
+     "rxaui": "2862160",
+     "rxcui": "404420",
+     "score": "10.279340566435952",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=lipitor&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1004568",
+     "rxcui": "153165",
+     "score": "14.155076026916504",
+     "source": "MMSL"
+    },
+    {
+     "name": "Lipitor",
+     "rank": "1",
+     "rxaui": "1004570",
+     "rxcui": "153165",
+     "score": "14.155076026916504",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lipitor Pill",
+     "rank": "3",
+     "rxaui": "3839431",
+     "rxcui": "1177401",
+     "score": "13.585606256961823",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Lipitor Oral Product",
+     "rank": "4",
+     "rxaui": "3839430",
+     "rxcui": "1177400",
+     "score": "13.09866594807911",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin Oral Tablet [Lipitor]",
+     "rank": "5",
+     "rxaui": "2053520",
+     "rxcui": "367665",
+     "score": "12.683772200872662",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12868587",
+     "rxcui": "617320",
+     "score": "10.685771700872662",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12877417",
+     "rxcui": "617318",
+     "score": "10.685771700872662",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12877418",
+     "rxcui": "262095",
+     "score": "10.685771700872662",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12887788",
+     "rxcui": "617314",
+     "score": "10.685771700872662",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12887789",
+     "rxcui": "617320",
+     "score": "10.685771700872662",
+     "source": "GS"
+    },
+    {
+     "name": "atorvastatin 80 MG [Lipitor]",
+     "rank": "6",
+     "rxaui": "2290648",
+     "rxcui": "574676",
+     "score": "10.685771700872662",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin 10 MG [Lipitor]",
+     "rank": "6",
+     "rxaui": "2455093",
+     "rxcui": "617313",
+     "score": "10.685771700872662",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin 20 MG [Lipitor]",
+     "rank": "6",
+     "rxaui": "2455097",
+     "rxcui": "617317",
+     "score": "10.685771700872662",
+     "source": "RXNORM"
+    },
+    {
+     "name": "atorvastatin 40 MG [Lipitor]",
+     "rank": "6",
+     "rxaui": "2455100",
+     "rxcui": "617319",
+     "score": "10.685771700872662",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2645687",
+     "rxcui": "617314",
+     "score": "10.685771700872662",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2645688",
+     "rxcui": "617318",
+     "score": "10.685771700872662",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2645689",
+     "rxcui": "617320",
+     "score": "10.685771700872662",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2645690",
+     "rxcui": "262095",
+     "score": "10.685771700872662",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=mefenamic+acid&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Meclofenamic Acid",
+     "rank": "1",
+     "rxaui": "10280468",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "USP"
+    },
+    {
+     "name": "meclofenamic acid",
+     "rank": "1",
+     "rxaui": "12253321",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "RXNORM"
+    },
+    {
+     "name": "MECLOFENAMIC ACID",
+     "rank": "1",
+     "rxaui": "2072194",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "VANDF"
+    },
+    {
+     "name": "meclofenamic acid",
+     "rank": "1",
+     "rxaui": "5480981",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "ATC"
+    },
+    {
+     "name": "meclofenamic acid",
+     "rank": "1",
+     "rxaui": "5480982",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "6806118",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "NDDF"
+    },
+    {
+     "name": "Meclofenamic acid",
+     "rank": "1",
+     "rxaui": "8577151",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "Mefenamic Acid",
+     "rank": "8",
+     "rxaui": "10282958",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "USP"
+    },
+    {
+     "rank": "8",
+     "rxaui": "10323932",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "GS"
+    },
+    {
+     "name": "mefenamic acid",
+     "rank": "8",
+     "rxaui": "12254965",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "RXNORM"
+    },
+    {
+     "name": "MEFENAMIC ACID",
+     "rank": "8",
+     "rxaui": "2072207",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "VANDF"
+    },
+    {
+     "rank": "8",
+     "rxaui": "217319",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "MMSL"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2608464",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "MMSL"
+    },
+    {
+     "rank": "8",
+     "rxaui": "3605326",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "NDDF"
+    },
+    {
+     "name": "mefenamic acid",
+     "rank": "8",
+     "rxaui": "5481000",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "ATC"
+    },
+    {
+     "name": "Mefenamic acid",
+     "rank": "8",
+     "rxaui": "8270625",
+     "rxcui": "6693",
+     "score": "9.86309814453125",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "mefenamic acid Pill",
+     "rank": "17",
+     "rxaui": "12844174",
+     "rxcui": "2660777",
+     "score": "9.285183386325837",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Oral Tablet",
+     "rank": "18",
+     "rxaui": "12828750",
+     "rxcui": "2645827",
+     "score": "8.785675656716348",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Rectal Suppository",
+     "rank": "18",
+     "rxaui": "12831803",
+     "rxcui": "2648880",
+     "score": "8.785675656716348",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Oral Capsule",
+     "rank": "18",
+     "rxaui": "12832447",
+     "rxcui": "2649524",
+     "score": "8.785675656716348",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Oral Suspension",
+     "rank": "18",
+     "rxaui": "12832458",
+     "rxcui": "2649535",
+     "score": "8.785675656716348",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Oral Product",
+     "rank": "18",
+     "rxaui": "12845454",
+     "rxcui": "2663551",
+     "score": "8.785675656716348",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Rectal Product",
+     "rank": "18",
+     "rxaui": "12846525",
+     "rxcui": "2661000",
+     "score": "8.785675656716348",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=metformin&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10328664",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "GS"
+    },
+    {
+     "name": "metformin",
+     "rank": "1",
+     "rxaui": "12251601",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "RXNORM"
+    },
+    {
+     "name": "METFORMIN",
+     "rank": "1",
+     "rxaui": "2628685",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3605328",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "NDDF"
+    },
+    {
+     "name": "metformin",
+     "rank": "1",
+     "rxaui": "5481094",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "ATC"
+    },
+    {
+     "name": "Metformin",
+     "rank": "1",
+     "rxaui": "8381393",
+     "rxcui": "6809",
+     "score": "11.205785751342773",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "metformin Pill",
+     "rank": "7",
+     "rxaui": "12293876",
+     "rxcui": "1161611",
+     "score": "10.869607300281526",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin Oral Product",
+     "rank": "8",
+     "rxaui": "12291392",
+     "rxcui": "1161610",
+     "score": "10.581939415710451",
+     "source": "RXNORM"
+    },
+    {
+     "name": "metformin Oral Tablet [Metforming]",
+     "rank": "9",
+     "rxaui": "12319643",
+     "rxcui": "583194",
+     "score": "10.578635780315977",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=montelukast&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10326129",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "GS"
+    },
+    {
+     "name": "MONTELUKAST",
+     "rank": "1",
+     "rxaui": "2628735",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3754450",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "NDDF"
+    },
+    {
+     "name": "montelukast",
+     "rank": "1",
+     "rxaui": "5481264",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "ATC"
+    },
+    {
+     "name": "montelukast",
+     "rank": "1",
+     "rxaui": "687115",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Montelukast",
+     "rank": "1",
+     "rxaui": "8492924",
+     "rxcui": "88249",
+     "score": "12.884265899658203",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "montelukast Pill",
+     "rank": "7",
+     "rxaui": "3826999",
+     "rxcui": "1157312",
+     "score": "12.415318051815033",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Chewable Tablet",
+     "rank": "8",
+     "rxaui": "1579544",
+     "rxcui": "374624",
+     "score": "12.014240933049203",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Tablet",
+     "rank": "8",
+     "rxaui": "1583569",
+     "rxcui": "378682",
+     "score": "12.014240933049203",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Product",
+     "rank": "8",
+     "rxaui": "3826998",
+     "rxcui": "1157311",
+     "score": "12.014240933049203",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Chewable Product",
+     "rank": "8",
+     "rxaui": "4614434",
+     "rxcui": "1295640",
+     "score": "12.014240933049203",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Granule Product",
+     "rank": "8",
+     "rxaui": "4614655",
+     "rxcui": "1295516",
+     "score": "12.014240933049203",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Granules",
+     "rank": "8",
+     "rxaui": "6352317",
+     "rxcui": "379540",
+     "score": "12.014240933049203",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Montelukast Sodium",
+     "rank": "14",
+     "rxaui": "10283334",
+     "rxcui": "115713",
+     "score": "11.173786246633531",
+     "source": "USP"
+    },
+    {
+     "rank": "14",
+     "rxaui": "10328090",
+     "rxcui": "115713",
+     "score": "11.173786246633531",
+     "source": "GS"
+    },
+    {
+     "name": "montelukast sodium",
+     "rank": "14",
+     "rxaui": "2051194",
+     "rxcui": "115713",
+     "score": "11.173786246633531",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "14",
+     "rxaui": "3754451",
+     "rxcui": "115713",
+     "score": "11.173786246633531",
+     "source": "NDDF"
+    },
+    {
+     "rank": "14",
+     "rxaui": "4658855",
+     "rxcui": "115713",
+     "score": "11.173786246633531",
+     "source": "MMSL"
+    },
+    {
+     "name": "montelukast, combinations",
+     "rank": "14",
+     "rxaui": "6821854",
+     "rxcui": "1598397",
+     "score": "11.173786246633531",
+     "source": "ATC"
+    },
+    {
+     "rank": "14",
+     "rxaui": "830776",
+     "rxcui": "115713",
+     "score": "11.173786246633531",
+     "source": "MMSL"
+    },
+    {
+     "name": "MONTELUKAST SODIUM",
+     "rank": "14",
+     "rxaui": "830783",
+     "rxcui": "115713",
+     "score": "11.173786246633531",
+     "source": "VANDF"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=nexium&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Nexium",
+     "rank": "1",
+     "rxaui": "1359046",
+     "rxcui": "284799",
+     "score": "13.377579689025879",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3808267",
+     "rxcui": "284799",
+     "score": "13.377579689025879",
+     "source": "MMSL"
+    },
+    {
+     "name": "Nexium Pill",
+     "rank": "3",
+     "rxaui": "3841705",
+     "rxcui": "1182870",
+     "score": "12.869611017227173",
+     "source": "RXNORM"
+    },
+    {
+     "name": "esomeprazole Injection [Nexium]",
+     "rank": "4",
+     "rxaui": "12322067",
+     "rxcui": "1728039",
+     "score": "12.4414232711792",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Nexium Injectable Product",
+     "rank": "5",
+     "rxaui": "3841702",
+     "rxcui": "1182867",
+     "score": "12.435202559543612",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Nexium Oral Product",
+     "rank": "5",
+     "rxaui": "3841704",
+     "rxcui": "1182869",
+     "score": "12.435202559543612",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Nexium Granule Product",
+     "rank": "5",
+     "rxaui": "8690312",
+     "rxcui": "1855316",
+     "score": "12.435202559543612",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "8",
+     "rxaui": "11433081",
+     "rxcui": "1944723",
+     "score": "11.582649915504456",
+     "source": "MMSL"
+    },
+    {
+     "rank": "8",
+     "rxaui": "9271441",
+     "rxcui": "1944723",
+     "score": "11.582649915504456",
+     "source": "MMSL"
+    },
+    {
+     "name": "esomeprazole Delayed Release Oral Capsule [Nexium]",
+     "rank": "10",
+     "rxaui": "12315745",
+     "rxcui": "606727",
+     "score": "11.447054623319323",
+     "source": "RXNORM"
+    },
+    {
+     "name": "esomeprazole Granules for Oral Suspension [Nexium]",
+     "rank": "10",
+     "rxaui": "12316025",
+     "rxcui": "1855315",
+     "score": "11.447054623319323",
+     "source": "RXNORM"
+    },
+    {
+     "name": "esomeprazole Delayed Release Oral Tablet [Nexium]",
+     "rank": "10",
+     "rxaui": "12322119",
+     "rxcui": "1743278",
+     "score": "11.447054623319323",
+     "source": "RXNORM"
+    },
+    {
+     "name": "NexIUM",
+     "rank": "13",
+     "rxaui": "3728091",
+     "rxcui": "284799",
+     "score": "11.377579689025879",
+     "source": "RXNORM"
+    },
+    {
+     "name": "NexIUM Pill",
+     "rank": "14",
+     "rxaui": "4616727",
+     "rxcui": "1182870",
+     "score": "10.870611017227173",
+     "source": "RXNORM"
+    },
+    {
+     "name": "esomeprazole Injection [NexIUM]",
+     "rank": "15",
+     "rxaui": "12378893",
+     "rxcui": "1728039",
+     "score": "10.4424232711792",
+     "source": "RXNORM"
+    },
+    {
+     "name": "NexIUM Injectable Product",
+     "rank": "16",
+     "rxaui": "4616953",
+     "rxcui": "1182867",
+     "score": "10.437202059543612",
+     "source": "RXNORM"
+    },
+    {
+     "name": "NexIUM Oral Product",
+     "rank": "16",
+     "rxaui": "4617729",
+     "rxcui": "1182869",
+     "score": "10.437202059543612",
+     "source": "RXNORM"
+    },
+    {
+     "name": "NexIUM Granule Product",
+     "rank": "16",
+     "rxaui": "8691806",
+     "rxcui": "1855316",
+     "score": "10.437202059543612",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "19",
+     "rxaui": "3808268",
+     "rxcui": "605610",
+     "score": "10.072514073230327",
+     "source": "MMSL"
+    },
+    {
+     "rank": "19",
+     "rxaui": "9271446",
+     "rxcui": "1944724",
+     "score": "10.072514073230327",
+     "source": "MMSL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=norrvasc&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "550972",
+     "rxcui": "58927",
+     "score": "8.418852806091309",
+     "source": "MMSL"
+    },
+    {
+     "name": "Norvasc",
+     "rank": "1",
+     "rxaui": "550973",
+     "rxcui": "58927",
+     "score": "8.418852806091309",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc Pill",
+     "rank": "3",
+     "rxaui": "3841963",
+     "rxcui": "1185733",
+     "score": "8.3031211810112",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc Oral Product",
+     "rank": "4",
+     "rxaui": "3841962",
+     "rxcui": "1185732",
+     "score": "8.203756601064445",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine Oral Tablet [Norvasc]",
+     "rank": "5",
+     "rxaui": "12318101",
+     "rxcui": "368359",
+     "score": "8.121482483986378",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine 10 MG [Norvasc]",
+     "rank": "6",
+     "rxaui": "12298698",
+     "rxcui": "572746",
+     "score": "6.1234819839863786",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine 5 MG [Norvasc]",
+     "rank": "6",
+     "rxaui": "12299148",
+     "rxcui": "572722",
+     "score": "6.1234819839863786",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12877513",
+     "rxcui": "212575",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12920371",
+     "rxcui": "212549",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2647188",
+     "rxcui": "212575",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2647190",
+     "rxcui": "212549",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "name": "amLODIPine 10 MG [Norvasc]",
+     "rank": "6",
+     "rxaui": "3726465",
+     "rxcui": "572746",
+     "score": "6.1234819839863786",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amLODIPine 5 MG [Norvasc]",
+     "rank": "6",
+     "rxaui": "3726622",
+     "rxcui": "572722",
+     "score": "6.1234819839863786",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amLODIPine Oral Tablet [Norvasc]",
+     "rank": "6",
+     "rxaui": "3734765",
+     "rxcui": "368359",
+     "score": "6.1234819839863786",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine 2.5 MG [Norvasc]",
+     "rank": "15",
+     "rxaui": "12299146",
+     "rxcui": "572719",
+     "score": "6.048652906372668",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "15",
+     "rxaui": "12933119",
+     "rxcui": "212542",
+     "score": "6.048652906372668",
+     "source": "GS"
+    },
+    {
+     "rank": "15",
+     "rxaui": "2647189",
+     "rxcui": "212542",
+     "score": "6.048652906372668",
+     "source": "GS"
+    },
+    {
+     "name": "amLODIPine 2.5 MG [Norvasc]",
+     "rank": "15",
+     "rxaui": "3738170",
+     "rxcui": "572719",
+     "score": "6.048652906372668",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc 5 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "1168999",
+     "rxcui": "212549",
+     "score": "6.045628579919482",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "19",
+     "rxaui": "1169000",
+     "rxcui": "212549",
+     "score": "6.045628579919482",
+     "source": "MMSL"
+    },
+    {
+     "name": "Norvasc 10 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "1169056",
+     "rxcui": "212575",
+     "score": "6.045628579919482",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "19",
+     "rxaui": "1169057",
+     "rxcui": "212575",
+     "score": "6.045628579919482",
+     "source": "MMSL"
+    },
+    {
+     "name": "Norvasc 10 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "6359621",
+     "rxcui": "212575",
+     "score": "6.045628579919482",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc 5 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "6361427",
+     "rxcui": "212549",
+     "score": "6.045628579919482",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=norvasc&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "550972",
+     "rxcui": "58927",
+     "score": "14.182943344116211",
+     "source": "MMSL"
+    },
+    {
+     "name": "Norvasc",
+     "rank": "1",
+     "rxaui": "550973",
+     "rxcui": "58927",
+     "score": "14.182943344116211",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc Pill",
+     "rank": "3",
+     "rxaui": "3841963",
+     "rxcui": "1185733",
+     "score": "13.611270145893098",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc Oral Product",
+     "rank": "4",
+     "rxaui": "3841962",
+     "rxcui": "1185732",
+     "score": "13.122445861256601",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine Oral Tablet [Norvasc]",
+     "rank": "5",
+     "rxaui": "12318101",
+     "rxcui": "368359",
+     "score": "12.70593725215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine 10 MG [Norvasc]",
+     "rank": "6",
+     "rxaui": "12298698",
+     "rxcui": "572746",
+     "score": "10.70793675215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine 5 MG [Norvasc]",
+     "rank": "6",
+     "rxaui": "12299148",
+     "rxcui": "572722",
+     "score": "10.70793675215769",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12877513",
+     "rxcui": "212575",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "12920371",
+     "rxcui": "212549",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2647188",
+     "rxcui": "212575",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2647190",
+     "rxcui": "212549",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "name": "amLODIPine 10 MG [Norvasc]",
+     "rank": "6",
+     "rxaui": "3726465",
+     "rxcui": "572746",
+     "score": "10.70793675215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amLODIPine 5 MG [Norvasc]",
+     "rank": "6",
+     "rxaui": "3726622",
+     "rxcui": "572722",
+     "score": "10.70793675215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amLODIPine Oral Tablet [Norvasc]",
+     "rank": "6",
+     "rxaui": "3734765",
+     "rxcui": "368359",
+     "score": "10.70793675215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "amlodipine 2.5 MG [Norvasc]",
+     "rank": "15",
+     "rxaui": "12299146",
+     "rxcui": "572719",
+     "score": "10.339259600616721",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "15",
+     "rxaui": "12933119",
+     "rxcui": "212542",
+     "score": "10.339259600616721",
+     "source": "GS"
+    },
+    {
+     "rank": "15",
+     "rxaui": "2647189",
+     "rxcui": "212542",
+     "score": "10.339259600616721",
+     "source": "GS"
+    },
+    {
+     "name": "amLODIPine 2.5 MG [Norvasc]",
+     "rank": "15",
+     "rxaui": "3738170",
+     "rxcui": "572719",
+     "score": "10.339259600616721",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc 5 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "1168999",
+     "rxcui": "212549",
+     "score": "10.334089970816413",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "19",
+     "rxaui": "1169000",
+     "rxcui": "212549",
+     "score": "10.334089970816413",
+     "source": "MMSL"
+    },
+    {
+     "name": "Norvasc 10 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "1169056",
+     "rxcui": "212575",
+     "score": "10.334089970816413",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "19",
+     "rxaui": "1169057",
+     "rxcui": "212575",
+     "score": "10.334089970816413",
+     "source": "MMSL"
+    },
+    {
+     "name": "Norvasc 10 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "6359621",
+     "rxcui": "212575",
+     "score": "10.334089970816413",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Norvasc 5 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "6361427",
+     "rxcui": "212549",
+     "score": "10.334089970816413",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=nuvamax&maxEntries=25": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=omeprazole&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Omeprazole",
+     "rank": "1",
+     "rxaui": "10283696",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10327276",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "GS"
+    },
+    {
+     "name": "omeprazole",
+     "rank": "1",
+     "rxaui": "12254494",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "RXNORM"
+    },
+    {
+     "name": "OMEPRAZOLE",
+     "rank": "1",
+     "rxaui": "2072622",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "246506",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "246516",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3619853",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "NDDF"
+    },
+    {
+     "name": "omeprazole",
+     "rank": "1",
+     "rxaui": "5481490",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "ATC"
+    },
+    {
+     "name": "Omeprazole",
+     "rank": "1",
+     "rxaui": "8633705",
+     "rxcui": "7646",
+     "score": "11.930841445922852",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "omeprazole Pill",
+     "rank": "10",
+     "rxaui": "12293732",
+     "rxcui": "1161029",
+     "score": "11.537309742927551",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Oral Tablet",
+     "rank": "11",
+     "rxaui": "12259303",
+     "rxcui": "393435",
+     "score": "11.20065350448847",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Injectable Solution",
+     "rank": "11",
+     "rxaui": "12261222",
+     "rxcui": "375193",
+     "score": "11.20065350448847",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Oral Paste",
+     "rank": "11",
+     "rxaui": "12263215",
+     "rxcui": "1796429",
+     "score": "11.20065350448847",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Injectable Product",
+     "rank": "11",
+     "rxaui": "12291184",
+     "rxcui": "1161026",
+     "score": "11.20065350448847",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Oral Product",
+     "rank": "11",
+     "rxaui": "12291185",
+     "rxcui": "1161028",
+     "score": "11.20065350448847",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Paste Product",
+     "rank": "11",
+     "rxaui": "12294744",
+     "rxcui": "1796428",
+     "score": "11.20065350448847",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Granule Product",
+     "rank": "11",
+     "rxaui": "12294763",
+     "rxcui": "1855327",
+     "score": "11.20065350448847",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Disintegrating Oral Tablet",
+     "rank": "18",
+     "rxaui": "12267310",
+     "rxcui": "2003655",
+     "score": "10.909276027063088",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Oral Paste Product",
+     "rank": "18",
+     "rxaui": "12294743",
+     "rxcui": "1796427",
+     "score": "10.909276027063088",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Disintegrating Oral Product",
+     "rank": "18",
+     "rxaui": "12296333",
+     "rxcui": "2003654",
+     "score": "10.909276027063088",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Delayed Release Oral Capsule",
+     "rank": "21",
+     "rxaui": "12262977",
+     "rxcui": "378236",
+     "score": "10.654537065600843",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Granules for Oral Suspension",
+     "rank": "21",
+     "rxaui": "12263287",
+     "rxcui": "1855328",
+     "score": "10.654537065600843",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Delayed Release Oral Tablet",
+     "rank": "21",
+     "rxaui": "12266167",
+     "rxcui": "402424",
+     "score": "10.654537065600843",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Extended Release Oral Tablet",
+     "rank": "21",
+     "rxaui": "12266504",
+     "rxcui": "373145",
+     "score": "10.654537065600843",
+     "source": "RXNORM"
+    },
+    {
+     "name": "omeprazole Extended Release Oral Capsule",
+     "rank": "21",
+     "rxaui": "12266714",
+     "rxcui": "541190",
+     "score": "10.654537065600843",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=panadol&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1135796",
+     "rxcui": "202432",
+     "score": "13.434083938598633",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol",
+     "rank": "1",
+     "rxaui": "1135797",
+     "rxcui": "202432",
+     "score": "13.434083938598633",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2658536",
+     "rxcui": "202432",
+     "score": "13.434083938598633",
+     "source": "MMSL"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658569",
+     "rxcui": "707887",
+     "score": "12.921646067619324",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol Pill",
+     "rank": "4",
+     "rxaui": "3842879",
+     "rxcui": "1179926",
+     "score": "12.921646067619324",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2658571",
+     "rxcui": "707889",
+     "score": "12.483419763306143",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol Oral Product",
+     "rank": "6",
+     "rxaui": "3842876",
+     "rxcui": "1179923",
+     "score": "12.483419763306143",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Panadol Chewable Product",
+     "rank": "6",
+     "rxaui": "4615815",
+     "rxcui": "1296528",
+     "score": "12.483419763306143",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen Oral Solution [Panadol]",
+     "rank": "9",
+     "rxaui": "12317652",
+     "rxcui": "386243",
+     "score": "12.110333313778163",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen Oral Tablet [Panadol]",
+     "rank": "9",
+     "rxaui": "12318106",
+     "rxcui": "369079",
+     "score": "12.110333313778163",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Panadol Oral Liquid Product",
+     "rank": "11",
+     "rxaui": "3842875",
+     "rxcui": "1179922",
+     "score": "12.104278147121274",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "12",
+     "rxaui": "1181727",
+     "rxcui": "219062",
+     "score": "11.629481460857392",
+     "source": "MMSL"
+    },
+    {
+     "name": "Childrens Panadol",
+     "rank": "12",
+     "rxaui": "1912737",
+     "rxcui": "216014",
+     "score": "11.629481460857392",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2371567",
+     "rxcui": "216014",
+     "score": "11.629481460857392",
+     "source": "MMSL"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2658566",
+     "rxcui": "707884",
+     "score": "11.629481460857392",
+     "source": "MMSL"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2658567",
+     "rxcui": "707884",
+     "score": "11.629481460857392",
+     "source": "MMSL"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2658573",
+     "rxcui": "707891",
+     "score": "11.629481460857392",
+     "source": "MMSL"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2658575",
+     "rxcui": "170512",
+     "score": "11.629481460857392",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol PM",
+     "rank": "12",
+     "rxaui": "3627797",
+     "rxcui": "1094715",
+     "score": "11.629481460857392",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Panadol Extra",
+     "rank": "12",
+     "rxaui": "8729692",
+     "rxcui": "1872070",
+     "score": "11.629481460857392",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "21",
+     "rxaui": "2658568",
+     "rxcui": "707886",
+     "score": "11.235077786975529",
+     "source": "MMSL"
+    },
+    {
+     "rank": "21",
+     "rxaui": "2658570",
+     "rxcui": "707888",
+     "score": "11.235077786975529",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol PM Pill",
+     "rank": "21",
+     "rxaui": "3842878",
+     "rxcui": "1179925",
+     "score": "11.235077786975529",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Panadol Extra Pill",
+     "rank": "21",
+     "rxaui": "8729696",
+     "rxcui": "1872074",
+     "score": "11.235077786975529",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=panadool&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1135796",
+     "rxcui": "202432",
+     "score": "8.270930290222168",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol",
+     "rank": "1",
+     "rxaui": "1135797",
+     "rxcui": "202432",
+     "score": "8.270930290222168",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2658536",
+     "rxcui": "202432",
+     "score": "8.270930290222168",
+     "source": "MMSL"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658569",
+     "rxcui": "707887",
+     "score": "8.166898776054383",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol Pill",
+     "rank": "4",
+     "rxaui": "3842879",
+     "rxcui": "1179926",
+     "score": "8.166898776054383",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "6",
+     "rxaui": "2658571",
+     "rxcui": "707889",
+     "score": "8.077528706164124",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol Oral Product",
+     "rank": "6",
+     "rxaui": "3842876",
+     "rxcui": "1179923",
+     "score": "8.077528706164124",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Panadol Chewable Product",
+     "rank": "6",
+     "rxaui": "4615815",
+     "rxcui": "1296528",
+     "score": "8.077528706164124",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen Oral Solution [Panadol]",
+     "rank": "9",
+     "rxaui": "12317652",
+     "rxcui": "386243",
+     "score": "8.003832887894156",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen Oral Tablet [Panadol]",
+     "rank": "9",
+     "rxaui": "12318106",
+     "rxcui": "369079",
+     "score": "8.003832887894156",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Panadol Oral Liquid Product",
+     "rank": "11",
+     "rxaui": "3842875",
+     "rxcui": "1179922",
+     "score": "7.999830971450208",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "12",
+     "rxaui": "1181727",
+     "rxcui": "219062",
+     "score": "7.350208898448945",
+     "source": "MMSL"
+    },
+    {
+     "name": "Childrens Panadol",
+     "rank": "12",
+     "rxaui": "1912737",
+     "rxcui": "216014",
+     "score": "7.350208898448945",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2371567",
+     "rxcui": "216014",
+     "score": "7.350208898448945",
+     "source": "MMSL"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2658566",
+     "rxcui": "707884",
+     "score": "7.350208898448945",
+     "source": "MMSL"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2658567",
+     "rxcui": "707884",
+     "score": "7.350208898448945",
+     "source": "MMSL"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2658573",
+     "rxcui": "707891",
+     "score": "7.350208898448945",
+     "source": "MMSL"
+    },
+    {
+     "rank": "12",
+     "rxaui": "2658575",
+     "rxcui": "170512",
+     "score": "7.350208898448945",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol PM",
+     "rank": "12",
+     "rxaui": "3627797",
+     "rxcui": "1094715",
+     "score": "7.350208898448945",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Panadol Extra",
+     "rank": "12",
+     "rxaui": "8729692",
+     "rxcui": "1872070",
+     "score": "7.350208898448945",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "21",
+     "rxaui": "2658568",
+     "rxcui": "707886",
+     "score": "7.269775835547711",
+     "source": "MMSL"
+    },
+    {
+     "rank": "21",
+     "rxaui": "2658570",
+     "rxcui": "707888",
+     "score": "7.269775835547711",
+     "source": "MMSL"
+    },
+    {
+     "name": "Panadol PM Pill",
+     "rank": "21",
+     "rxaui": "3842878",
+     "rxcui": "1179925",
+     "score": "7.269775835547711",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Panadol Extra Pill",
+     "rank": "21",
+     "rxaui": "8729696",
+     "rxcui": "1872074",
+     "score": "7.269775835547711",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=ponstaan&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Ponstan",
+     "rank": "1",
+     "rxaui": "1135951",
+     "rxcui": "202493",
+     "score": "3.522387742996216",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Pill",
+     "rank": "2",
+     "rxaui": "3843886",
+     "rxcui": "1184066",
+     "score": "3.400966188669205",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Oral Product",
+     "rank": "3",
+     "rxaui": "3843885",
+     "rxcui": "1184065",
+     "score": "3.297104492837072",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Oral Liquid Product",
+     "rank": "4",
+     "rxaui": "3843884",
+     "rxcui": "1184064",
+     "score": "3.207223105911307",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Dispersible",
+     "rank": "5",
+     "rxaui": "1566175",
+     "rxcui": "360769",
+     "score": "3.0608695698022843",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Dispersible Pill",
+     "rank": "6",
+     "rxaui": "3843883",
+     "rxcui": "1184063",
+     "score": "2.967394043553365",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamate Oral Tablet [Ponstan]",
+     "rank": "7",
+     "rxaui": "12312321",
+     "rxcui": "637851",
+     "score": "2.8865007953201762",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamate Oral Suspension [Ponstan]",
+     "rank": "7",
+     "rxaui": "12317173",
+     "rxcui": "637788",
+     "score": "2.8865007953201762",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Dispersible Oral Product",
+     "rank": "7",
+     "rxaui": "3843882",
+     "rxcui": "1184062",
+     "score": "2.8865007953201762",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Oral Tablet [Ponstan]",
+     "rank": "10",
+     "rxaui": "12838654",
+     "rxcui": "2655731",
+     "score": "2.8157881978431893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Oral Suspension [Ponstan]",
+     "rank": "10",
+     "rxaui": "12840635",
+     "rxcui": "2657712",
+     "score": "2.8157881978431893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Dispersible Disintegrating Oral Product",
+     "rank": "10",
+     "rxaui": "4616036",
+     "rxcui": "1296104",
+     "score": "2.8157881978431893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamate Disintegrating Oral Tablet [Ponstan Dispersible]",
+     "rank": "13",
+     "rxaui": "12322750",
+     "rxcui": "637834",
+     "score": "2.4780858811739264",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid Disintegrating Oral Tablet [Ponstan Dispersible]",
+     "rank": "14",
+     "rxaui": "12837740",
+     "rxcui": "2654817",
+     "score": "2.428208048596311",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan 500 MG Oral Tablet",
+     "rank": "15",
+     "rxaui": "2357597",
+     "rxcui": "105887",
+     "score": "1.132650554158974",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan 10 MG/ML Oral Suspension",
+     "rank": "16",
+     "rxaui": "792931",
+     "rxcui": "105888",
+     "score": "1.0643604068108472",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid 500 MG [Ponstan]",
+     "rank": "17",
+     "rxaui": "12300898",
+     "rxcui": "844283",
+     "score": "1.0193854987430766",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid 10 MG/ML [Ponstan]",
+     "rank": "18",
+     "rxaui": "12300897",
+     "rxcui": "844282",
+     "score": "0.9579243661297626",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid 500 MG Oral Tablet [Ponstan]",
+     "rank": "19",
+     "rxaui": "12365679",
+     "rxcui": "105887",
+     "score": "0.9034020904162049",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ponstan Dispersible 250 MG Disintegrating Oral Tablet",
+     "rank": "19",
+     "rxaui": "6353985",
+     "rxcui": "849856",
+     "score": "0.9034020904162049",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid 250 MG [Ponstan Dispersible]",
+     "rank": "21",
+     "rxaui": "12307484",
+     "rxcui": "849855",
+     "score": "0.8621319295167864",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid 10 MG/ML Oral Suspension [Ponstan]",
+     "rank": "22",
+     "rxaui": "12365680",
+     "rxcui": "105888",
+     "score": "0.8547060319858171",
+     "source": "RXNORM"
+    },
+    {
+     "name": "mefenamic acid 250 MG Disintegrating Oral Tablet [Ponstan Dispersible]",
+     "rank": "23",
+     "rxaui": "12370275",
+     "rxcui": "849856",
+     "score": "0.7298549624828672",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=prednisolone&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Prednisolone",
+     "rank": "1",
+     "rxaui": "10284350",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10323949",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "GS"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "12799249",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "PREDNISOLONE",
+     "rank": "1",
+     "rxaui": "2073993",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "VANDF"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "2180548",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "2372496",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "276861",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3811443",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "NDDF"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481911",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481912",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481913",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481914",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481915",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481916",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481917",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481918",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481919",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "prednisolone",
+     "rank": "1",
+     "rxaui": "5481920",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "ATC"
+    },
+    {
+     "name": "Prednisolone",
+     "rank": "1",
+     "rxaui": "8673533",
+     "rxcui": "8638",
+     "score": "11.419679641723633",
+     "source": "DRUGBANK"
+    },
+    {
+     "name": "prednisolone Enema",
+     "rank": "20",
+     "rxaui": "2181199",
+     "rxcui": "373569",
+     "score": "11.066580793380737",
+     "source": "RXNORM"
+    },
+    {
+     "name": "prednisolone Paste",
+     "rank": "20",
+     "rxaui": "2181525",
+     "rxcui": "451160",
+     "score": "11.066580793380737",
+     "source": "RXNORM"
+    },
+    {
+     "name": "prednisolone Pill",
+     "rank": "20",
+     "rxaui": "3827536",
+     "rxcui": "1156758",
+     "score": "11.066580793380737",
+     "source": "RXNORM"
+    },
+    {
+     "name": "prednisolone Rectal Product",
+     "rank": "23",
+     "rxaui": "3827537",
+     "rxcui": "1156759",
+     "score": "10.764461681998254",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=sertraline&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "10327492",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "GS"
+    },
+    {
+     "name": "sertraline",
+     "rank": "1",
+     "rxaui": "12253995",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "RXNORM"
+    },
+    {
+     "name": "SERTRALINE",
+     "rank": "1",
+     "rxaui": "2074256",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3605368",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "NDDF"
+    },
+    {
+     "name": "sertraline",
+     "rank": "1",
+     "rxaui": "5482223",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "ATC"
+    },
+    {
+     "name": "Sertraline",
+     "rank": "1",
+     "rxaui": "8636055",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "DRUGBANK"
+    },
+    {
+     "rank": "1",
+     "rxaui": "9186225",
+     "rxcui": "36437",
+     "score": "12.510202407836914",
+     "source": "MMSL"
+    },
+    {
+     "name": "sertraline Pill",
+     "rank": "8",
+     "rxaui": "12289935",
+     "rxcui": "1158195",
+     "score": "12.070842967987062",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Capsule",
+     "rank": "9",
+     "rxaui": "12259332",
+     "rxcui": "373867",
+     "score": "11.695040376522782",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Tablet",
+     "rank": "9",
+     "rxaui": "12259333",
+     "rxcui": "373868",
+     "score": "11.695040376522782",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Solution",
+     "rank": "9",
+     "rxaui": "12259635",
+     "rxcui": "374622",
+     "score": "11.695040376522782",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Product",
+     "rank": "9",
+     "rxaui": "12289934",
+     "rxcui": "1158194",
+     "score": "11.695040376522782",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Liquid Product",
+     "rank": "13",
+     "rxaui": "12289933",
+     "rxcui": "1158193",
+     "score": "11.369838611639258",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "14",
+     "rxaui": "1011752",
+     "rxcui": "155137",
+     "score": "10.863758671188355",
+     "source": "MMSL"
+    },
+    {
+     "name": "SERTRALINE HYDROCHLORIDE",
+     "rank": "14",
+     "rxaui": "1011754",
+     "rxcui": "155137",
+     "score": "10.863758671188355",
+     "source": "VANDF"
+    },
+    {
+     "name": "Sertraline Hydrochloride",
+     "rank": "14",
+     "rxaui": "10284781",
+     "rxcui": "155137",
+     "score": "10.863758671188355",
+     "source": "USP"
+    },
+    {
+     "rank": "14",
+     "rxaui": "10327447",
+     "rxcui": "155137",
+     "score": "10.863758671188355",
+     "source": "GS"
+    },
+    {
+     "name": "sertraline hydrochloride",
+     "rank": "14",
+     "rxaui": "12256345",
+     "rxcui": "155137",
+     "score": "10.863758671188355",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "14",
+     "rxaui": "2543136",
+     "rxcui": "155137",
+     "score": "10.863758671188355",
+     "source": "MMSL"
+    },
+    {
+     "rank": "14",
+     "rxaui": "3605369",
+     "rxcui": "155137",
+     "score": "10.863758671188355",
+     "source": "NDDF"
+    },
+    {
+     "rank": "21",
+     "rxaui": "463102",
+     "rxcui": "36437",
+     "score": "10.510202407836914",
+     "source": "SNOMEDCT_US"
+    },
+    {
+     "rank": "21",
+     "rxaui": "463108",
+     "rxcui": "36437",
+     "score": "10.510202407836914",
+     "source": "MMSL"
+    },
+    {
+     "name": "SERTRALINE",
+     "rank": "21",
+     "rxaui": "6395894",
+     "rxcui": "36437",
+     "score": "10.510202407836914",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "Sertraline",
+     "rank": "21",
+     "rxaui": "6395919",
+     "rxcui": "36437",
+     "score": "10.510202407836914",
+     "source": "MTHSPL"
+    },
+    {
+     "name": "sertraline",
+     "rank": "21",
+     "rxaui": "6396446",
+     "rxcui": "36437",
+     "score": "10.510202407836914",
+     "source": "MTHSPL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=singuair&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1007281",
+     "rxcui": "153889",
+     "score": "8.990557670593262",
+     "source": "MMSL"
+    },
+    {
+     "name": "Singulair",
+     "rank": "1",
+     "rxaui": "1007283",
+     "rxcui": "153889",
+     "score": "8.990557670593262",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Pill",
+     "rank": "3",
+     "rxaui": "3846369",
+     "rxcui": "1183694",
+     "score": "8.829603604316713",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Oral Product",
+     "rank": "4",
+     "rxaui": "3846368",
+     "rxcui": "1183693",
+     "score": "8.691611618741991",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Granule Product",
+     "rank": "4",
+     "rxaui": "4616241",
+     "rxcui": "1296002",
+     "score": "8.691611618741991",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Chewable Product",
+     "rank": "4",
+     "rxaui": "4616450",
+     "rxcui": "1296363",
+     "score": "8.691611618741991",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Chewable Tablet [Singulair]",
+     "rank": "7",
+     "rxaui": "2053510",
+     "rxcui": "369654",
+     "score": "8.576186625905754",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Tablet [Singulair]",
+     "rank": "7",
+     "rxaui": "2055720",
+     "rxcui": "368291",
+     "score": "8.576186625905754",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Granules [Singulair]",
+     "rank": "7",
+     "rxaui": "6349710",
+     "rxcui": "406193",
+     "score": "8.576186625905754",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "12661911",
+     "rxcui": "153892",
+     "score": "6.578186125905753",
+     "source": "GS"
+    },
+    {
+     "rank": "10",
+     "rxaui": "12661913",
+     "rxcui": "404406",
+     "score": "6.578186125905753",
+     "source": "GS"
+    },
+    {
+     "name": "montelukast 4 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2256693",
+     "rxcui": "542404",
+     "score": "6.578186125905753",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast 10 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2280827",
+     "rxcui": "565420",
+     "score": "6.578186125905753",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast 5 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2280828",
+     "rxcui": "565421",
+     "score": "6.578186125905753",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2649262",
+     "rxcui": "153892",
+     "score": "6.578186125905753",
+     "source": "GS"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2649264",
+     "rxcui": "404406",
+     "score": "6.578186125905753",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "12661912",
+     "rxcui": "261367",
+     "score": "6.474211934635653",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "12661914",
+     "rxcui": "153893",
+     "score": "6.474211934635653",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "2649263",
+     "rxcui": "261367",
+     "score": "6.474211934635653",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "2649265",
+     "rxcui": "153893",
+     "score": "6.474211934635653",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=singulair&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1007281",
+     "rxcui": "153889",
+     "score": "14.077539443969727",
+     "source": "MMSL"
+    },
+    {
+     "name": "Singulair",
+     "rank": "1",
+     "rxaui": "1007283",
+     "rxcui": "153889",
+     "score": "14.077539443969727",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Pill",
+     "rank": "3",
+     "rxaui": "3846369",
+     "rxcui": "1183694",
+     "score": "13.514203186988832",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Oral Product",
+     "rank": "4",
+     "rxaui": "3846368",
+     "rxcui": "1183693",
+     "score": "13.032501388369562",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Granule Product",
+     "rank": "4",
+     "rxaui": "4616241",
+     "rxcui": "1296002",
+     "score": "13.032501388369562",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Chewable Product",
+     "rank": "4",
+     "rxaui": "4616450",
+     "rxcui": "1296363",
+     "score": "13.032501388369562",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Chewable Tablet [Singulair]",
+     "rank": "7",
+     "rxaui": "2053510",
+     "rxcui": "369654",
+     "score": "12.622103530998231",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Tablet [Singulair]",
+     "rank": "7",
+     "rxaui": "2055720",
+     "rxcui": "368291",
+     "score": "12.622103530998231",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Granules [Singulair]",
+     "rank": "7",
+     "rxaui": "6349710",
+     "rxcui": "406193",
+     "score": "12.622103530998231",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "12661911",
+     "rxcui": "153892",
+     "score": "10.624103030998231",
+     "source": "GS"
+    },
+    {
+     "rank": "10",
+     "rxaui": "12661913",
+     "rxcui": "404406",
+     "score": "10.624103030998231",
+     "source": "GS"
+    },
+    {
+     "name": "montelukast 4 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2256693",
+     "rxcui": "542404",
+     "score": "10.624103030998231",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast 10 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2280827",
+     "rxcui": "565420",
+     "score": "10.624103030998231",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast 5 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2280828",
+     "rxcui": "565421",
+     "score": "10.624103030998231",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2649262",
+     "rxcui": "153892",
+     "score": "10.624103030998231",
+     "source": "GS"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2649264",
+     "rxcui": "404406",
+     "score": "10.624103030998231",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "12661912",
+     "rxcui": "261367",
+     "score": "10.260799413385705",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "12661914",
+     "rxcui": "153893",
+     "score": "10.260799413385705",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "2649263",
+     "rxcui": "261367",
+     "score": "10.260799413385705",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "2649265",
+     "rxcui": "153893",
+     "score": "10.260799413385705",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=sinulair&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1007281",
+     "rxcui": "153889",
+     "score": "9.57685375213623",
+     "source": "MMSL"
+    },
+    {
+     "name": "Singulair",
+     "rank": "1",
+     "rxaui": "1007283",
+     "rxcui": "153889",
+     "score": "9.57685375213623",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Pill",
+     "rank": "3",
+     "rxaui": "3846369",
+     "rxcui": "1183694",
+     "score": "9.369523252487182",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Oral Product",
+     "rank": "4",
+     "rxaui": "3846368",
+     "rxcui": "1183693",
+     "score": "9.19191679288602",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Granule Product",
+     "rank": "4",
+     "rxaui": "4616241",
+     "rxcui": "1296002",
+     "score": "9.19191679288602",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Singulair Chewable Product",
+     "rank": "4",
+     "rxaui": "4616450",
+     "rxcui": "1296363",
+     "score": "9.19191679288602",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Chewable Tablet [Singulair]",
+     "rank": "7",
+     "rxaui": "2053510",
+     "rxcui": "369654",
+     "score": "9.04249490814972",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Tablet [Singulair]",
+     "rank": "7",
+     "rxaui": "2055720",
+     "rxcui": "368291",
+     "score": "9.04249490814972",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast Oral Granules [Singulair]",
+     "rank": "7",
+     "rxaui": "6349710",
+     "rxcui": "406193",
+     "score": "9.04249490814972",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "12661911",
+     "rxcui": "153892",
+     "score": "7.0444948845101605",
+     "source": "GS"
+    },
+    {
+     "rank": "10",
+     "rxaui": "12661913",
+     "rxcui": "404406",
+     "score": "7.0444948845101605",
+     "source": "GS"
+    },
+    {
+     "name": "montelukast 4 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2256693",
+     "rxcui": "542404",
+     "score": "7.0444948845101605",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast 10 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2280827",
+     "rxcui": "565420",
+     "score": "7.0444948845101605",
+     "source": "RXNORM"
+    },
+    {
+     "name": "montelukast 5 MG [Singulair]",
+     "rank": "10",
+     "rxaui": "2280828",
+     "rxcui": "565421",
+     "score": "7.0444948845101605",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2649262",
+     "rxcui": "153892",
+     "score": "7.0444948845101605",
+     "source": "GS"
+    },
+    {
+     "rank": "10",
+     "rxaui": "2649264",
+     "rxcui": "404406",
+     "score": "7.0444948845101605",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "12661912",
+     "rxcui": "261367",
+     "score": "6.9106317877722745",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "12661914",
+     "rxcui": "153893",
+     "score": "6.9106317877722745",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "2649263",
+     "rxcui": "261367",
+     "score": "6.9106317877722745",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "2649265",
+     "rxcui": "153893",
+     "score": "6.9106317877722745",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=synthrid&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1190045",
+     "rxcui": "224920",
+     "score": "8.067995071411133",
+     "source": "MMSL"
+    },
+    {
+     "name": "Synthroid",
+     "rank": "1",
+     "rxaui": "1190046",
+     "rxcui": "224920",
+     "score": "8.067995071411133",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Pill",
+     "rank": "3",
+     "rxaui": "3847179",
+     "rxcui": "1186074",
+     "score": "7.980016784667969",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Oral Product",
+     "rank": "4",
+     "rxaui": "3847178",
+     "rxcui": "1186073",
+     "score": "7.9043578716789495",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Synthroid]",
+     "rank": "5",
+     "rxaui": "8689249",
+     "rxcui": "368142",
+     "score": "7.842429109004141",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine sodium Oral Tablet [Synthroid]",
+     "rank": "6",
+     "rxaui": "12837131",
+     "rxcui": "2654208",
+     "score": "7.788381253452898",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=synthroid&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1190045",
+     "rxcui": "224920",
+     "score": "13.082569122314453",
+     "source": "MMSL"
+    },
+    {
+     "name": "Synthroid",
+     "rank": "1",
+     "rxaui": "1190046",
+     "rxcui": "224920",
+     "score": "13.082569122314453",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Pill",
+     "rank": "3",
+     "rxaui": "3847179",
+     "rxcui": "1186074",
+     "score": "12.597935437679292",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Oral Product",
+     "rank": "4",
+     "rxaui": "3847178",
+     "rxcui": "1186073",
+     "score": "12.183460357682469",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Synthroid]",
+     "rank": "5",
+     "rxaui": "8689249",
+     "rxcui": "368142",
+     "score": "11.830756418672086",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine sodium Oral Tablet [Synthroid]",
+     "rank": "6",
+     "rxaui": "12837131",
+     "rxcui": "2654208",
+     "score": "11.522938018505098",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=synthrroid&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1190045",
+     "rxcui": "224920",
+     "score": "8.924562454223633",
+     "source": "MMSL"
+    },
+    {
+     "name": "Synthroid",
+     "rank": "1",
+     "rxaui": "1190046",
+     "rxcui": "224920",
+     "score": "8.924562454223633",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Pill",
+     "rank": "3",
+     "rxaui": "3847179",
+     "rxcui": "1186074",
+     "score": "8.768829639434815",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Oral Product",
+     "rank": "4",
+     "rxaui": "3847178",
+     "rxcui": "1186073",
+     "score": "8.635295334774257",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Synthroid]",
+     "rank": "5",
+     "rxaui": "8689249",
+     "rxcui": "368142",
+     "score": "8.523697421715022",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine sodium Oral Tablet [Synthroid]",
+     "rank": "6",
+     "rxaui": "12837131",
+     "rxcui": "2654208",
+     "score": "8.426301718821527",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=syntroid&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1190045",
+     "rxcui": "224920",
+     "score": "8.710721969604492",
+     "source": "MMSL"
+    },
+    {
+     "name": "Synthroid",
+     "rank": "1",
+     "rxaui": "1190046",
+     "rxcui": "224920",
+     "score": "8.710721969604492",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Pill",
+     "rank": "3",
+     "rxaui": "3847179",
+     "rxcui": "1186074",
+     "score": "8.571903806209564",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Synthroid Oral Product",
+     "rank": "4",
+     "rxaui": "3847178",
+     "rxcui": "1186073",
+     "score": "8.452817846367838",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine Oral Tablet [Synthroid]",
+     "rank": "5",
+     "rxaui": "8689249",
+     "rxcui": "368142",
+     "score": "8.3536205482893",
+     "source": "RXNORM"
+    },
+    {
+     "name": "levothyroxine sodium Oral Tablet [Synthroid]",
+     "rank": "6",
+     "rxaui": "12837131",
+     "rxcui": "2654208",
+     "score": "8.2670468018775",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=valium&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1135891",
+     "rxcui": "202472",
+     "score": "13.86752700805664",
+     "source": "MMSL"
+    },
+    {
+     "name": "Valium",
+     "rank": "1",
+     "rxaui": "1135892",
+     "rxcui": "202472",
+     "score": "13.86752700805664",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Valium Pill",
+     "rank": "3",
+     "rxaui": "3849297",
+     "rxcui": "1187151",
+     "score": "13.320803231239319",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Valium Injectable Product",
+     "rank": "4",
+     "rxaui": "3849294",
+     "rxcui": "1187148",
+     "score": "12.853290779862405",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Valium Oral Product",
+     "rank": "4",
+     "rxaui": "3849296",
+     "rxcui": "1187150",
+     "score": "12.853290779862405",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Valium Rectal Product",
+     "rank": "4",
+     "rxaui": "3849298",
+     "rxcui": "1187152",
+     "score": "12.853290779862405",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazepam Oral Tablet [Valium]",
+     "rank": "7",
+     "rxaui": "12319028",
+     "rxcui": "94484",
+     "score": "12.455070600785733",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Valium Oral Liquid Product",
+     "rank": "8",
+     "rxaui": "3849295",
+     "rxcui": "1187149",
+     "score": "12.448843065485342",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazepam Oral Capsule [Valium]",
+     "rank": "9",
+     "rxaui": "12317367",
+     "rxcui": "380985",
+     "score": "11.203958758936807",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazepam Rectal Suppository [Valium]",
+     "rank": "9",
+     "rxaui": "12317368",
+     "rxcui": "367576",
+     "score": "11.203958758936807",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazepam Injectable Solution [Valium]",
+     "rank": "9",
+     "rxaui": "12317752",
+     "rxcui": "94483",
+     "score": "11.203958758936807",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazepam Oral Solution [Valium]",
+     "rank": "9",
+     "rxaui": "12320304",
+     "rxcui": "756839",
+     "score": "11.203958758936807",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazepam 5 MG [Valium]",
+     "rank": "13",
+     "rxaui": "12296884",
+     "rxcui": "563026",
+     "score": "10.457070100785733",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazepam 10 MG [Valium]",
+     "rank": "13",
+     "rxaui": "12297188",
+     "rxcui": "563711",
+     "score": "10.457070100785733",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazepam 2 MG [Valium]",
+     "rank": "13",
+     "rxaui": "12306535",
+     "rxcui": "542750",
+     "score": "10.457070100785733",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazePAM Oral Tablet [Valium]",
+     "rank": "13",
+     "rxaui": "12428054",
+     "rxcui": "94484",
+     "score": "10.457070100785733",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazePAM 5 MG [Valium]",
+     "rank": "13",
+     "rxaui": "12428281",
+     "rxcui": "563026",
+     "score": "10.457070100785733",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazePAM 2 MG [Valium]",
+     "rank": "13",
+     "rxaui": "12429036",
+     "rxcui": "542750",
+     "score": "10.457070100785733",
+     "source": "RXNORM"
+    },
+    {
+     "name": "diazePAM 10 MG [Valium]",
+     "rank": "13",
+     "rxaui": "12429974",
+     "rxcui": "563711",
+     "score": "10.457070100785733",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "13",
+     "rxaui": "12741301",
+     "rxcui": "104701",
+     "score": "10.457070100785733",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "12741302",
+     "rxcui": "104699",
+     "score": "10.457070100785733",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "12741303",
+     "rxcui": "104700",
+     "score": "10.457070100785733",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "2650758",
+     "rxcui": "104701",
+     "score": "10.457070100785733",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "2650759",
+     "rxcui": "104699",
+     "score": "10.457070100785733",
+     "source": "GS"
+    },
+    {
+     "rank": "13",
+     "rxaui": "2650760",
+     "rxcui": "104700",
+     "score": "10.457070100785733",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=ventolin&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "284644",
+     "rxcui": "8887",
+     "score": "13.439004898071289",
+     "source": "MMSL"
+    },
+    {
+     "name": "Ventolin",
+     "rank": "1",
+     "rxaui": "284645",
+     "rxcui": "8887",
+     "score": "13.439004898071289",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ventolin Pill",
+     "rank": "3",
+     "rxaui": "3849478",
+     "rxcui": "1187873",
+     "score": "12.926176615238191",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ventolin Inhalant Product",
+     "rank": "4",
+     "rxaui": "3849473",
+     "rxcui": "1187868",
+     "score": "12.487618404226543",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ventolin Injectable Product",
+     "rank": "4",
+     "rxaui": "3849474",
+     "rxcui": "1187869",
+     "score": "12.487618404226543",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ventolin Oral Product",
+     "rank": "4",
+     "rxaui": "3849477",
+     "rxcui": "1187872",
+     "score": "12.487618404226543",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Ventolin Oral Liquid Product",
+     "rank": "7",
+     "rxaui": "3849476",
+     "rxcui": "1187871",
+     "score": "12.108189015365195",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Metered Dose Inhaler [Ventolin]",
+     "rank": "8",
+     "rxaui": "12316992",
+     "rxcui": "801094",
+     "score": "11.782495678899839",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "9",
+     "rxaui": "1184807",
+     "rxcui": "2608835",
+     "score": "11.633558953714372",
+     "source": "MMSL"
+    },
+    {
+     "rank": "9",
+     "rxaui": "1184809",
+     "rxcui": "2608836",
+     "score": "11.633558953714372",
+     "source": "MMSL"
+    },
+    {
+     "rank": "9",
+     "rxaui": "1552969",
+     "rxcui": "353534",
+     "score": "11.633558953714372",
+     "source": "MMSL"
+    },
+    {
+     "name": "albuterol Oral Tablet [Ventolin]",
+     "rank": "12",
+     "rxaui": "12317186",
+     "rxcui": "368150",
+     "score": "10.897370113828675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Injectable Solution [Ventolin]",
+     "rank": "12",
+     "rxaui": "12319041",
+     "rxcui": "362745",
+     "score": "10.897370113828675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Oral Solution [Ventolin]",
+     "rank": "12",
+     "rxaui": "12320312",
+     "rxcui": "756427",
+     "score": "10.897370113828675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Inhalation Powder [Ventolin]",
+     "rank": "12",
+     "rxaui": "12320621",
+     "rxcui": "2108236",
+     "score": "10.897370113828675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Inhalation Solution [Ventolin]",
+     "rank": "12",
+     "rxaui": "12320775",
+     "rxcui": "2108257",
+     "score": "10.897370113828675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "albuterol Extended Release Oral Tablet [Ventolin]",
+     "rank": "17",
+     "rxaui": "12322358",
+     "rxcui": "361806",
+     "score": "10.335847764554574",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "18",
+     "rxaui": "2995950",
+     "rxcui": "830903",
+     "score": "10.114970907423501",
+     "source": "MMSL"
+    },
+    {
+     "name": "Ventolin 2 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "777981",
+     "rxcui": "102377",
+     "score": "9.780601432060264",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "19",
+     "rxaui": "777982",
+     "rxcui": "102377",
+     "score": "9.780601432060264",
+     "source": "MMSL"
+    },
+    {
+     "name": "Ventolin 4 MG Oral Tablet",
+     "rank": "19",
+     "rxaui": "777985",
+     "rxcui": "102378",
+     "score": "9.780601432060264",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "19",
+     "rxaui": "777986",
+     "rxcui": "102378",
+     "score": "9.780601432060264",
+     "source": "MMSL"
+    },
+    {
+     "rank": "23",
+     "rxaui": "2650840",
+     "rxcui": "754902",
+     "score": "9.498766688445672",
+     "source": "GS"
+    },
+    {
+     "name": "albuterol 0.09 MG/ACTUAT [Ventolin]",
+     "rank": "24",
+     "rxaui": "12306478",
+     "rxcui": "801093",
+     "score": "9.49401730510145",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=xanax&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1135627",
+     "rxcui": "202363",
+     "score": "13.630793571472168",
+     "source": "MMSL"
+    },
+    {
+     "name": "Xanax",
+     "rank": "1",
+     "rxaui": "1135628",
+     "rxcui": "202363",
+     "score": "13.630793571472168",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Xanax Pill",
+     "rank": "3",
+     "rxaui": "3850066",
+     "rxcui": "1186301",
+     "score": "13.10279552936554",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "1668082",
+     "rxcui": "405401",
+     "score": "12.657606553077699",
+     "source": "MMSL"
+    },
+    {
+     "name": "Xanax Oral Product",
+     "rank": "5",
+     "rxaui": "3850065",
+     "rxcui": "1186300",
+     "score": "12.65127774980116",
+     "source": "RXNORM"
+    },
+    {
+     "name": "alprazolam Oral Tablet [Xanax]",
+     "rank": "6",
+     "rxaui": "12312115",
+     "rxcui": "94610",
+     "score": "12.266785325891735",
+     "source": "RXNORM"
+    },
+    {
+     "name": "alprazolam Extended Release Oral Tablet [Xanax]",
+     "rank": "7",
+     "rxaui": "12322671",
+     "rxcui": "687021",
+     "score": "11.624174915077825",
+     "source": "RXNORM"
+    },
+    {
+     "name": "alprazolam 1 MG [Xanax]",
+     "rank": "8",
+     "rxaui": "12298912",
+     "rxcui": "573847",
+     "score": "10.268784825891734",
+     "source": "RXNORM"
+    },
+    {
+     "name": "alprazolam 2 MG [Xanax]",
+     "rank": "8",
+     "rxaui": "12298913",
+     "rxcui": "573848",
+     "score": "10.268784825891734",
+     "source": "RXNORM"
+    },
+    {
+     "name": "alprazolam 3 MG [Xanax]",
+     "rank": "8",
+     "rxaui": "12307011",
+     "rxcui": "687020",
+     "score": "10.268784825891734",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12952652",
+     "rxcui": "214003",
+     "score": "10.268784825891734",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12952653",
+     "rxcui": "214004",
+     "score": "10.268784825891734",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2651115",
+     "rxcui": "214003",
+     "score": "10.268784825891734",
+     "source": "GS"
+    },
+    {
+     "name": "ALPRAZolam 2 MG [Xanax]",
+     "rank": "8",
+     "rxaui": "3723906",
+     "rxcui": "573848",
+     "score": "10.268784825891734",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ALPRAZolam 3 MG [Xanax]",
+     "rank": "8",
+     "rxaui": "3724735",
+     "rxcui": "687020",
+     "score": "10.268784825891734",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ALPRAZolam Oral Tablet [Xanax]",
+     "rank": "8",
+     "rxaui": "3726442",
+     "rxcui": "94610",
+     "score": "10.268784825891734",
+     "source": "RXNORM"
+    },
+    {
+     "name": "ALPRAZolam 1 MG [Xanax]",
+     "rank": "8",
+     "rxaui": "3726575",
+     "rxcui": "573847",
+     "score": "10.268784825891734",
+     "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=zithromax&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "1090384",
+     "rxcui": "196474",
+     "score": "13.624338150024414",
+     "source": "MMSL"
+    },
+    {
+     "name": "Zithromax",
+     "rank": "1",
+     "rxaui": "1090385",
+     "rxcui": "196474",
+     "score": "13.624338150024414",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "3",
+     "rxaui": "1185229",
+     "rxcui": "221031",
+     "score": "13.09685043668747",
+     "source": "MMSL"
+    },
+    {
+     "name": "Zithromax Pill",
+     "rank": "3",
+     "rxaui": "3850406",
+     "rxcui": "1187675",
+     "score": "13.09685043668747",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin Injection [Zithromax]",
+     "rank": "5",
+     "rxaui": "12311883",
+     "rxcui": "1668239",
+     "score": "12.652096118450165",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zithromax Injectable Product",
+     "rank": "6",
+     "rxaui": "3850403",
+     "rxcui": "1187672",
+     "score": "12.645770070390942",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zithromax Oral Product",
+     "rank": "6",
+     "rxaui": "3850405",
+     "rxcui": "1187674",
+     "score": "12.645770070390942",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin Oral Tablet [Zithromax]",
+     "rank": "8",
+     "rxaui": "12313085",
+     "rxcui": "367697",
+     "score": "12.261651113066675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin Oral Suspension [Zithromax]",
+     "rank": "8",
+     "rxaui": "12316966",
+     "rxcui": "366000",
+     "score": "12.261651113066675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zithromax Oral Liquid Product",
+     "rank": "10",
+     "rxaui": "3850404",
+     "rxcui": "1187673",
+     "score": "12.255520287510143",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zithromax Oral Powder Product",
+     "rank": "10",
+     "rxaui": "8250571",
+     "rxcui": "1807498",
+     "score": "12.255520287510143",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin Powder for Oral Suspension [Zithromax]",
+     "rank": "12",
+     "rxaui": "12316017",
+     "rxcui": "1807497",
+     "score": "11.619659725798623",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin Oral Capsule [Zithromax]",
+     "rank": "13",
+     "rxaui": "12317002",
+     "rxcui": "366555",
+     "score": "11.029968258759128",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin 250 MG [Zithromax]",
+     "rank": "14",
+     "rxaui": "12297503",
+     "rxcui": "564001",
+     "score": "10.263650613066675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin 500 MG [Zithromax]",
+     "rank": "14",
+     "rxaui": "12299433",
+     "rxcui": "574033",
+     "score": "10.263650613066675",
+     "source": "RXNORM"
+    },
+    {
+     "name": "azithromycin 1000 MG [Zithromax]",
+     "rank": "14",
+     "rxaui": "12303829",
+     "rxcui": "1807496",
+     "score": "10.263650613066675",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "14",
+     "rxaui": "2651370",
+     "rxcui": "105259",
+     "score": "10.263650613066675",
+     "source": "GS"
+    },
+    {
+     "rank": "14",
+     "rxaui": "2651371",
+     "rxcui": "212446",
+     "score": "10.263650613066675",
+     "source": "GS"
+    },
+    {
+     "rank": "14",
+     "rxaui": "2651375",
+     "rxcui": "226827",
+     "score": "10.263650613066675",
+     "source": "GS"
+    },
+    {
+     "rank": "14",
+     "rxaui": "2651376",
+     "rxcui": "211511",
+     "score": "10.263650613066675",
+     "source": "GS"
+    },
+    {
+     "name": "Zithromax 500 MG Injection",
+     "rank": "21",
+     "rxaui": "7273364",
+     "rxcui": "1668240",
+     "score": "10.258518787760142",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zithromax 500 MG Injection",
+     "rank": "21",
+     "rxaui": "7273365",
+     "rxcui": "1668240",
+     "score": "10.258518787760142",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "23",
+     "rxaui": "1185231",
+     "rxcui": "835216",
+     "score": "10.237952220138155",
+     "source": "MMSL"
+    },
+    {
+     "rank": "23",
+     "rxaui": "1550808",
+     "rxcui": "750157",
+     "score": "10.237952220138155",
+     "source": "MMSL"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=zolloft&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "673933",
+     "rxcui": "82728",
+     "score": "8.418852806091309",
+     "source": "MMSL"
+    },
+    {
+     "name": "Zoloft",
+     "rank": "1",
+     "rxaui": "673934",
+     "rxcui": "82728",
+     "score": "8.418852806091309",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Pill",
+     "rank": "3",
+     "rxaui": "3850474",
+     "rxcui": "1188169",
+     "score": "8.3031211810112",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Oral Product",
+     "rank": "4",
+     "rxaui": "3850473",
+     "rxcui": "1188168",
+     "score": "8.203756601064445",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Solution [Zoloft]",
+     "rank": "5",
+     "rxaui": "12313151",
+     "rxcui": "364573",
+     "score": "8.121482483986378",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Tablet [Zoloft]",
+     "rank": "5",
+     "rxaui": "12317782",
+     "rxcui": "368413",
+     "score": "8.121482483986378",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Oral Liquid Product",
+     "rank": "7",
+     "rxaui": "3850472",
+     "rxcui": "1188167",
+     "score": "8.117421742744385",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline 25 MG [Zoloft]",
+     "rank": "8",
+     "rxaui": "12305551",
+     "rxcui": "572455",
+     "score": "6.1234819839863786",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline 100 MG [Zoloft]",
+     "rank": "8",
+     "rxaui": "12306010",
+     "rxcui": "568875",
+     "score": "6.1234819839863786",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline 50 MG [Zoloft]",
+     "rank": "8",
+     "rxaui": "12306048",
+     "rxcui": "568885",
+     "score": "6.1234819839863786",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12928557",
+     "rxcui": "212233",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12933246",
+     "rxcui": "208149",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12952666",
+     "rxcui": "208161",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2651409",
+     "rxcui": "208149",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2651411",
+     "rxcui": "212233",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2651412",
+     "rxcui": "208161",
+     "score": "6.1234819839863786",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "10273134",
+     "rxcui": "861066",
+     "score": "6.048652906372668",
+     "source": "GS"
+    },
+    {
+     "name": "sertraline 20 MG/ML [Zoloft]",
+     "rank": "17",
+     "rxaui": "12301010",
+     "rxcui": "861065",
+     "score": "6.048652906372668",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "17",
+     "rxaui": "12933247",
+     "rxcui": "861066",
+     "score": "6.048652906372668",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=zoloft&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "rank": "1",
+     "rxaui": "673933",
+     "rxcui": "82728",
+     "score": "14.182943344116211",
+     "source": "MMSL"
+    },
+    {
+     "name": "Zoloft",
+     "rank": "1",
+     "rxaui": "673934",
+     "rxcui": "82728",
+     "score": "14.182943344116211",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Pill",
+     "rank": "3",
+     "rxaui": "3850474",
+     "rxcui": "1188169",
+     "score": "13.611270145893098",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Oral Product",
+     "rank": "4",
+     "rxaui": "3850473",
+     "rxcui": "1188168",
+     "score": "13.122445861256601",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Solution [Zoloft]",
+     "rank": "5",
+     "rxaui": "12313151",
+     "rxcui": "364573",
+     "score": "12.70593725215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline Oral Tablet [Zoloft]",
+     "rank": "5",
+     "rxaui": "12317782",
+     "rxcui": "368413",
+     "score": "12.70593725215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Zoloft Oral Liquid Product",
+     "rank": "7",
+     "rxaui": "3850472",
+     "rxcui": "1188167",
+     "score": "12.69958428353161",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline 25 MG [Zoloft]",
+     "rank": "8",
+     "rxaui": "12305551",
+     "rxcui": "572455",
+     "score": "10.70793675215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline 100 MG [Zoloft]",
+     "rank": "8",
+     "rxaui": "12306010",
+     "rxcui": "568875",
+     "score": "10.70793675215769",
+     "source": "RXNORM"
+    },
+    {
+     "name": "sertraline 50 MG [Zoloft]",
+     "rank": "8",
+     "rxaui": "12306048",
+     "rxcui": "568885",
+     "score": "10.70793675215769",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12928557",
+     "rxcui": "212233",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12933246",
+     "rxcui": "208149",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "12952666",
+     "rxcui": "208161",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2651409",
+     "rxcui": "208149",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2651411",
+     "rxcui": "212233",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2651412",
+     "rxcui": "208161",
+     "score": "10.70793675215769",
+     "source": "GS"
+    },
+    {
+     "rank": "17",
+     "rxaui": "10273134",
+     "rxcui": "861066",
+     "score": "10.339259600616721",
+     "source": "GS"
+    },
+    {
+     "name": "sertraline 20 MG/ML [Zoloft]",
+     "rank": "17",
+     "rxaui": "12301010",
+     "rxcui": "861065",
+     "score": "10.339259600616721",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "17",
+     "rxaui": "12933247",
+     "rxcui": "861066",
+     "score": "10.339259600616721",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=zorbex&maxEntries=25": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
+ "/REST/rxcui.json?name=acetaminophen&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "161"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=albuterol&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "435"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=amlodipine&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "17767"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=amoxicillin&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "723"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=amoxicillin+%2F+clavulanate&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "19711"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=amxil&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=arinac&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=aspirin&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "1191"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=atorvastatin&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "83367"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=augmentin&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "151392"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=bisoprolol&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "19484"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=calpl&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=cetirizine&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "20610"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=ciprofloxacin&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "2551"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=cocor&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=dispriin&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=disprn&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=escitalopram&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "321988"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=esita&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=flagyl&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "202866"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=glucophaage&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=glucophage&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "151827"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=ibuprofen&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "5640"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=klortiva&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=levothyroxine&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "10582"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=lexapro&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "352741"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=lipitor&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "153165"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=mefenamic+acid&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "6693"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=metformin&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "6809"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=montelukast&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "88249"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=nexium&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "284799"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=norrvasc&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=norvasc&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "58927"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=nuvamax&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=omeprazole&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "7646"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=panadol&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "202432"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=panadool&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=ponstaan&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=prednisolone&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "8638"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=sertraline&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "36437"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=singuair&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=singulair&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "153889"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=sinulair&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=synthrid&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=synthroid&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "224920"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=synthrroid&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=syntroid&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=valium&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "202472"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=ventolin&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "8887"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=xanax&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "202363"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=zithromax&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "196474"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=zolloft&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=zoloft&search=2": {
+  "idGroup": {
+   "rxnormId": [
+    "82728"
+   ]
+  }
+ },
+ "/REST/rxcui.json?name=zorbex&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui/10582/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "levothyroxine",
+   "rxcui": "10582",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/1191/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "aspirin",
+   "rxcui": "1191",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/151392/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Augmentin",
+   "rxcui": "151392",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/151392/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "clavulanate",
+       "rxcui": "48203",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      },
+      {
+       "language": "ENG",
+       "name": "amoxicillin",
+       "rxcui": "723",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/151477/properties.json?": {},
+ "/REST/rxcui/151827/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Glucophage",
+   "rxcui": "151827",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/151827/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "metformin",
+       "rxcui": "6809",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/153165/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Lipitor",
+   "rxcui": "153165",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/153165/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "atorvastatin",
+       "rxcui": "83367",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/153889/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Singulair",
+   "rxcui": "153889",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/153889/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "montelukast",
+       "rxcui": "88249",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/161/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "acetaminophen",
+   "rxcui": "161",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/17767/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "amlodipine",
+   "rxcui": "17767",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/19484/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "bisoprolol",
+   "rxcui": "19484",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/196474/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Zithromax",
+   "rxcui": "196474",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/196474/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "azithromycin",
+       "rxcui": "18631",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/19711/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "amoxicillin / clavulanate",
+   "rxcui": "19711",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "MIN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/19711/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "clavulanate",
+       "rxcui": "48203",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      },
+      {
+       "language": "ENG",
+       "name": "amoxicillin",
+       "rxcui": "723",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/202363/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Xanax",
+   "rxcui": "202363",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202363/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "alprazolam",
+       "rxcui": "596",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/202432/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Panadol",
+   "rxcui": "202432",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202432/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "acetaminophen",
+       "rxcui": "161",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/202472/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Valium",
+   "rxcui": "202472",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202472/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "diazepam",
+       "rxcui": "3322",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/202493/properties.json?": {},
+ "/REST/rxcui/202866/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Flagyl",
+   "rxcui": "202866",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/202866/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "metronidazole",
+       "rxcui": "6922",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/203169/properties.json?": {},
+ "/REST/rxcui/20610/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "cetirizine",
+   "rxcui": "20610",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/224920/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Synthroid",
+   "rxcui": "224920",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/224920/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "levothyroxine",
+       "rxcui": "10582",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/2551/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "ciprofloxacin",
+   "rxcui": "2551",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/284799/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Nexium",
+   "rxcui": "284799",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/284799/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "esomeprazole",
+       "rxcui": "283742",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/321988/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "escitalopram",
+   "rxcui": "321988",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/352741/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Lexapro",
+   "rxcui": "352741",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/352741/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "escitalopram",
+       "rxcui": "321988",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/36437/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "sertraline",
+   "rxcui": "36437",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/435/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "albuterol",
+   "rxcui": "435",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/5640/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "ibuprofen",
+   "rxcui": "5640",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/58927/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Norvasc",
+   "rxcui": "58927",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/58927/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "amlodipine",
+       "rxcui": "17767",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/6693/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "mefenamic acid",
+   "rxcui": "6693",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "PIN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/6809/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "metformin",
+   "rxcui": "6809",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/723/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "amoxicillin",
+   "rxcui": "723",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/7646/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "omeprazole",
+   "rxcui": "7646",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/82728/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Zoloft",
+   "rxcui": "82728",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/82728/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "sertraline",
+       "rxcui": "36437",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ },
+ "/REST/rxcui/83367/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "atorvastatin",
+   "rxcui": "83367",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/8638/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "prednisolone",
+   "rxcui": "8638",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/88249/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "montelukast",
+   "rxcui": "88249",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/8887/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "Ventolin",
+   "rxcui": "8887",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "BN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/8887/related.json?tty=IN": {
+  "relatedGroup": {
+   "conceptGroup": [
+    {
+     "conceptProperties": [
+      {
+       "language": "ENG",
+       "name": "albuterol",
+       "rxcui": "435",
+       "suppress": "N",
+       "synonym": "",
+       "tty": "IN",
+       "umlscui": ""
+      }
+     ],
+     "tty": "IN"
+    }
+   ],
+   "rxcui": null
+  }
+ }
+}

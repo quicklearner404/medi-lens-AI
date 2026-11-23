@@ -54,3 +54,11 @@ def test_header_lines_with_numbers_are_ignored():
 
 def test_empty_text():
     assert read_prescription("") == []
+
+
+def test_directions_in_words_end_the_name_and_attach_from_the_next_line():
+    items = read_prescription("1. Cap metformin three times a day\n2. Tablet Nuvamax 10mg\n   three times a day x 3 weeks")
+
+    assert [i.written_name for i in items] == ["metformin", "Nuvamax"]
+    assert items[1].directions.times_per_day == 3
+    assert items[1].directions.duration_days == 21

@@ -319,3 +319,226 @@ Every response also carries a disclaimer that this is not medical advice.
 ### Tests
 
 API tests run a five-medicine prescription through the full pipeline using recorded responses, plus empty, oversized and "database offline" cases. All 65 backend tests pass.
+
+---
+
+# Day 3
+
+**Date:** November 23, 2026
+
+## An evaluation set
+
+The unit tests show that individual rules work. They don't tell me how well MediLens reads a whole prescription it hasn't seen. For that I need an evaluation set: prescriptions with known correct answers, and a score.
+
+### Where the correct answers come from
+
+The most important rule: **the answers must not come from MediLens itself.** If I ran the system and saved its output as "expected", the evaluation would only check the code against itself.
+
+So `evaluation/generate_cases.py` builds prescriptions from a hand-written catalogue. For every name I wrote down the true active ingredients (Augmentin → amoxicillin + clavulanate, salbutamol → albuterol in RxNorm's naming). The generator then assembles prescriptions and records the answer for each medicine.
+
+### What's in it
+
+50 prescriptions, 174 medicines:
+
+- letterheads, qualifications, patient details, dates, diagnoses and footers, all of which must be ignored
+- numbering styles (`1.`, `2)`, `-`, none) and form spellings (Tab, Tab., TAB, Tablet, Cap, Syp)
+- directions on the same line or on the line below (30 prescriptions)
+- shorthand (`1+0+1`, `BD`, `q8h`, `x 2/52`) **and plain English** that doctors also write ("twice daily", "three times a day", "1 tab morning and night"), some of which I know the parser doesn't handle yet
+- **15 typos** (a dropped or doubled letter)
+- **real brands MediLens can't know** (Esita, Arinac): the right behaviour is to say "not recognised"
+- **invented names** (Zorbex, Nuvamax, Klortiva): matching these to any real medicine would be the worst possible error
+
+The generator is seeded, so the same 50 cases come out every time.
+
+### Limits
+
+These cases test *reading*, not medicine. The combinations aren't clinically realistic (azithromycin as a capsule twice daily), and every case is clean printed text. Text recognition errors from photos come later. I also wrote both the generator and the parser, so some of my own blind spots will be in both. Real prescriptions will eventually be the real test.
+
+---
+
+## The first score
+
+`evaluation/run.py` runs every prescription through MediLens and compares the result with the answers. Medicine identification has three outcomes, because they are not equally bad:
+
+- **correct**: matched to the true ingredients
+- **abstained**: "not recognised". Safe, but the user gets no help.
+- **wrong**: matched to a different medicine. This is the dangerous one.
+
+For invented names, the only correct outcome is "not recognised". Directions are scored field by field (times per day, dose, slots, timing, duration, as needed).
+
+RxNorm responses are recorded (`--record`), so the evaluation replays offline and gives the same numbers every time.
+
+### Baseline
+
+| Metric | Value |
+|---|---|
+| Medicine lines detected | 99.4% |
+| Known names identified correctly | 86.0% |
+| **Wrong matches** | **2** |
+| Invented names matched to a real medicine | 0 of 11 |
+| Medicines fully correct | 68.4% |
+
+### What failed, by cause
+
+1. **The 2 "wrong matches" are co-amoxiclav.** The medicine was right, but the combination came back as a single ingredient called "amoxicillin / clavulanate" instead of two. That also means the FDA label search would fail for it.
+2. **Very common brands are unrecognised:** Brufen (7 times), Amoxil (5), Ponstan (2). RxNorm still lists them, but as retired entries, the same problem as Calpol. Typos of brands on my local list (Disprn, Cocor, Calpl) also fail, because that list only matches exact names.
+3. **Parser gaps:** "three times a day", "1 tab morning and night" and "one tablet" aren't understood. A syrup dose like "5 ml" printed without a strength is mistaken *for* the strength. Directions on the next line that start with a word ("three times a day…") aren't attached to their medicine.
+4. **Some failures are bugs in my answer key.** The generator writes lines like "Cap Concor 1 tab BD" and then expects the unit "capsule". It also says "one tablet at night" has no timing, while the parser reads "at night" as bedtime, which is reasonable.
+
+Esita and Arinac being "not recognised" is the **correct** behaviour. I have no data on them, and saying so is better than guessing.
+
+Next: fix the answer key first, so the score measures MediLens and not my generator, then fix the system problems one at a time, measuring each.
+
+---
+
+## Fixing my answer key first
+
+Before changing MediLens, I fixed the two bugs in the evaluation itself, so that every remaining failure is a real problem with the system:
+
+- Directions now use the word for the form that was actually prescribed ("1 cap BD" under a capsule, "1 tab BD" under a tablet).
+- "one tablet at night" is now expected to be read as bedtime.
+
+The random sequence is unchanged, so these are the same 50 prescriptions with corrected answers. Fully correct medicines went from 68.4% to 71.8%, and timing from 96% to 100%, without touching MediLens. That is a good reminder that an evaluation can be wrong too, and that a score is only as trustworthy as its answer key.
+
+---
+
+## Fix 1: combination medicines
+
+Co-amoxiclav is one name for two medicines, amoxicillin and clavulanate. RxNorm stores names like this as a "multiple-ingredient" concept, and my code treated that concept as a single ingredient called "amoxicillin / clavulanate". The identity was right, but the ingredient list was wrong, and searching FDA labels for "amoxicillin / clavulanate" finds nothing.
+
+Combination concepts are now split into their real ingredients, the same way brands like Augmentin already were.
+
+| | Before | After |
+|---|---|---|
+| Wrong matches | 2 | **0** |
+| Known names identified | 86.0% | 87.3% |
+| Fully correct | 71.8% | 72.4% |
+
+---
+
+## Fix 2: brands RxNorm has retired
+
+Brufen, Amoxil and Ponstan are among the most prescribed brands in Pakistan, and all three came back "not recognised". RxNorm still lists them, but only as retired entries, the same problem I first met with Calpol. I added them to the local brand list (→ ibuprofen, amoxicillin, mefenamic acid).
+
+| | Before | After |
+|---|---|---|
+| Known names identified | 87.3% | 94.9% |
+| Fully correct | 72.4% | 78.2% |
+| **Wrong matches** | 0 | **2** |
+
+The score went up, but so did the number that matters most. Both new wrong matches are Ponstan: mefenamic acid was matched to **meclofenamic acid**, a different painkiller. I'm committing this step as it is so the problem is visible in the history, and fixing it next.
+
+---
+
+## Fix 3: one letter apart, different medicine
+
+**Mefenamic acid** (Ponstan) and **meclofenamic acid** are different painkillers whose names are 90% similar, well above my 80% threshold. Worse, RxNorm's approximate search for "mefenamic acid" returns *only* meclofenamic acid: the same concept five times, once per source database, so the right one never even appears as a candidate.
+
+### What I changed
+
+- **Exact name lookup first.** RxNorm finds mefenamic acid immediately by name. Approximate search is now only a fallback for names it can't find.
+- **More approximate candidates** (25 instead of 5), so duplicate entries from different source databases can't crowd out the right concept.
+- **Every spelling-corrected match asks the user to confirm.** Before, only matches below 90% did. After this case, I don't trust any similarity threshold to tell medicines apart on its own. "omeprazol" → omeprazole still works, but the card now says *Read as "omeprazole". Please confirm.*
+
+### A wrong assumption the tests caught
+
+I first marked anything found by RxNorm's name lookup as "exact". The tests failed because that lookup *normalises* spelling: it finds omeprazole for "omeprazol". A match is now exact only if the medicine's real name equals what was written.
+
+| | Before | After |
+|---|---|---|
+| **Wrong matches** | 2 | **0** |
+| Known names identified | 94.9% | 96.2% |
+| Fully correct | 78.2% | 79.3% |
+
+This is the bug I'm most glad the evaluation found. Without it, a patient prescribed Ponstan would have been shown information about a different drug, with official-looking sources.
+
+---
+
+## Fix 4: syrup doses
+
+"Syp Brufen 5ml SOS" came out with no dose at all. The parser's idea of a *strength* included plain volumes, so when a syrup had no strength printed, the dose ("5 ml") was taken as the strength and then ignored.
+
+A strength is now an amount of drug, optionally per volume ("120mg/5ml"); a volume on its own is a dose.
+
+| | Before | After |
+|---|---|---|
+| Dose field | 86.8% | 92.3% |
+| Fully correct | 79.3% | 82.2% |
+
+---
+
+## Fix 5: directions written in plain English
+
+Plenty of doctors don't use Latin shorthand. The evaluation's plain-English cases showed the parser didn't understand:
+
+- "three times a day", "2 times a day", "thrice daily"
+- "one capsule", "two tablets" (number words as the dose)
+- "1 tab morning and night" (times of day as words)
+- directions on the next line starting with a word ("three times a day x 3 weeks") weren't attached to their medicine, and "Cap metformin three times a day" was read as a medicine called "metformin three times a"
+
+All four are handled now.
+
+| | Before | After |
+|---|---|---|
+| Times per day | 91.1% | 100% |
+| Slots | 86.0% | 100% |
+| Medicine lines detected | 99.4% | 100% |
+| Fully correct | 82.2% | 93.7% |
+
+### What 100% does and doesn't mean
+
+Every direction field now scores 100% on this set, but I have to be honest with myself about it: I fixed the parser *while looking at these same 50 prescriptions*. The score shows that MediLens handles the phrasings I thought of; it doesn't show how it does on phrasings I didn't think of. Real prescriptions, and later a held-out set written by someone else, are the real test.
+
+---
+
+## Fix 6: typos in local brand names
+
+The last failures on known names were slips like "Disprn", "Cocor" and "Calpl". RxNorm can't help with these brands, and my local list only matched exact names.
+
+The local list now also accepts a close spelling (at least 80% similar), but only as the **last resort**, after RxNorm has found nothing, and the match always asks the user to confirm. I checked the case I worried about most: none of the 11 invented names (Zorbex, Nuvamax, Klortiva) got matched to anything.
+
+| | Before | After |
+|---|---|---|
+| Known names identified (incl. typos) | 96.2% | **100%** |
+| Invented names refused | 11 / 11 | 11 / 11 |
+| Wrong matches | 0 | 0 |
+| Fully correct | 93.7% | 97.1% |
+
+The remaining 2.9% are Esita and Arinac, real brands MediLens has no data on. "Not recognised, please ask your pharmacist" is the right answer there until the brand list grows from a reliable source.
+
+## Where the evaluation took me
+
+| Step | Fully correct | Wrong matches |
+|---|---|---|
+| Baseline | 68.4% | 2 |
+| Answer key fixed | 71.8% | 2 |
+| Combination medicines split | 72.4% | 0 |
+| Retired brands added | 78.2% | **2** |
+| Exact names first, confirm the rest | 79.3% | 0 |
+| Syrup doses | 82.2% | 0 |
+| Plain-English directions | 93.7% | 0 |
+| Local brand typos | 97.1% | 0 |
+
+The most valuable thing the evaluation did wasn't raising the score. It caught the step where the score went *up* and safety went *down*.
+
+---
+
+## Making the evaluation a gate
+
+The evaluation now runs in CI after the unit tests (`python evaluation/run.py --check`) and fails the build if:
+
+- there is **any** wrong match (the limit is 0, not "no worse than before")
+- any invented name is matched to a real medicine
+- detection, identification, fully-correct or any direction field drops below the scores recorded in `evaluation/baseline.json`
+
+The safety limits are absolute on purpose. A change that raises the overall score while adding one wrong match should never be mergeable, which is exactly what happened with the retired brands today.
+
+To check the gate does its job, I temporarily lowered the name-similarity threshold from 0.8 to 0.5 in a throwaway copy and ran it:
+
+```
+REGRESSION wrong matches: 6 (allowed 0)
+REGRESSION known_name_accuracy: 0.994 < baseline 1.000
+REGRESSION fully_correct: 0.966 < baseline 0.971
+```
+
+So the 0.8 threshold isn't arbitrary any more: loosening it produces six wrong medicines, and CI would stop it.

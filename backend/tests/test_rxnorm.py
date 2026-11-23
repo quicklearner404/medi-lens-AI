@@ -38,14 +38,22 @@ def test_misspelt_generic_is_corrected(rxnorm):
 
 @pytest.mark.parametrize(
     ("written", "generic"),
-    [("paracetamol", "acetaminophen"), ("salbutamol", "albuterol"),
-     ("co-amoxiclav", "amoxicillin / clavulanate")],
+    [("paracetamol", "acetaminophen"), ("salbutamol", "albuterol")],
 )
 def test_international_names_map_to_rxnorm_names(rxnorm, written, generic):
     match = rxnorm.identify(written)
 
     assert match.source == "synonym"
     assert match.generic_name == generic
+
+
+def test_combination_written_as_one_name_is_split_into_ingredients(rxnorm):
+    # Found by the evaluation: co-amoxiclav came back as one ingredient called
+    # "amoxicillin / clavulanate", which also broke the FDA label search.
+    match = rxnorm.identify("co-amoxiclav")
+
+    assert match.concept_type == "MIN"
+    assert {i.name for i in match.ingredients} == {"amoxicillin", "clavulanate"}
 
 
 @pytest.mark.parametrize(
@@ -84,3 +92,35 @@ def test_retired_concepts_are_skipped():
 
 def test_calpol_is_on_the_local_brand_list(rxnorm):
     assert rxnorm.identify("Calpol").generic_name == "acetaminophen"
+
+
+def test_common_brand_retired_in_rxnorm_uses_the_local_list(rxnorm):
+    # Found by the evaluation: Brufen is still an RxNorm search result, but retired.
+    match = rxnorm.identify("Brufen")
+
+    assert match.source == "local-brand"
+    assert match.generic_name == "ibuprofen"
+
+
+def test_exact_name_wins_over_a_similar_different_medicine(rxnorm):
+    # Found by the evaluation: approximate search for "mefenamic acid" (Ponstan)
+    # only returns meclofenamic acid, a different painkiller.
+    match = rxnorm.identify("Ponstan")
+
+    assert match.generic_name == "mefenamic acid"
+    assert match.exact
+
+
+def test_spelling_corrected_matches_are_marked_as_not_exact(rxnorm):
+    assert not rxnorm.identify("omeprazol").exact
+    assert rxnorm.identify("omeprazole 20mg").exact
+
+
+@pytest.mark.parametrize(("written", "generic"), [("Disprn", "aspirin"), ("Calpl", "acetaminophen")])
+def test_misspelt_local_brand_is_matched_but_needs_confirming(rxnorm, written, generic):
+    # Found by the evaluation: the local brand list only matched exact names.
+    match = rxnorm.identify(written)
+
+    assert match.generic_name == generic
+    assert match.source == "local-brand"
+    assert not match.exact
