@@ -251,3 +251,30 @@ openFDA returns many labels per medicine, including combination products ("aceta
 ### Tests
 
 Seven cases replayed from recorded real responses, including the alprazolam and metformin traps above and a made-up medicine name that must return nothing.
+
+---
+
+## Reading the whole prescription
+
+Text recognition gives back every printed line: the doctor's letterhead, qualifications, clinic phone number, patient name and age, date, diagnosis, the medicines, and "Follow up after 4 weeks". Only the medicine lines matter here.
+
+### How it works
+
+- A **medicine line** starts with a dosage form (Tab, Cap, Syp, Inj, Drops…), optionally after numbering like `1.`, `3)` or `Rx`.
+- The **written name** is everything between the form and the first word that starts the directions: a number (`20mg`, `120mg/5ml`, `1+0+0`), a frequency code (`OD`, `TDS`) or words like "after"/"for". Names that contain digits but start with a letter, like "Vitamin D3", survive.
+- **Directions on the next line.** Doctors often write the name on one line and the dosing underneath:
+
+  ```
+  2. Tab Xanax 0.25mg
+     0+0+1 x 2/52 at night
+  ```
+
+  A line that contains only directions is attached to the medicine above it.
+
+### A bug the tests caught
+
+My first rule for "this word starts the directions" only recognised plain strengths like `20mg`, so a syrup written as `Calpol 120mg/5ml` came out with the name "Calpol 120mg/5ml". The simpler rule (any word starting with a digit begins the directions) handles every strength format I've seen.
+
+### Tests
+
+A realistic test prescription with a letterhead, patient details (including numbers like age, date and blood pressure, which must not be mistaken for medicines), four medicines in different numbering styles, and a follow-up note.
