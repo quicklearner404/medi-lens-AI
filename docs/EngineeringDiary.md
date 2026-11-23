@@ -520,3 +520,25 @@ The remaining 2.9% are Esita and Arinac, real brands MediLens has no data on. "N
 | Local brand typos | 97.1% | 0 |
 
 The most valuable thing the evaluation did wasn't raising the score. It caught the step where the score went *up* and safety went *down*.
+
+---
+
+## Making the evaluation a gate
+
+The evaluation now runs in CI after the unit tests (`python evaluation/run.py --check`) and fails the build if:
+
+- there is **any** wrong match (the limit is 0, not "no worse than before")
+- any invented name is matched to a real medicine
+- detection, identification, fully-correct or any direction field drops below the scores recorded in `evaluation/baseline.json`
+
+The safety limits are absolute on purpose. A change that raises the overall score while adding one wrong match should never be mergeable, which is exactly what happened with the retired brands today.
+
+To check the gate does its job, I temporarily lowered the name-similarity threshold from 0.8 to 0.5 in a throwaway copy and ran it:
+
+```
+REGRESSION wrong matches: 6 (allowed 0)
+REGRESSION known_name_accuracy: 0.994 < baseline 1.000
+REGRESSION fully_correct: 0.966 < baseline 0.971
+```
+
+So the 0.8 threshold isn't arbitrary any more: loosening it produces six wrong medicines, and CI would stop it.

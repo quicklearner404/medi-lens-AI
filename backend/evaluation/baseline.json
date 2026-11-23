@@ -1,0 +1,15 @@
+{
+  "max_wrong_matches": 0,
+  "detection_recall": 1.0,
+  "known_name_accuracy": 1.0,
+  "fully_correct": 0.9712,
+  "directions": {
+    "times_per_day": 1.0,
+    "slots": 1.0,
+    "dose": 1.0,
+    "dose_unit": 1.0,
+    "timing": 1.0,
+    "duration_days": 1.0,
+    "as_needed": 1.0
+  }
+}

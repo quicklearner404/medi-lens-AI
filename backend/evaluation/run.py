@@ -2,6 +2,7 @@
 
     python evaluation/run.py              # replay recorded RxNorm responses (offline)
     python evaluation/run.py --record     # query RxNorm live and refresh the recording
+    python evaluation/run.py --check      # fail if results fall below evaluation/baseline.json
 
 Writes evaluation/results/metrics.json and evaluation/results/report.md.
 
@@ -36,6 +37,7 @@ from medilens.rxnorm import RXNAV, RxNormClient  # noqa: E402
 CASES = HERE / "cases.jsonl"
 RECORDING = HERE / "rxnorm_recording.json"
 RESULTS = HERE / "results"
+BASELINE = HERE / "baseline.json"
 FIELDS = ["times_per_day", "slots", "dose", "dose_unit", "timing", "duration_days", "as_needed"]
 
 
@@ -166,9 +168,27 @@ def report(m: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
+def regressions(metrics: dict, baseline: dict) -> list[str]:
+    """Safety limits are absolute; scores may not drop below the recorded baseline."""
+    problems = []
+    if metrics["wrong_matches"] > baseline["max_wrong_matches"]:
+        problems.append(f"wrong matches: {metrics['wrong_matches']} (allowed {baseline['max_wrong_matches']})")
+    invented = metrics["identification"].get("invented name", {})
+    if invented.get("wrong", 0):
+        problems.append(f"invented names matched to a real medicine: {invented['wrong']}")
+    for key in ("detection_recall", "known_name_accuracy", "fully_correct"):
+        if metrics[key] < baseline[key] - 1e-9:
+            problems.append(f"{key}: {metrics[key]:.3f} < baseline {baseline[key]:.3f}")
+    for field, floor in baseline["directions"].items():
+        if metrics["directions"].get(field, 0) < floor - 1e-9:
+            problems.append(f"directions.{field}: {metrics['directions'].get(field, 0):.3f} < baseline {floor:.3f}")
+    return problems
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[1])
     parser.add_argument("--record", action="store_true", help="query RxNorm live and save the responses")
+    parser.add_argument("--check", action="store_true", help="fail if results fall below the baseline")
     args = parser.parse_args()
 
     cases = [json.loads(line) for line in CASES.read_text(encoding="utf-8").splitlines() if line]
@@ -182,6 +202,14 @@ def main() -> None:
     (RESULTS / "metrics.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     (RESULTS / "report.md").write_text(report(metrics), encoding="utf-8")
     print(json.dumps(summary, indent=2))
+
+    if args.check:
+        problems = regressions(metrics, json.loads(BASELINE.read_text()))
+        for problem in problems:
+            print(f"REGRESSION {problem}", file=sys.stderr)
+        if problems:
+            sys.exit(1)
+        print("Evaluation at or above baseline.")
 
 
 if __name__ == "__main__":
