@@ -7,8 +7,7 @@
       "correct": 11
     },
     "known name": {
-      "correct": 140,
-      "wrong": 2
+      "correct": 142
     },
     "typo": {
       "correct": 9,
@@ -18,8 +17,8 @@
       "abstained": 5
     }
   },
-  "known_name_accuracy": 0.9490445859872612,
-  "wrong_matches": 2,
+  "known_name_accuracy": 0.9617834394904459,
+  "wrong_matches": 0,
   "directions": {
     "times_per_day": 0.911,
     "slots": 0.86,
@@ -29,5 +28,5 @@
     "duration_days": 0.994,
     "as_needed": 1.0
   },
-  "fully_correct": 0.7816091954022989
+  "fully_correct": 0.7931034482758621
 }

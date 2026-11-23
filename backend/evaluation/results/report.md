@@ -6,16 +6,16 @@ Synthetic set: 174 medicines on 50 printed prescriptions (`evaluation/cases.json
 |---|---|
 | Medicine lines detected | 99.4% |
 | Extra (non-medicine) lines taken as medicines | 1 |
-| Known names identified correctly (incl. typos) | 94.9% |
-| **Wrong matches (dangerous)** | **2** |
-| Medicines fully correct (identity + every direction field) | 78.2% |
+| Known names identified correctly (incl. typos) | 96.2% |
+| **Wrong matches (dangerous)** | **0** |
+| Medicines fully correct (identity + every direction field) | 79.3% |
 
 ## Identification by group
 
 | Group | Correct | Abstained ("not recognised") | Wrong |
 |---|---|---|---|
 | invented name | 11 | 0 | 0 |
-| known name | 140 | 0 | 2 |
+| known name | 142 | 0 | 0 |
 | typo | 9 | 6 | 0 |
 | unknown real brand | 0 | 5 | 0 |
 
@@ -33,7 +33,7 @@ For invented names, "correct" means they were reported as not recognised.
 | duration_days | 99.4% |
 | as_needed | 100.0% |
 
-## Failures (60)
+## Failures (58)
 
 | Case | Medicine | Problem | Detail |
 |---|---|---|---|
@@ -62,7 +62,6 @@ For invented names, "correct" means they were reported as not recognised.
 | rx19 | Esita | directions.dose_unit | expected 'capsule', got None / '1) Cap. Esita 500mg one capsule at night x 2/52' |
 | rx21 | Nuvamax | directions.times_per_day | expected 3, got None / '1) Tablet Nuvamax 10mg' |
 | rx21 | Nuvamax | directions.duration_days | expected 21, got None / '1) Tablet Nuvamax 10mg' |
-| rx22 | Ponstan | identification: wrong | expected ['mefenamic acid'] |
 | rx23 | Augmentin | directions.times_per_day | expected 3, got None / '3. Tab. Augmentin 250mg three times a day PC' |
 | rx27 | Synthroid | directions.times_per_day | expected 2, got None / 'Tablet Synthroid 500mg 1 tab morning and night PC for 1 month' |
 | rx27 | Synthroid | directions.slots | expected ['morning', 'night'], got [] / 'Tablet Synthroid 500mg 1 tab morning and night PC for 1 month' |
@@ -80,7 +79,6 @@ For invented names, "correct" means they were reported as not recognised.
 | rx35 | prednisolone | directions.times_per_day | expected 3, got None / 'Tab prednisolone 0.25mg three times a day for 10 days' |
 | rx35 | Brufen | directions.dose | expected 10, got None / '- Syp. Brufen 10 ml BD x 1/12' |
 | rx35 | Brufen | directions.dose_unit | expected 'ml', got None / '- Syp. Brufen 10 ml BD x 1/12' |
-| rx35 | Ponstan | identification: wrong | expected ['mefenamic acid'] |
 | rx36 | Disprin | directions.times_per_day | expected 3, got None / 'Tab. Disprin 5mg three times a day after meals x 3 weeks' |
 | rx41 | cetirizine | directions.dose | expected 5, got None / '2. Syp. cetirizine 5 ml TDS' |
 | rx41 | cetirizine | directions.dose_unit | expected 'ml', got None / '2. Syp. cetirizine 5 ml TDS' |

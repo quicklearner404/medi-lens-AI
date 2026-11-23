@@ -427,3 +427,27 @@ Brufen, Amoxil and Ponstan are among the most prescribed brands in Pakistan, and
 | **Wrong matches** | 0 | **2** |
 
 The score went up, but so did the number that matters most. Both new wrong matches are Ponstan: mefenamic acid was matched to **meclofenamic acid**, a different painkiller. I'm committing this step as it is so the problem is visible in the history, and fixing it next.
+
+---
+
+## Fix 3: one letter apart, different medicine
+
+**Mefenamic acid** (Ponstan) and **meclofenamic acid** are different painkillers whose names are 90% similar, well above my 80% threshold. Worse, RxNorm's approximate search for "mefenamic acid" returns *only* meclofenamic acid: the same concept five times, once per source database, so the right one never even appears as a candidate.
+
+### What I changed
+
+- **Exact name lookup first.** RxNorm finds mefenamic acid immediately by name. Approximate search is now only a fallback for names it can't find.
+- **More approximate candidates** (25 instead of 5), so duplicate entries from different source databases can't crowd out the right concept.
+- **Every spelling-corrected match asks the user to confirm.** Before, only matches below 90% did. After this case, I don't trust any similarity threshold to tell medicines apart on its own. "omeprazol" → omeprazole still works, but the card now says *Read as "omeprazole". Please confirm.*
+
+### A wrong assumption the tests caught
+
+I first marked anything found by RxNorm's name lookup as "exact". The tests failed because that lookup *normalises* spelling: it finds omeprazole for "omeprazol". A match is now exact only if the medicine's real name equals what was written.
+
+| | Before | After |
+|---|---|---|
+| **Wrong matches** | 2 | **0** |
+| Known names identified | 94.9% | 96.2% |
+| Fully correct | 78.2% | 79.3% |
+
+This is the bug I'm most glad the evaluation found. Without it, a patient prescribed Ponstan would have been shown information about a different drug, with official-looking sources.

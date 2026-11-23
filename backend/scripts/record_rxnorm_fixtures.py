@@ -18,7 +18,7 @@ from medilens.rxnorm import RXNAV, RxNormClient  # noqa: E402
 
 TERMS = [
     "Risek 20mg", "Concor", "Esita", "Panadol", "paracetamol", "Augmentn", "Calpol",
-    "omeprazol", "Glucophage 500mg", "co-amoxiclav", "Xanax", "Disprin", "salbutamol", "Brufen",
+    "omeprazol", "Glucophage 500mg", "co-amoxiclav", "Xanax", "Disprin", "salbutamol", "Brufen", "Ponstan", "omeprazole 20mg",
 ]
 OUT = ROOT / "tests" / "fixtures" / "rxnorm.json"
 

@@ -100,3 +100,17 @@ def test_common_brand_retired_in_rxnorm_uses_the_local_list(rxnorm):
 
     assert match.source == "local-brand"
     assert match.generic_name == "ibuprofen"
+
+
+def test_exact_name_wins_over_a_similar_different_medicine(rxnorm):
+    # Found by the evaluation: approximate search for "mefenamic acid" (Ponstan)
+    # only returns meclofenamic acid, a different painkiller.
+    match = rxnorm.identify("Ponstan")
+
+    assert match.generic_name == "mefenamic acid"
+    assert match.exact
+
+
+def test_spelling_corrected_matches_are_marked_as_not_exact(rxnorm):
+    assert not rxnorm.identify("omeprazol").exact
+    assert rxnorm.identify("omeprazole 20mg").exact
