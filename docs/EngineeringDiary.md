@@ -215,3 +215,39 @@ The tests replay **real recorded RxNorm responses** (`scripts/record_rxnorm_fixt
 ### Open question
 
 Escitalopram, the medicine that started this project, is sold here under brand names RxNorm doesn't know. Growing the local brand list reliably, from a trustworthy source, is the part I still need to solve.
+
+---
+
+## Explaining each medicine from official sources
+
+Once a medicine is identified, the app needs to explain it. I decided early that **nothing medical will be generated**. Every sentence the user sees comes from an official source, with a link to it.
+
+### Sources
+
+- **MedlinePlus** (US National Library of Medicine): a short summary written for patients, e.g. "Escitalopram is used to treat depression… It is in a class of antidepressants called SSRIs." That is exactly the sentence I never got.
+- **FDA drug labels** (openFDA / DailyMed): what the medicine is approved for, the boxed warning, and the label's key warnings.
+
+### The "don't stop suddenly" flag
+
+This is the feature the whole project is really about. For escitalopram, the FDA label says:
+
+> Discontinuation syndrome: When discontinuing escitalopram, reduce dosage gradually whenever possible…
+
+The app pulls that sentence out and shows it separately and prominently.
+
+Getting this right took several rounds of testing against real labels:
+
+- **First attempt:** any mention of "withdrawal" counted. For alprazolam it picked a sentence about *newborns* of mothers taking the drug, instead of the boxed warning that stopping suddenly "can be life-threatening". Sentences about neonates are now excluded, and explicit instructions (taper, gradually, abrupt) win over passing mentions.
+- **False positive:** metformin's label says "gradual dose escalation", which is about *starting* the medicine. A sentence now has to mention stopping (discontinue, cessation, dose reduction) **and** how (gradually, taper, abrupt).
+- **Older label format:** bisoprolol's label doesn't use the newer summary layout, so its "Abrupt Cessation of Therapy" warning was missed at first. Stopping a beta-blocker suddenly can cause a heart attack, so this one really mattered. The search now falls back to the full warnings text.
+- **Wrong product:** prednisolone matched an *eye-drop* label at first. Oral labels are now preferred, because prescriptions are mostly tablets and syrups.
+
+After these changes the flag appears for escitalopram, sertraline, alprazolam, clonazepam, bisoprolol, propranolol and prednisolone, and not for paracetamol, omeprazole, metformin or co-amoxiclav.
+
+### Choosing the right label
+
+openFDA returns many labels per medicine, including combination products ("acetaminophen, dextromethorphan, phenylephrine"). I pick the label whose active ingredients match exactly, preferring oral prescription labels and the most recent version. If only combination products exist, the app shows nothing from the label rather than describing a different product.
+
+### Tests
+
+Seven cases replayed from recorded real responses, including the alprazolam and metformin traps above and a made-up medicine name that must return nothing.
