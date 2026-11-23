@@ -92,3 +92,11 @@ def test_retired_concepts_are_skipped():
 
 def test_calpol_is_on_the_local_brand_list(rxnorm):
     assert rxnorm.identify("Calpol").generic_name == "acetaminophen"
+
+
+def test_common_brand_retired_in_rxnorm_uses_the_local_list(rxnorm):
+    # Found by the evaluation: Brufen is still an RxNorm search result, but retired.
+    match = rxnorm.identify("Brufen")
+
+    assert match.source == "local-brand"
+    assert match.generic_name == "ibuprofen"

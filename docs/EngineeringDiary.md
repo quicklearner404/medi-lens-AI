@@ -413,3 +413,17 @@ Combination concepts are now split into their real ingredients, the same way bra
 | Wrong matches | 2 | **0** |
 | Known names identified | 86.0% | 87.3% |
 | Fully correct | 71.8% | 72.4% |
+
+---
+
+## Fix 2: brands RxNorm has retired
+
+Brufen, Amoxil and Ponstan are among the most prescribed brands in Pakistan, and all three came back "not recognised". RxNorm still lists them, but only as retired entries, the same problem I first met with Calpol. I added them to the local brand list (→ ibuprofen, amoxicillin, mefenamic acid).
+
+| | Before | After |
+|---|---|---|
+| Known names identified | 87.3% | 94.9% |
+| Fully correct | 72.4% | 78.2% |
+| **Wrong matches** | 0 | **2** |
+
+The score went up, but so did the number that matters most. Both new wrong matches are Ponstan: mefenamic acid was matched to **meclofenamic acid**, a different painkiller. I'm committing this step as it is so the problem is visible in the history, and fixing it next.

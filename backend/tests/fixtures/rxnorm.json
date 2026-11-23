@@ -403,6 +403,113 @@
    "inputTerm": null
   }
  },
+ "/REST/approximateTerm.json?term=ibuprofen&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Ibuprofen",
+     "rank": "1",
+     "rxaui": "10282384",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10326351",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "GS"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "12254458",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "179265",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "179276",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "MMSL"
+    },
+    {
+     "name": "IBUPROFEN",
+     "rank": "1",
+     "rxaui": "2071507",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3605298",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "NDDF"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480549",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480550",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480551",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480552",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "7717203",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "Ibuprofen",
+     "rank": "1",
+     "rxaui": "8574087",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
  "/REST/approximateTerm.json?term=omeprazol&maxEntries=5": {
   "approximateGroup": {
    "candidate": [
@@ -858,6 +965,17 @@
    "language": "ENG",
    "name": "albuterol",
    "rxcui": "435",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/5640/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "ibuprofen",
+   "rxcui": "5640",
    "suppress": "N",
    "synonym": "",
    "tty": "IN",

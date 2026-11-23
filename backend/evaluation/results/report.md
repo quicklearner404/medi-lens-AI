@@ -6,16 +6,16 @@ Synthetic set: 174 medicines on 50 printed prescriptions (`evaluation/cases.json
 |---|---|
 | Medicine lines detected | 99.4% |
 | Extra (non-medicine) lines taken as medicines | 1 |
-| Known names identified correctly (incl. typos) | 87.3% |
-| **Wrong matches (dangerous)** | **0** |
-| Medicines fully correct (identity + every direction field) | 72.4% |
+| Known names identified correctly (incl. typos) | 94.9% |
+| **Wrong matches (dangerous)** | **2** |
+| Medicines fully correct (identity + every direction field) | 78.2% |
 
 ## Identification by group
 
 | Group | Correct | Abstained ("not recognised") | Wrong |
 |---|---|---|---|
 | invented name | 11 | 0 | 0 |
-| known name | 128 | 14 | 0 |
+| known name | 140 | 0 | 2 |
 | typo | 9 | 6 | 0 |
 | unknown real brand | 0 | 5 | 0 |
 
@@ -33,7 +33,7 @@ For invented names, "correct" means they were reported as not recognised.
 | duration_days | 99.4% |
 | as_needed | 100.0% |
 
-## Failures (72)
+## Failures (60)
 
 | Case | Medicine | Problem | Detail |
 |---|---|---|---|
@@ -46,20 +46,15 @@ For invented names, "correct" means they were reported as not recognised.
 | rx05 | amlodipine | directions.dose_unit | expected 'capsule', got None / 'Cap amlodipine 500mg one capsule at night x 1/12' |
 | rx05 | Risek | directions.times_per_day | expected 3, got None / 'Tab Risek 10mg three times a day PC x 1/12' |
 | rx05 | Calpl | identification: abstained | expected ['acetaminophen'] |
-| rx05 | Amoxil | identification: abstained | expected ['amoxicillin'] |
 | rx07 | Esita | identification: abstained | expected ['escitalopram'] |
-| rx10 | Amoxil | identification: abstained | expected ['amoxicillin'] |
 | rx10 | co-amoxiclav | directions.times_per_day | expected 2, got None / '4. TAB co-amoxiclav 10mg 1 tab morning and night PC for 1 month' |
 | rx10 | co-amoxiclav | directions.slots | expected ['morning', 'night'], got [] / '4. TAB co-amoxiclav 10mg 1 tab morning and night PC for 1 month' |
-| rx11 | Brufen | identification: abstained | expected ['ibuprofen'] |
 | rx11 | paracetamol | directions.dose | expected 5, got None / '- Syp paracetamol 5ml SOS PC for 1 month' |
 | rx11 | paracetamol | directions.dose_unit | expected 'ml', got None / '- Syp paracetamol 5ml SOS PC for 1 month' |
 | rx14 | Dispriin | identification: abstained | expected ['aspirin'] |
 | rx15 | Synthrroid | directions.times_per_day | expected 2, got None / '- Cap. Synthrroid 500mg 1 cap morning and night' |
 | rx15 | Synthrroid | directions.slots | expected ['morning', 'night'], got [] / '- Cap. Synthrroid 500mg 1 cap morning and night' |
-| rx15 | Brufen | identification: abstained | expected ['ibuprofen'] |
 | rx18 | Nuvamax | directions.times_per_day | expected 3, got None / '1. Tablet Nuvamax 10mg three times a day AC x 1/12' |
-| rx18 | Brufen | identification: abstained | expected ['ibuprofen'] |
 | rx18 | Brufen | directions.dose | expected 5, got None / '- Syp. Brufen 5ml SOS on empty stomach for 10 days' |
 | rx18 | Brufen | directions.dose_unit | expected 'ml', got None / '- Syp. Brufen 5ml SOS on empty stomach for 10 days' |
 | rx19 | Esita | identification: abstained | expected ['escitalopram'] |
@@ -67,12 +62,10 @@ For invented names, "correct" means they were reported as not recognised.
 | rx19 | Esita | directions.dose_unit | expected 'capsule', got None / '1) Cap. Esita 500mg one capsule at night x 2/52' |
 | rx21 | Nuvamax | directions.times_per_day | expected 3, got None / '1) Tablet Nuvamax 10mg' |
 | rx21 | Nuvamax | directions.duration_days | expected 21, got None / '1) Tablet Nuvamax 10mg' |
-| rx22 | Ponstan | identification: abstained | expected ['mefenamic acid'] |
+| rx22 | Ponstan | identification: wrong | expected ['mefenamic acid'] |
 | rx23 | Augmentin | directions.times_per_day | expected 3, got None / '3. Tab. Augmentin 250mg three times a day PC' |
-| rx24 | Amoxil | identification: abstained | expected ['amoxicillin'] |
 | rx27 | Synthroid | directions.times_per_day | expected 2, got None / 'Tablet Synthroid 500mg 1 tab morning and night PC for 1 month' |
 | rx27 | Synthroid | directions.slots | expected ['morning', 'night'], got [] / 'Tablet Synthroid 500mg 1 tab morning and night PC for 1 month' |
-| rx28 | Amoxil | identification: abstained | expected ['amoxicillin'] |
 | rx29 | salbutamol | directions.dose | expected 1, got None / '- TAB salbutamol 500mg one tablet at night x 5/7' |
 | rx29 | salbutamol | directions.dose_unit | expected 'tablet', got None / '- TAB salbutamol 500mg one tablet at night x 5/7' |
 | rx30 | Augmentin | directions.dose | expected 1, got None / '3. Cap Augmentin 5mg one capsule at night for 1 month' |
@@ -85,14 +78,10 @@ For invented names, "correct" means they were reported as not recognised.
 | rx34 | Arinac | identification: abstained | expected ['ibuprofen', 'pseudoephedrine'] |
 | rx35 | Arinac | identification: abstained | expected ['ibuprofen', 'pseudoephedrine'] |
 | rx35 | prednisolone | directions.times_per_day | expected 3, got None / 'Tab prednisolone 0.25mg three times a day for 10 days' |
-| rx35 | Brufen | identification: abstained | expected ['ibuprofen'] |
 | rx35 | Brufen | directions.dose | expected 10, got None / '- Syp. Brufen 10 ml BD x 1/12' |
 | rx35 | Brufen | directions.dose_unit | expected 'ml', got None / '- Syp. Brufen 10 ml BD x 1/12' |
-| rx35 | Ponstan | identification: abstained | expected ['mefenamic acid'] |
-| rx36 | Brufen | identification: abstained | expected ['ibuprofen'] |
+| rx35 | Ponstan | identification: wrong | expected ['mefenamic acid'] |
 | rx36 | Disprin | directions.times_per_day | expected 3, got None / 'Tab. Disprin 5mg three times a day after meals x 3 weeks' |
-| rx36 | Amoxil | identification: abstained | expected ['amoxicillin'] |
-| rx38 | Brufen | identification: abstained | expected ['ibuprofen'] |
 | rx41 | cetirizine | directions.dose | expected 5, got None / '2. Syp. cetirizine 5 ml TDS' |
 | rx41 | cetirizine | directions.dose_unit | expected 'ml', got None / '2. Syp. cetirizine 5 ml TDS' |
 | rx42 | Xanax | directions.dose | expected 1, got None / '3. Cap Xanax 20 mg one capsule at night x 7 days' |
@@ -108,4 +97,3 @@ For invented names, "correct" means they were reported as not recognised.
 | rx46 | Augmentin | directions.dose | expected 1, got None / '3. Tab Augmentin 40mg one tablet at night' |
 | rx46 | Augmentin | directions.dose_unit | expected 'tablet', got None / '3. Tab Augmentin 40mg one tablet at night' |
 | rx46 | Cocor | identification: abstained | expected ['bisoprolol'] |
-| rx49 | Brufen | identification: abstained | expected ['ibuprofen'] |

@@ -207,6 +207,81 @@
    "inputTerm": null
   }
  },
+ "/REST/approximateTerm.json?term=amoxicillin&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Amoxicillin",
+     "rank": "1",
+     "rxaui": "10282462",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10328150",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "GS"
+    },
+    {
+     "name": "amoxicillin",
+     "rank": "1",
+     "rxaui": "12252059",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "RXNORM"
+    },
+    {
+     "name": "AMOXICILLIN",
+     "rank": "1",
+     "rxaui": "2067793",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "21853",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "21863",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "MMSL"
+    },
+    {
+     "name": "amoxicillin",
+     "rank": "1",
+     "rxaui": "5478655",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "6802293",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "NDDF"
+    },
+    {
+     "name": "Amoxicillin",
+     "rank": "1",
+     "rxaui": "8582363",
+     "rxcui": "723",
+     "score": "11.46595573425293",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
  "/REST/approximateTerm.json?term=amoxicillin+%2F+clavulanate&maxEntries=5": {
   "approximateGroup": {
    "candidate": [
@@ -239,52 +314,6 @@
      "rxaui": "12287098",
      "rxcui": "1152875",
      "score": "15.087057189941406",
-     "source": "RXNORM"
-    }
-   ],
-   "inputTerm": null
-  }
- },
- "/REST/approximateTerm.json?term=amoxil&maxEntries=5": {
-  "approximateGroup": {
-   "candidate": [
-    {
-     "rank": "1",
-     "rxaui": "1910437",
-     "rxcui": "203169",
-     "score": "8.484906196594238",
-     "source": "MMSL"
-    },
-    {
-     "name": "Amoxil",
-     "rank": "1",
-     "rxaui": "1910439",
-     "rxcui": "203169",
-     "score": "8.484906196594238",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Amoxi Drop",
-     "rank": "3",
-     "rxaui": "3052537",
-     "rxcui": "897049",
-     "score": "8.332004017829895",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Amoxi-tabs",
-     "rank": "4",
-     "rxaui": "5032936",
-     "rxcui": "1358969",
-     "score": "8.327838015820982",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Amoxi-tabs Pill",
-     "rank": "5",
-     "rxaui": "5032940",
-     "rxcui": "1358973",
-     "score": "8.226404223577148",
      "source": "RXNORM"
     }
    ],
@@ -530,53 +559,6 @@
      "rxcui": "19484",
      "score": "12.8037691116333",
      "source": "DRUGBANK"
-    }
-   ],
-   "inputTerm": null
-  }
- },
- "/REST/approximateTerm.json?term=brufen&maxEntries=5": {
-  "approximateGroup": {
-   "candidate": [
-    {
-     "name": "Brufen",
-     "rank": "1",
-     "rxaui": "1135932",
-     "rxcui": "202487",
-     "score": "9.547101974487305",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Brufen Pill",
-     "rank": "2",
-     "rxaui": "3831317",
-     "rxcui": "1168049",
-     "score": "8.949123129844667",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Brufen Oral Product",
-     "rank": "3",
-     "rxaui": "3831316",
-     "rxcui": "1168048",
-     "score": "8.438193580852033",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Brufen Retard",
-     "rank": "4",
-     "rxaui": "1000145",
-     "rxcui": "151461",
-     "score": "8.0542108168602",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Brufen Oral Liquid Product",
-     "rank": "5",
-     "rxaui": "3831315",
-     "rxcui": "1168047",
-     "score": "7.996568581724454",
-     "source": "RXNORM"
     }
    ],
    "inputTerm": null
@@ -1100,6 +1082,113 @@
    "inputTerm": null
   }
  },
+ "/REST/approximateTerm.json?term=ibuprofen&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Ibuprofen",
+     "rank": "1",
+     "rxaui": "10282384",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "USP"
+    },
+    {
+     "rank": "1",
+     "rxaui": "10326351",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "GS"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "12254458",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "1",
+     "rxaui": "179265",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "MMSL"
+    },
+    {
+     "rank": "1",
+     "rxaui": "179276",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "MMSL"
+    },
+    {
+     "name": "IBUPROFEN",
+     "rank": "1",
+     "rxaui": "2071507",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "VANDF"
+    },
+    {
+     "rank": "1",
+     "rxaui": "3605298",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "NDDF"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480549",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480550",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480551",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "5480552",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "ibuprofen",
+     "rank": "1",
+     "rxaui": "7717203",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "ATC"
+    },
+    {
+     "name": "Ibuprofen",
+     "rank": "1",
+     "rxaui": "8574087",
+     "rxcui": "5640",
+     "score": "10.510183334350586",
+     "source": "DRUGBANK"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
  "/REST/approximateTerm.json?term=klortiva&maxEntries=5": {
   "approximateGroup": {
    "inputTerm": null
@@ -1237,6 +1326,68 @@
      "rxcui": "367665",
      "score": "12.683772200872662",
      "source": "RXNORM"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=mefenamic+acid&maxEntries=5": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Meclofenamic Acid",
+     "rank": "1",
+     "rxaui": "10280468",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "USP"
+    },
+    {
+     "name": "meclofenamic acid",
+     "rank": "1",
+     "rxaui": "12253321",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "RXNORM"
+    },
+    {
+     "name": "MECLOFENAMIC ACID",
+     "rank": "1",
+     "rxaui": "2072194",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "VANDF"
+    },
+    {
+     "name": "meclofenamic acid",
+     "rank": "1",
+     "rxaui": "5480981",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "ATC"
+    },
+    {
+     "name": "meclofenamic acid",
+     "rank": "1",
+     "rxaui": "5480982",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "ATC"
+    },
+    {
+     "rank": "1",
+     "rxaui": "6806118",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "NDDF"
+    },
+    {
+     "name": "Meclofenamic acid",
+     "rank": "1",
+     "rxaui": "8577151",
+     "rxcui": "6678",
+     "score": "10.19871711730957",
+     "source": "DRUGBANK"
     }
    ],
    "inputTerm": null
@@ -1687,53 +1838,6 @@
      "rxaui": "1566175",
      "rxcui": "360769",
      "score": "3.0608695698022843",
-     "source": "RXNORM"
-    }
-   ],
-   "inputTerm": null
-  }
- },
- "/REST/approximateTerm.json?term=ponstan&maxEntries=5": {
-  "approximateGroup": {
-   "candidate": [
-    {
-     "name": "Ponstan",
-     "rank": "1",
-     "rxaui": "1135951",
-     "rxcui": "202493",
-     "score": "9.707088470458984",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Ponstan Pill",
-     "rank": "2",
-     "rxaui": "3843886",
-     "rxcui": "1184066",
-     "score": "9.09645409822464",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Ponstan Oral Product",
-     "rank": "3",
-     "rxaui": "3843885",
-     "rxcui": "1184065",
-     "score": "8.574714672145367",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Ponstan Dispersible",
-     "rank": "4",
-     "rxaui": "1566175",
-     "rxcui": "360769",
-     "score": "8.186808688402177",
-     "source": "RXNORM"
-    },
-    {
-     "name": "Ponstan Oral Liquid Product",
-     "rank": "5",
-     "rxaui": "3843884",
-     "rxcui": "1184064",
-     "score": "8.123748455335718",
      "source": "RXNORM"
     }
    ],
@@ -2822,7 +2926,6 @@
    "rxcui": null
   }
  },
- "/REST/rxcui/202487/properties.json?": {},
  "/REST/rxcui/202493/properties.json?": {},
  "/REST/rxcui/202866/properties.json?": {
   "properties": {
@@ -3008,6 +3111,17 @@
    "umlscui": ""
   }
  },
+ "/REST/rxcui/5640/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "ibuprofen",
+   "rxcui": "5640",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
  "/REST/rxcui/58927/properties.json?": {
   "properties": {
    "language": "ENG",
@@ -3040,11 +3154,33 @@
    "rxcui": null
   }
  },
+ "/REST/rxcui/6678/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "meclofenamic acid",
+   "rxcui": "6678",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
  "/REST/rxcui/6809/properties.json?": {
   "properties": {
    "language": "ENG",
    "name": "metformin",
    "rxcui": "6809",
+   "suppress": "N",
+   "synonym": "",
+   "tty": "IN",
+   "umlscui": ""
+  }
+ },
+ "/REST/rxcui/723/properties.json?": {
+  "properties": {
+   "language": "ENG",
+   "name": "amoxicillin",
+   "rxcui": "723",
    "suppress": "N",
    "synonym": "",
    "tty": "IN",
