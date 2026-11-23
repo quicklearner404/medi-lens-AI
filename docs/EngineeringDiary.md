@@ -319,3 +319,37 @@ Every response also carries a disclaimer that this is not medical advice.
 ### Tests
 
 API tests run a five-medicine prescription through the full pipeline using recorded responses, plus empty, oversized and "database offline" cases. All 65 backend tests pass.
+
+---
+
+# Day 3
+
+**Date:** November 23, 2026
+
+## An evaluation set
+
+The unit tests show that individual rules work. They don't tell me how well MediLens reads a whole prescription it hasn't seen. For that I need an evaluation set: prescriptions with known correct answers, and a score.
+
+### Where the correct answers come from
+
+The most important rule: **the answers must not come from MediLens itself.** If I ran the system and saved its output as "expected", the evaluation would only check the code against itself.
+
+So `evaluation/generate_cases.py` builds prescriptions from a hand-written catalogue. For every name I wrote down the true active ingredients (Augmentin → amoxicillin + clavulanate, salbutamol → albuterol in RxNorm's naming). The generator then assembles prescriptions and records the answer for each medicine.
+
+### What's in it
+
+50 prescriptions, 174 medicines:
+
+- letterheads, qualifications, patient details, dates, diagnoses and footers, all of which must be ignored
+- numbering styles (`1.`, `2)`, `-`, none) and form spellings (Tab, Tab., TAB, Tablet, Cap, Syp)
+- directions on the same line or on the line below (30 prescriptions)
+- shorthand (`1+0+1`, `BD`, `q8h`, `x 2/52`) **and plain English** that doctors also write ("twice daily", "three times a day", "1 tab morning and night"), some of which I know the parser doesn't handle yet
+- **15 typos** (a dropped or doubled letter)
+- **real brands MediLens can't know** (Esita, Arinac): the right behaviour is to say "not recognised"
+- **invented names** (Zorbex, Nuvamax, Klortiva): matching these to any real medicine would be the worst possible error
+
+The generator is seeded, so the same 50 cases come out every time.
+
+### Limits
+
+These cases test *reading*, not medicine. The combinations aren't clinically realistic (azithromycin as a capsule twice daily), and every case is clean printed text. Text recognition errors from photos come later. I also wrote both the generator and the parser, so some of my own blind spots will be in both. Real prescriptions will eventually be the real test.
