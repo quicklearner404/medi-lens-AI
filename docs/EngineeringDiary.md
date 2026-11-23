@@ -175,3 +175,11 @@ The first real piece of the backend turns prescription shorthand into plain Engl
 ### Tests
 
 27 test cases, including the exact sentence shown to the user for common prescriptions. Writing the expected sentences first made me decide how the app should actually speak to patients.
+
+---
+
+## Continuous integration
+
+I added a GitHub Actions workflow that installs the backend and runs the tests on every push and pull request that touches `backend/`.
+
+The parser will keep growing as I meet new prescription styles, and each new rule can quietly break an old one. With CI, every change is checked against all the earlier cases automatically, so I find out from a red check rather than from a wrong instruction on someone's screen.
