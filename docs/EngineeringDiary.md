@@ -488,3 +488,35 @@ All four are handled now.
 ### What 100% does and doesn't mean
 
 Every direction field now scores 100% on this set, but I have to be honest with myself about it: I fixed the parser *while looking at these same 50 prescriptions*. The score shows that MediLens handles the phrasings I thought of; it doesn't show how it does on phrasings I didn't think of. Real prescriptions, and later a held-out set written by someone else, are the real test.
+
+---
+
+## Fix 6: typos in local brand names
+
+The last failures on known names were slips like "Disprn", "Cocor" and "Calpl". RxNorm can't help with these brands, and my local list only matched exact names.
+
+The local list now also accepts a close spelling (at least 80% similar), but only as the **last resort**, after RxNorm has found nothing, and the match always asks the user to confirm. I checked the case I worried about most: none of the 11 invented names (Zorbex, Nuvamax, Klortiva) got matched to anything.
+
+| | Before | After |
+|---|---|---|
+| Known names identified (incl. typos) | 96.2% | **100%** |
+| Invented names refused | 11 / 11 | 11 / 11 |
+| Wrong matches | 0 | 0 |
+| Fully correct | 93.7% | 97.1% |
+
+The remaining 2.9% are Esita and Arinac, real brands MediLens has no data on. "Not recognised, please ask your pharmacist" is the right answer there until the brand list grows from a reliable source.
+
+## Where the evaluation took me
+
+| Step | Fully correct | Wrong matches |
+|---|---|---|
+| Baseline | 68.4% | 2 |
+| Answer key fixed | 71.8% | 2 |
+| Combination medicines split | 72.4% | 0 |
+| Retired brands added | 78.2% | **2** |
+| Exact names first, confirm the rest | 79.3% | 0 |
+| Syrup doses | 82.2% | 0 |
+| Plain-English directions | 93.7% | 0 |
+| Local brand typos | 97.1% | 0 |
+
+The most valuable thing the evaluation did wasn't raising the score. It caught the step where the score went *up* and safety went *down*.

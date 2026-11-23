@@ -873,6 +873,202 @@
    "inputTerm": null
   }
  },
+ "/REST/approximateTerm.json?term=calpl&maxEntries=25": {
+  "approximateGroup": {
+   "candidate": [
+    {
+     "name": "Calpol",
+     "rank": "1",
+     "rxaui": "1000173",
+     "rxcui": "151477",
+     "score": "4.057478904724121",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Oral Product",
+     "rank": "2",
+     "rxaui": "3831601",
+     "rxcui": "1172268",
+     "score": "3.7537157437790043",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Oral Liquid Product",
+     "rank": "3",
+     "rxaui": "3831600",
+     "rxcui": "1172267",
+     "score": "3.632593827820448",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658180",
+     "rxcui": "707613",
+     "score": "3.5043584707260136",
+     "source": "MMSL"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658181",
+     "rxcui": "707615",
+     "score": "3.5043584707260136",
+     "source": "MMSL"
+    },
+    {
+     "rank": "4",
+     "rxaui": "2658182",
+     "rxcui": "707616",
+     "score": "3.5043584707260136",
+     "source": "MMSL"
+    },
+    {
+     "name": "acetaminophen Oral Suspension [Calpol]",
+     "rank": "7",
+     "rxaui": "12319832",
+     "rxcui": "365915",
+     "score": "3.2693344450384036",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Six Plus",
+     "rank": "8",
+     "rxaui": "1193021",
+     "rxcui": "225855",
+     "score": "3.0405097524609936",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "8",
+     "rxaui": "2658183",
+     "rxcui": "225855",
+     "score": "3.0405097524609936",
+     "source": "MMSL"
+    },
+    {
+     "name": "Calpol Six Plus Oral Product",
+     "rank": "10",
+     "rxaui": "3831603",
+     "rxcui": "1172270",
+     "score": "2.856674983261372",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Six Plus Oral Liquid Product",
+     "rank": "11",
+     "rxaui": "3831602",
+     "rxcui": "1172269",
+     "score": "2.7811094355039128",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen Oral Suspension [Calpol Six Plus]",
+     "rank": "12",
+     "rxaui": "12317184",
+     "rxcui": "365917",
+     "score": "2.5029984919535213",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol 24 MG/ML Oral Suspension",
+     "rank": "13",
+     "rxaui": "778702",
+     "rxcui": "102604",
+     "score": "1.4384634413930935",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen 24 MG/ML [Calpol]",
+     "rank": "14",
+     "rxaui": "12296802",
+     "rxcui": "563063",
+     "score": "1.3776806156347445",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen 24 MG/ML Oral Suspension [Calpol]",
+     "rank": "15",
+     "rxaui": "12364635",
+     "rxcui": "102604",
+     "score": "1.220931186536017",
+     "source": "RXNORM"
+    },
+    {
+     "name": "APAP 24 MG/ML Oral Suspension [Calpol]",
+     "rank": "15",
+     "rxaui": "3858551",
+     "rxcui": "102604",
+     "score": "1.220931186536017",
+     "source": "RXNORM"
+    },
+    {
+     "name": "Calpol Six Plus 50 MG/ML Oral Suspension",
+     "rank": "17",
+     "rxaui": "778708",
+     "rxcui": "102605",
+     "score": "1.0396074253587668",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen 50 MG/ML [Calpol Six Plus]",
+     "rank": "18",
+     "rxaui": "12296803",
+     "rxcui": "563064",
+     "score": "0.988954261094174",
+     "source": "RXNORM"
+    },
+    {
+     "name": "acetaminophen 50 MG/ML Oral Suspension [Calpol Six Plus]",
+     "rank": "19",
+     "rxaui": "12363440",
+     "rxcui": "102605",
+     "score": "0.8877469868166659",
+     "source": "RXNORM"
+    },
+    {
+     "name": "APAP 50 MG/ML Oral Suspension [Calpol Six Plus]",
+     "rank": "19",
+     "rxaui": "3857598",
+     "rxcui": "102605",
+     "score": "0.8877469868166659",
+     "source": "RXNORM"
+    },
+    {
+     "rank": "21",
+     "rxaui": "5029550",
+     "rxcui": "1358281",
+     "score": "0.33167954768580576",
+     "source": "GS"
+    },
+    {
+     "rank": "22",
+     "rxaui": "5029725",
+     "rxcui": "1358294",
+     "score": "0.28918161058523245",
+     "source": "GS"
+    },
+    {
+     "rank": "23",
+     "rxaui": "5029549",
+     "rxcui": "1358282",
+     "score": "0.2780879333534487",
+     "source": "GS"
+    },
+    {
+     "rank": "24",
+     "rxaui": "5029668",
+     "rxcui": "1358288",
+     "score": "0.24457156859834148",
+     "source": "GS"
+    }
+   ],
+   "inputTerm": null
+  }
+ },
+ "/REST/approximateTerm.json?term=disprn&maxEntries=25": {
+  "approximateGroup": {
+   "inputTerm": null
+  }
+ },
  "/REST/approximateTerm.json?term=esita&maxEntries=25": {
   "approximateGroup": {
    "candidate": [
@@ -2192,6 +2388,12 @@
    ]
   }
  },
+ "/REST/rxcui.json?name=calpl&search=2": {
+  "idGroup": {}
+ },
+ "/REST/rxcui.json?name=disprn&search=2": {
+  "idGroup": {}
+ },
  "/REST/rxcui.json?name=esita&search=2": {
   "idGroup": {}
  },
@@ -2296,6 +2498,7 @@
    "rxcui": null
   }
  },
+ "/REST/rxcui/151477/properties.json?": {},
  "/REST/rxcui/151827/properties.json?": {
   "properties": {
    "language": "ENG",

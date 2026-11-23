@@ -10,9 +10,11 @@ Lookup order:
 1. local brand list (brands sold in Pakistan that RxNorm doesn't cover)
 2. international -> US name mapping (paracetamol -> acetaminophen)
 3. RxNorm exact name lookup
-4. RxNorm approximate search, accepted only above a similarity threshold.
-   Approximate matches are marked as not exact so the user is asked to confirm:
-   names one letter apart can be different medicines (mefenamic / meclofenamic acid).
+4. RxNorm approximate search, accepted only above a similarity threshold
+5. a close spelling of a local brand ("Disprn" -> Disprin), only if RxNorm finds nothing
+
+Anything other than an exact name is marked as not exact so the user is asked to
+confirm: names one letter apart can be different medicines (mefenamic / meclofenamic acid).
 """
 
 from __future__ import annotations
@@ -87,7 +89,7 @@ class RxNormClient:
                 similarity = SequenceMatcher(None, term, name.lower()).ratio()
                 break
         else:
-            return None
+            return self._close_local_brand(written, term) if source == "rxnorm" else None
 
         concept_type = properties["tty"]
         match = DrugMatch(
@@ -95,6 +97,17 @@ class RxNormClient:
             source=source, similarity=round(similarity, 2), exact=similarity == 1.0,
         )
         match.ingredients = self._ingredients(rxcui, name, concept_type)
+        return match
+
+    def _close_local_brand(self, written: str, term: str) -> DrugMatch | None:
+        """A misspelt local brand, e.g. "Calpl" for Calpol. Always needs confirming."""
+        scored = [(SequenceMatcher(None, term, brand).ratio(), brand) for brand in self._brands]
+        similarity, brand = max(scored, default=(0.0, ""))
+        if similarity < MIN_SIMILARITY:
+            return None
+        match = self.identify(brand)
+        if match is not None:
+            match.written, match.similarity, match.exact = written, round(similarity, 2), False
         return match
 
     def _exact(self, term: str) -> list[tuple[str, str, float]]:

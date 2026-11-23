@@ -114,3 +114,13 @@ def test_exact_name_wins_over_a_similar_different_medicine(rxnorm):
 def test_spelling_corrected_matches_are_marked_as_not_exact(rxnorm):
     assert not rxnorm.identify("omeprazol").exact
     assert rxnorm.identify("omeprazole 20mg").exact
+
+
+@pytest.mark.parametrize(("written", "generic"), [("Disprn", "aspirin"), ("Calpl", "acetaminophen")])
+def test_misspelt_local_brand_is_matched_but_needs_confirming(rxnorm, written, generic):
+    # Found by the evaluation: the local brand list only matched exact names.
+    match = rxnorm.identify(written)
+
+    assert match.generic_name == generic
+    assert match.source == "local-brand"
+    assert not match.exact
