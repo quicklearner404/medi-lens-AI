@@ -118,3 +118,11 @@ def test_unknown_text_stays_unparsed():
 )
 def test_plain_english_description(line, sentence):
     assert parse_directions(line).describe() == sentence
+
+
+def test_syrup_dose_without_printed_strength():
+    # Found by the evaluation: a lone "5 ml" was taken as the strength, leaving no dose.
+    d = parse_directions("Syp Brufen 5ml SOS")
+
+    assert d.strength is None
+    assert d.dose == 5 and d.dose_unit == "ml"

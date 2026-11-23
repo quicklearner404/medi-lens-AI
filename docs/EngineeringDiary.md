@@ -451,3 +451,16 @@ I first marked anything found by RxNorm's name lookup as "exact". The tests fail
 | Fully correct | 78.2% | 79.3% |
 
 This is the bug I'm most glad the evaluation found. Without it, a patient prescribed Ponstan would have been shown information about a different drug, with official-looking sources.
+
+---
+
+## Fix 4: syrup doses
+
+"Syp Brufen 5ml SOS" came out with no dose at all. The parser's idea of a *strength* included plain volumes, so when a syrup had no strength printed, the dose ("5 ml") was taken as the strength and then ignored.
+
+A strength is now an amount of drug, optionally per volume ("120mg/5ml"); a volume on its own is a dose.
+
+| | Before | After |
+|---|---|---|
+| Dose field | 86.8% | 92.3% |
+| Fully correct | 79.3% | 82.2% |

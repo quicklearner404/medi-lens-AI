@@ -8,7 +8,7 @@ Synthetic set: 174 medicines on 50 printed prescriptions (`evaluation/cases.json
 | Extra (non-medicine) lines taken as medicines | 1 |
 | Known names identified correctly (incl. typos) | 96.2% |
 | **Wrong matches (dangerous)** | **0** |
-| Medicines fully correct (identity + every direction field) | 79.3% |
+| Medicines fully correct (identity + every direction field) | 82.2% |
 
 ## Identification by group
 
@@ -27,19 +27,17 @@ For invented names, "correct" means they were reported as not recognised.
 |---|---|
 | times_per_day | 91.1% |
 | slots | 86.0% |
-| dose | 86.8% |
-| dose_unit | 86.8% |
+| dose | 92.3% |
+| dose_unit | 92.3% |
 | timing | 100.0% |
 | duration_days | 99.4% |
 | as_needed | 100.0% |
 
-## Failures (58)
+## Failures (48)
 
 | Case | Medicine | Problem | Detail |
 |---|---|---|---|
 | rx01 | Esita | identification: abstained | expected ['escitalopram'] |
-| rx01 | Zithromax | directions.dose | expected 5, got None / 'Syp. Zithromax 5 ml TDS AC x 3 weeks' |
-| rx01 | Zithromax | directions.dose_unit | expected 'ml', got None / 'Syp. Zithromax 5 ml TDS AC x 3 weeks' |
 | rx01 | metformin | not detected |  |
 | rx01 | metformin three times a | extra item | 5. Cap metformin three times a day for 1 month |
 | rx05 | amlodipine | directions.dose | expected 1, got None / 'Cap amlodipine 500mg one capsule at night x 1/12' |
@@ -49,14 +47,10 @@ For invented names, "correct" means they were reported as not recognised.
 | rx07 | Esita | identification: abstained | expected ['escitalopram'] |
 | rx10 | co-amoxiclav | directions.times_per_day | expected 2, got None / '4. TAB co-amoxiclav 10mg 1 tab morning and night PC for 1 month' |
 | rx10 | co-amoxiclav | directions.slots | expected ['morning', 'night'], got [] / '4. TAB co-amoxiclav 10mg 1 tab morning and night PC for 1 month' |
-| rx11 | paracetamol | directions.dose | expected 5, got None / '- Syp paracetamol 5ml SOS PC for 1 month' |
-| rx11 | paracetamol | directions.dose_unit | expected 'ml', got None / '- Syp paracetamol 5ml SOS PC for 1 month' |
 | rx14 | Dispriin | identification: abstained | expected ['aspirin'] |
 | rx15 | Synthrroid | directions.times_per_day | expected 2, got None / '- Cap. Synthrroid 500mg 1 cap morning and night' |
 | rx15 | Synthrroid | directions.slots | expected ['morning', 'night'], got [] / '- Cap. Synthrroid 500mg 1 cap morning and night' |
 | rx18 | Nuvamax | directions.times_per_day | expected 3, got None / '1. Tablet Nuvamax 10mg three times a day AC x 1/12' |
-| rx18 | Brufen | directions.dose | expected 5, got None / '- Syp. Brufen 5ml SOS on empty stomach for 10 days' |
-| rx18 | Brufen | directions.dose_unit | expected 'ml', got None / '- Syp. Brufen 5ml SOS on empty stomach for 10 days' |
 | rx19 | Esita | identification: abstained | expected ['escitalopram'] |
 | rx19 | Esita | directions.dose | expected 1, got None / '1) Cap. Esita 500mg one capsule at night x 2/52' |
 | rx19 | Esita | directions.dose_unit | expected 'capsule', got None / '1) Cap. Esita 500mg one capsule at night x 2/52' |
@@ -77,11 +71,7 @@ For invented names, "correct" means they were reported as not recognised.
 | rx34 | Arinac | identification: abstained | expected ['ibuprofen', 'pseudoephedrine'] |
 | rx35 | Arinac | identification: abstained | expected ['ibuprofen', 'pseudoephedrine'] |
 | rx35 | prednisolone | directions.times_per_day | expected 3, got None / 'Tab prednisolone 0.25mg three times a day for 10 days' |
-| rx35 | Brufen | directions.dose | expected 10, got None / '- Syp. Brufen 10 ml BD x 1/12' |
-| rx35 | Brufen | directions.dose_unit | expected 'ml', got None / '- Syp. Brufen 10 ml BD x 1/12' |
 | rx36 | Disprin | directions.times_per_day | expected 3, got None / 'Tab. Disprin 5mg three times a day after meals x 3 weeks' |
-| rx41 | cetirizine | directions.dose | expected 5, got None / '2. Syp. cetirizine 5 ml TDS' |
-| rx41 | cetirizine | directions.dose_unit | expected 'ml', got None / '2. Syp. cetirizine 5 ml TDS' |
 | rx42 | Xanax | directions.dose | expected 1, got None / '3. Cap Xanax 20 mg one capsule at night x 7 days' |
 | rx42 | Xanax | directions.dose_unit | expected 'capsule', got None / '3. Cap Xanax 20 mg one capsule at night x 7 days' |
 | rx43 | Disprn | identification: abstained | expected ['aspirin'] |

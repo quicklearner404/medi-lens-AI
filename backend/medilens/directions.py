@@ -44,7 +44,9 @@ AFTER_MEALS = re.compile(r"\b(?:pc|after\s+(?:meals?|food|breakfast)|with\s+(?:m
 SLOTS = re.compile(r"(?<![\d/.])([\d½¼.]+)\s*[+-]\s*([\d½¼.]+)\s*[+-]\s*([\d½¼.]+)(?![\d/])")
 SLOT_NAMES = ("morning", "afternoon", "night")
 
-STRENGTH = re.compile(r"(\d+(?:\.\d+)?)\s*(mg|mcg|µg|g|ml|iu|%)\b")
+# A strength is an amount of drug, optionally per volume ("120mg/5ml").
+# A volume on its own ("5 ml") is a dose, not a strength.
+STRENGTH = re.compile(r"(\d+(?:\.\d+)?)\s*(mg|mcg|µg|g|iu|%)\b(?:\s*/\s*\d+(?:\.\d+)?\s*ml\b)?")
 DOSE_BEFORE_FORM = re.compile(r"\b([\d½¼]+(?:\.\d+)?)\s*(" + "|".join(sorted(FORMS, key=len, reverse=True)) + r")\b")
 DOSE_ML = re.compile(r"\b(\d+(?:\.\d+)?)\s*(?:ml|mL)\b(?!\s*/)")
 
@@ -133,7 +135,8 @@ def parse_directions(line: str) -> Directions:
         if form_match:
             d.dose, d.dose_unit = _num(form_match.group(1)), FORMS[form_match.group(2)]
         elif d.form in {"syrup", "suspension"}:
-            ml = [m for m in DOSE_ML.finditer(low) if not strength or m.start() != strength.start()]
+            ml = [m for m in DOSE_ML.finditer(low)
+                  if not strength or not strength.start() <= m.start() < strength.end()]
             if ml:
                 d.dose, d.dose_unit = float(ml[-1].group(1)), "ml"
 
